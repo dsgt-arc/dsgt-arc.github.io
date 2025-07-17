@@ -1,3 +1,16 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://dsgt-arc.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'DS@GT ARC'
+theme = 'hugo-bearblog'
+
+[params]
+  description = "Data Science at Georgia Tech - Applied Research Competitions"
+  title = "DS@GT ARC"
+  hideMadeWithLine = true
+
+[markup]
+  [markup.highlight]
+    style = 'friendly'
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true

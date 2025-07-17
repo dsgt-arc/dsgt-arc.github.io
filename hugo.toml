@@ -14,3 +14,7 @@ theme = 'hugo-bearblog'
     lineNos = true
     lineNumbersInTable = false
     codeFences = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

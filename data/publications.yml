@@ -31,7 +31,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT at Touché: Large Language Models for Retrieval-Augmented Debate"
   authors:
@@ -41,7 +41,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Enhancing Biomedical Named Entity Recognition using GLiNER-BioMed with Targeted Dictionary-Based Post-processing for BioASQ 2025 task 6"
   authors:
@@ -49,7 +49,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT at CheckThat! 2025: A Simple Retrieval-First, LLM-Backed Framework for Claim Normalization"
   authors:
@@ -59,7 +59,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT at CheckThat! 2025 - Ensemble Methods for Detection of Scientific Discourse on Social Media"
   authors:
@@ -70,7 +70,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT at CheckThat! 2025: Exploring Retrieval and Reranking Pipelines for Scientific Claim Source Retrieval on Social Media Discourse"
   authors:
@@ -81,7 +81,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT at CheckThat! 2025: Detecting Subjectivity via Transfer-Learning and Corrective Data Augmentation"
   authors:
@@ -90,7 +90,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT at CheckThat! 2025: Evaluating Context and Tokenization Strategies for Numerical Fact Verification"
   authors:
@@ -99,7 +99,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT at eRisk 2025: From prompts to predictions, benchmarking early depression detection with conversational agent based assessments and temporal attention models"
   authors:
@@ -110,7 +110,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Tackling Sexism in Multimodal Social Media: Exploring Hybrid Generative-Transformer models"
   authors:
@@ -121,7 +121,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Pun Intended: Multi-Agent Translation of Wordplay with Contrastive Learning and Phonetic-Semantic Embeddings"
   authors:
@@ -131,7 +131,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT AnimalCLEF: Triplet Learning over ViT Manifolds with Nearest Neighbor Classification for Animal Re-identification"
   authors:
@@ -141,7 +141,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Distilling Spectrograms into Tokens: Fast and Lightweight Bioacoustic Classification for BirdCLEF+ 2025"
   authors:
@@ -151,7 +151,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Transfer Learning and Mixup for Fine-Grained Few-Shot Fungi Classification"
   authors:
@@ -161,7 +161,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Multi-label Plant Species Classification using Vision Transformers at PlantCLEF 2025"
   authors:
@@ -172,7 +172,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT at LongEval: Evaluating Temporal Performance in Web Search Systems and Topics with Two-Stage Retrieval"
   authors:
@@ -182,14 +182,14 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT at MEDIQA-MAGIC 2025 Agentic Retrieval-Augmented Generation and Multimodal Reasoning for Dermatological Question Answering"
   authors: []
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Binoculars, BART, and Adversaries: Multi-Faceted AI Text Detection for PAN 2025"
   authors:
@@ -199,7 +199,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Quantum Annealing for Machine Learning: Applications in Feature Selection, Instance Selection, and Clustering"
   authors:
@@ -210,7 +210,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "LLM-Guided Planning and Summary-Based Scientific Text Simplification: DS@GT at CLEF 2025 SimpleText"
   authors:
@@ -219,7 +219,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 ##############################################################################
 # CLEF 2024 Publications
@@ -234,7 +234,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Multi-Label Plant Species Classification with Self-Supervised Vision Transformers"
   authors:
@@ -244,7 +244,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Tile Compression and Embeddings for Multi-Label Classification in GeoLifeCLEF 2024"
   authors:
@@ -254,7 +254,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Fine-Grained Classification for Poisonous Fungi Identification with Transfer Learning"
   authors:
@@ -265,7 +265,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Transfer Learning with Self-Supervised Vision Transformers for Snake Identification"
   authors:
@@ -276,7 +276,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT at Touché: Image Search and Ranking via CLIP and Image Generation"
   authors:
@@ -285,7 +285,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "AI Authorship Verification: an Ensembled Approach"
   authors:
@@ -295,7 +295,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "DS@GT eRisk 2024: Sentence Transformers for Social Media Risk Assessment"
   authors:
@@ -305,7 +305,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Machine Learning for ALSFRS-R Score Prediction: Making Sense of the Sensor Data"
   authors:
@@ -315,7 +315,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Biomedical Nested NER with Large Language Model and UMLS Heuristics"
   authors:
@@ -323,7 +323,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 - title: "Using Pretrained Large Language Model with Prompt Engineering to Answer Biomedical Questions"
   authors:
@@ -332,7 +332,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 ##############################################################################
 # CLEF 2023 Publications
@@ -347,7 +347,7 @@
   year: 2023
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""
 
 ##############################################################################
 # CLEF 2022 Publications
@@ -363,4 +363,4 @@
   year: 2022
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "#"
+  url_paper: ""

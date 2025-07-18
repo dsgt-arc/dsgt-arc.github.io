@@ -1,0 +1,17 @@
+<!-- beautify ignore:start -->
+{{/* Get the 'src' parameter from the shortcode call and find the image in the asset folder */}}
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $resize := .Get "resize" | default "600x webp picture" }}
+
+{{ $image := resources.Get $src }}
+{{ if $image }}
+    {{ $image := $image.Resize $resize }}
+    <figure class="captioned-image">
+        <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}">
+        {{ with $alt }}<figcaption><b>Figured: </b>{{ . }}</figcaption>{{ end }}
+    </figure>
+{{ else }}
+    {{ errorf "Image not found for src '%s' in shortcode 'img.html'" $src }}
+{{ end }}
+<!-- beautify ignore:end -->

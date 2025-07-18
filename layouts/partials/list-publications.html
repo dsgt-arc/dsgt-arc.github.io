@@ -1,0 +1,77 @@
+{{ $publications := .Site.Data.publications }}
+
+<h2>2025</h2>
+<ul>
+    {{ range $publications }}
+    {{ if eq .year 2025 }}
+    <li>
+        <em>{{ .title }}</em><br>
+        {{ range $index, $author := .authors }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}.
+        <strong>({{ .short_venue }} {{ .year }})</strong>
+        {{ with .url_paper }}
+        <a href="{{ . }}"> [Paper]</a>
+        {{ end }}
+        {{ with .url_code }}
+        <a href="{{ . }}"> [Code]</a>
+        {{ end }}
+    </li>
+    {{ end }}
+    {{ end }}
+</ul>
+
+<h2>2024</h2>
+<ul>
+    {{ range $publications }}
+    {{ if eq .year 2024 }}
+    <li>
+        <em>{{ .title }}</em><br>
+        {{ range $index, $author := .authors }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}.
+        <strong>({{ .short_venue }} {{ .year }})</strong>
+        {{ with .url_paper }}
+        <a href="{{ . }}"> [Paper]</a>
+        {{ end }}
+        {{ with .url_code }}
+        <a href="{{ . }}"> [Code]</a>
+        {{ end }}
+    </li>
+    {{ end }}
+    {{ end }}
+</ul>
+
+<h2>2023</h2>
+<ul>
+    {{ range $publications }}
+    {{ if eq .year 2023 }}
+    <li>
+        <em>{{ .title }}</em><br>
+        {{ range $index, $author := .authors }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}.
+        <strong>({{ .short_venue }} {{ .year }})</strong>
+        {{ with .url_paper }}
+        <a href="{{ . }}"> [Paper]</a>
+        {{ end }}
+        {{ with .url_code }}
+        <a href="{{ . }}"> [Code]</a>
+        {{ end }}
+    </li>
+    {{ end }}
+    {{ end }}
+</ul>
+
+<h2>2022</h2>
+<ul>
+    {{ range $publications }}
+    {{ if eq .year 2022 }}
+    <li>
+        <em>{{ .title }}</em><br>
+        {{ range $index, $author := .authors }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}.
+        <strong>({{ .short_venue }} {{ .year }})</strong>
+        {{ with .url_paper }}
+        <a href="{{ . }}"> [Paper]</a>
+        {{ end }}
+        {{ with .url_code }}
+        <a href="{{ . }}"> [Code]</a>
+        {{ end }}
+    </li>
+    {{ end }}
+    {{ end }}
+</ul>

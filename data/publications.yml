@@ -1,0 +1,382 @@
+# This file contains a list of all publications for the research group.
+# To add a new paper, create a new entry at the top of the list using the schema below.
+# All fields are required unless marked as (Optional).
+#
+# Schema for each publication entry:
+#
+# - title: (String) The full title of the paper.
+#   authors: (List) A list of author names.
+#     - Author Name 1
+#     - Author Name 2
+#   year: (Number) The publication year.
+#   venue: (String) The full name of the conference, workshop, or journal.
+#   short_venue: (String) An abbreviated name for display (e.g., "CLEF").
+#   url_paper: (String) A direct URL to the PDF or publication page.
+#   url_code: (String, Optional) A URL to the code repository.
+#   url_slides: (String, Optional) A URL to a presentation slideshow.
+#   abstract: (String, Optional) The paper's abstract.
+#   keywords: (List, Optional) A list of keywords for filtering and searching.
+#   bibtex: (Multiline String, Optional) The full BibTeX entry for easy citation.
+#
+---
+##############################################################################
+# CLEF 2025 Publications
+##############################################################################
+
+- title: "Beyond Retrieval: Ensembling Cross-Encoders and GPT Rerankers with LLMs for Biomedical QA"
+  authors:
+    - "Shashank Verma"
+    - "Fengyi Jiang"
+    - "Xiangning Xue"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: ""
+
+- title: "DS@GT at Touché: Large Language Models for Retrieval-Augmented Debate"
+  authors:
+    - "Anthony Miyaguchi"
+    - "Conor Johnston"
+    - "Aaryan Potdar"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: ""
+  url_code: "https://github.com/dsgt-arc/touche-2025-rad"
+
+- title: "Enhancing Biomedical Named Entity Recognition using GLiNER-BioMed with Targeted Dictionary-Based Post-processing for BioASQ 2025 task 6"
+  authors:
+    - "Ritesh Mehta"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: ""
+
+- title: "DS@GT at CheckThat! 2025: A Simple Retrieval-First, LLM-Backed Framework for Claim Normalization"
+  authors:
+    - "Aleksandar Pramov"
+    - "Jiangqin Ma"
+    - "Bina Patel"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: ""
+
+- title: "DS@GT at CheckThat! 2025 - Ensemble Methods for Detection of Scientific Discourse on Social Media"
+  authors:
+    - "Ayush Parikh"
+    - "Hoang Thanh Thanh Truong"
+    - "Jeanette Schofield"
+    - "Maximilian Heil"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.06205"
+
+- title: "DS@GT at CheckThat! 2025: Exploring Retrieval and Reranking Pipelines for Scientific Claim Source Retrieval on Social Media Discourse"
+  authors:
+    - "Jeanette Schofield"
+    - "Shuyu Tian"
+    - "Hoang Thanh Thanh Truong"
+    - "Maximilian Heil"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.06563"
+
+- title: "DS@GT at CheckThat! 2025: Detecting Subjectivity via Transfer-Learning and Corrective Data Augmentation"
+  authors:
+    - "Maximilian Heil"
+    - "Dionne Bang"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.06189"
+
+- title: "DS@GT at CheckThat! 2025: Evaluating Context and Tokenization Strategies for Numerical Fact Verification"
+  authors:
+    - "Maximilian Heil"
+    - "Aleksandar Pramov"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.06195"
+
+- title: "DS@GT at eRisk 2025: From prompts to predictions, benchmarking early depression detection with conversational agent based assessments and temporal attention models"
+  authors:
+    - "Anthony Miyaguchi"
+    - "David Guecha"
+    - "Yuwen Chiu"
+    - "Sidharth Gaur"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.10958"
+
+- title: "Tackling Sexism in Multimodal Social Media: Exploring Hybrid Generative-Transformer models"
+  authors:
+    - "Moiz Ali"
+    - "Lakshmi Yendapalli"
+    - "Bishoy Tawfik"
+    - "Matt Winzenried"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: ""
+
+- title: "Pun Intended: Multi-Agent Translation of Wordplay with Contrastive Learning and Phonetic-Semantic Embeddings"
+  authors:
+    - "Russell Taylor"
+    - "Benjamin Herbert"
+    - "Michael Sana"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.06506"
+
+- title: "DS@GT AnimalCLEF: Triplet Learning over ViT Manifolds with Nearest Neighbor Classification for Animal Re-identification"
+  authors:
+    - "Anthony Miyaguchi"
+    - "Chandrasekaran Maruthaiyannan"
+    - "Charles R. Clark"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: ""
+
+- title: "Distilling Spectrograms into Tokens: Fast and Lightweight Bioacoustic Classification for BirdCLEF+ 2025"
+  authors:
+    - "Anthony Miyaguchi"
+    - "Murilo Gustineli"
+    - "Adrian Cheung"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.08236"
+  url_code: "https://github.com/dsgt-arc/birdclef-2025"
+
+- title: "Transfer Learning and Mixup for Fine-Grained Few-Shot Fungi Classification"
+  authors:
+    - "Jason Kahei Tam"
+    - "Murilo Gustineli"
+    - "Anthony Miyaguchi"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.08248"
+  url_code: "https://github.com/dsgt-arc/fungiclef-2025"
+
+- title: "Multi-label Plant Species Classification using Vision Transformers at PlantCLEF 2025"
+  authors:
+    - "Murilo Gustineli"
+    - "Anthony Miyaguchi"
+    - "Adrian Cheung"
+    - "Divyansh Khattak"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.06093"
+  url_code: "https://github.com/dsgt-arc/plantclef-2025"
+
+- title: "DS@GT at LongEval: Evaluating Temporal Performance in Web Search Systems and Topics with Two-Stage Retrieval"
+  authors:
+    - "Anthony Miyaguchi"
+    - "Imran Afrulbasha"
+    - "Aleksandar Pramov"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.08360"
+  url_code: "https://github.com/dsgt-arc/longeval-2025"
+
+- title: "Cultivating Multimodal Intelligence: Interpretive Reasoning and Agentic RAG Approaches to Dermatological Diagnosis"
+  authors:
+    - Karishma Thakrar
+    - Shreyas Basavatia
+    - Akshay Daftardar
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.05520"
+
+- title: "Binoculars, BART, and Adversaries: Multi-Faceted AI Text Detection for PAN 2025"
+  authors:
+    - "Benjamin Ostrower"
+    - "Poonam Doongare"
+    - "Mathitha Thekkinkattuvalappil Unnikrishnan"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: ""
+
+- title: "Quantum Annealing for Machine Learning: Applications in Feature Selection, Instance Selection, and Clustering"
+  authors:
+    - "Chloe Pomeroy"
+    - "Aleksandar Pramov"
+    - "Karishma Thakrar"
+    - "Lakshmi Yendapalli"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: ""
+
+- title: "LLM-Guided Planning and Summary-Based Scientific Text Simplification: DS@GT at CLEF 2025 SimpleText"
+  authors:
+    - "Krishna C. Marturi"
+    - "Heba H. Elwazzan"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: ""
+
+##############################################################################
+# CLEF 2024 Publications
+##############################################################################
+
+- title: "Transfer Learning with Pseudo Multi-Label Birdcall Classification for DS@GT BirdCLEF 2024"
+  authors:
+    - "Anthony Miyaguchi"
+    - "Adrian Cheung"
+    - "Murilo Gustineli"
+    - "Ashley Kim"
+  year: 2024
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "http://www.arxiv.org/abs/2407.06291"
+  url_code: "https://github.com/dsgt-arc/birdclef-2024"
+
+- title: "Multi-Label Plant Species Classification with Self-Supervised Vision Transformers"
+  authors:
+    - "Murilo Gustineli"
+    - "Anthony Miyaguchi"
+    - "Ian Stalter"
+  year: 2024
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2407.06298"
+  url_code: "https://github.com/dsgt-arc/plantclef-2024"
+
+- title: "Tile Compression and Embeddings for Multi-Label Classification in GeoLifeCLEF 2024"
+  authors:
+    - "Anthony Miyaguchi"
+    - "Patcharapong Aphiwetsa"
+    - "Mark McDuffie"
+  year: 2024
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2407.06326"
+  url_code: "https://github.com/dsgt-arc/geolifeclef-2024"
+
+- title: "Fine-Grained Classification for Poisonous Fungi Identification with Transfer Learning"
+  authors:
+    - "Christopher Chiu"
+    - "Maximilian Heil"
+    - "Teresa Kim"
+    - "Anthony Miyaguchi"
+  year: 2024
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2407.07492"
+  url_code: "https://github.com/dsgt-arc/fungiclef-2024"
+
+- title: "Transfer Learning with Self-Supervised Vision Transformers for Snake Identification"
+  authors:
+    - "Anthony Miyaguchi"
+    - "Murilo Gustineli"
+    - "Austin Fischer"
+    - "Ryan Lundqvist"
+  year: 2024
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2407.06178"
+  url_code: "https://github.com/dsgt-arc/snakeclef-2024"
+
+- title: "DS@GT at Touché: Image Search and Ranking via CLIP and Image Generation"
+  authors:
+    - "Benjamin Ostrower"
+    - "Patcharapong Aphiwetsa"
+  year: 2024
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2507.09090"
+
+- title: "AI Authorship Verification: an Ensembled Approach"
+  authors:
+    - "Benjamin Ostrower"
+    - "Jacob Wessell"
+    - "Abhinav Bindal"
+  year: 2024
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://ceur-ws.org/Vol-3740/paper-270.pdf"
+
+- title: "DS@GT eRisk 2024: Sentence Transformers for Social Media Risk Assessment"
+  authors:
+    - "David Guecha"
+    - "Aaryan Potdar"
+    - "Anthony Miyaguchi"
+  year: 2024
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2407.08008"
+  url_code: "https://github.com/dsgt-arc/erisk-2024"
+
+- title: "Machine Learning for ALSFRS-R Score Prediction: Making Sense of the Sensor Data"
+  authors:
+    - "Ritesh Mehta"
+    - "Aleksandar Pramov"
+    - "Shashank Verma"
+  year: 2024
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2407.08003"
+
+- title: "Biomedical Nested NER with Large Language Model and UMLS Heuristics"
+  authors:
+    - "Wenxin Zhou"
+  year: 2024
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2407.05480v1"
+
+- title: "Using Pretrained Large Language Model with Prompt Engineering to Answer Biomedical Questions"
+  authors:
+    - "Wenxin Zhou"
+    - "Thuy Hang Ngo"
+  year: 2024
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "http://www.arxiv.org/abs/2407.06779"
+
+##############################################################################
+# CLEF 2023 Publications
+##############################################################################
+
+- title: "Transfer Learning with Semi-Supervised Dataset Annotation for Birdcall Classification"
+  authors:
+    - "Anthony Miyaguchi"
+    - "Nathan Zhong"
+    - "Murilo Gustineli"
+    - "Chris Hayduk"
+  year: 2023
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2306.16760"
+  url_code: "https://github.com/dsgt-birdclef/birdclef-2023"
+
+##############################################################################
+# CLEF 2022 Publications
+##############################################################################
+
+- title: "Motif Mining and Unsupervised Representation Learning for BirdCLEF 2022"
+  authors:
+    - "Anthony Miyaguchi"
+    - "Jiangyue Yu"
+    - "Bryan Cheungvivatpant"
+    - "Dakota Dudley"
+    - "Aniketh Swain"
+  year: 2022
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_paper: "https://arxiv.org/abs/2206.04805"
+  url_code: "https://github.com/dsgt-birdclef/birdclef-2022"

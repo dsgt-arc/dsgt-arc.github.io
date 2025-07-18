@@ -1,0 +1,31 @@
+<!-- beautify ignore:start -->
+{{ $publications := .Site.Data.publications }}
+{{ range $year := (slice 2025 2024 2023 2022) }}
+    {{ $yearPubs := where $publications "year" $year }}
+    {{ if $yearPubs }}
+        {{ $venues := slice }}
+        {{ range $yearPubs }}
+        {{ if not (in $venues .short_venue) }} 
+            {{ $venues = $venues | append .short_venue }} 
+        {{ end }}
+    {{ end }}
+
+    {{ range $venue := $venues }}
+        <h4>{{ $venue }} {{ $year }}</h4>
+        <ul>
+            {{ range $publications }}
+                {{ if and (eq .year $year) (eq .short_venue $venue) }}
+                <li>
+                    <strong><em>{{ .title }}</em></strong>
+                    {{ with .url_paper }}<a href="{{ . }}"> [Paper]</a>{{ end }}
+                    {{ with .url_code }}<a href="{{ . }}"> [Code]</a>{{ end }}
+                    <br>
+                    {{ range $index, $author := .authors }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}
+                </li>
+                {{ end }}
+            {{ end }}
+        </ul>
+        {{ end }}
+    {{ end }}
+{{ end }}
+<!-- beautify ignore:end -->

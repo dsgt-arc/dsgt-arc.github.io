@@ -1,0 +1,8 @@
+{{ define "main" }}
+<main>
+    {{ .Content }}
+
+    {{/* This is where you call the partial */}}
+    {{ partial "list-publications.html" . }}
+</main>
+{{ end }}

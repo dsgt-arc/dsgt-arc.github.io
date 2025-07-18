@@ -16,10 +16,11 @@
             {{ range $publications }}
                 {{ if and (eq .year $year) (eq .short_venue $venue) }}
                 <li>
-                    <strong><em>{{ .title }}</em></strong><br>
-                    {{ range $index, $author := .authors }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}
+                    <strong><em>{{ .title }}</em></strong>
                     {{ with .url_paper }}<a href="{{ . }}"> [Paper]</a>{{ end }}
                     {{ with .url_code }}<a href="{{ . }}"> [Code]</a>{{ end }}
+                    <br>
+                    {{ range $index, $author := .authors }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}
                 </li>
                 {{ end }}
             {{ end }}

@@ -42,6 +42,7 @@
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
   url_paper: ""
+  url_code: "https://github.com/dsgt-arc/touche-2025-rad"
 
 - title: "Enhancing Biomedical Named Entity Recognition using GLiNER-BioMed with Targeted Dictionary-Based Post-processing for BioASQ 2025 task 6"
   authors:
@@ -70,7 +71,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.06205"
 
 - title: "DS@GT at CheckThat! 2025: Exploring Retrieval and Reranking Pipelines for Scientific Claim Source Retrieval on Social Media Discourse"
   authors:
@@ -81,7 +82,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.06563"
 
 - title: "DS@GT at CheckThat! 2025: Detecting Subjectivity via Transfer-Learning and Corrective Data Augmentation"
   authors:
@@ -90,7 +91,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.06189"
 
 - title: "DS@GT at CheckThat! 2025: Evaluating Context and Tokenization Strategies for Numerical Fact Verification"
   authors:
@@ -99,7 +100,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.06195"
 
 - title: "DS@GT at eRisk 2025: From prompts to predictions, benchmarking early depression detection with conversational agent based assessments and temporal attention models"
   authors:
@@ -110,7 +111,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.10958"
 
 - title: "Tackling Sexism in Multimodal Social Media: Exploring Hybrid Generative-Transformer models"
   authors:
@@ -131,7 +132,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.06506"
 
 - title: "DS@GT AnimalCLEF: Triplet Learning over ViT Manifolds with Nearest Neighbor Classification for Animal Re-identification"
   authors:
@@ -151,7 +152,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.08236"
+  url_code: "https://github.com/dsgt-arc/birdclef-2025"
 
 - title: "Transfer Learning and Mixup for Fine-Grained Few-Shot Fungi Classification"
   authors:
@@ -161,7 +163,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.08248"
+  url_code: "https://github.com/dsgt-arc/fungiclef-2025"
 
 - title: "Multi-label Plant Species Classification using Vision Transformers at PlantCLEF 2025"
   authors:
@@ -172,7 +175,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.06093"
+  url_code: "https://github.com/dsgt-arc/plantclef-2025"
 
 - title: "DS@GT at LongEval: Evaluating Temporal Performance in Web Search Systems and Topics with Two-Stage Retrieval"
   authors:
@@ -182,14 +186,18 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.08360"
+  url_code: "https://github.com/dsgt-arc/longeval-2025"
 
-- title: "DS@GT at MEDIQA-MAGIC 2025 Agentic Retrieval-Augmented Generation and Multimodal Reasoning for Dermatological Question Answering"
-  authors: []
+- title: "Cultivating Multimodal Intelligence: Interpretive Reasoning and Agentic RAG Approaches to Dermatological Diagnosis"
+  authors:
+    - Karishma Thakrar
+    - Shreyas Basavatia
+    - Akshay Daftardar
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.05520"
 
 - title: "Binoculars, BART, and Adversaries: Multi-Faceted AI Text Detection for PAN 2025"
   authors:
@@ -234,7 +242,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "http://www.arxiv.org/abs/2407.06291"
+  url_code: "https://github.com/dsgt-arc/birdclef-2024"
 
 - title: "Multi-Label Plant Species Classification with Self-Supervised Vision Transformers"
   authors:
@@ -244,7 +253,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2407.06298"
+  url_code: "https://github.com/dsgt-arc/plantclef-2024"
 
 - title: "Tile Compression and Embeddings for Multi-Label Classification in GeoLifeCLEF 2024"
   authors:
@@ -254,7 +264,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2407.06326"
+  url_code: "https://github.com/dsgt-arc/geolifeclef-2024"
 
 - title: "Fine-Grained Classification for Poisonous Fungi Identification with Transfer Learning"
   authors:
@@ -265,7 +276,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2407.07492"
+  url_code: "https://github.com/dsgt-arc/fungiclef-2024"
 
 - title: "Transfer Learning with Self-Supervised Vision Transformers for Snake Identification"
   authors:
@@ -276,7 +288,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2407.06178"
+  url_code: "https://github.com/dsgt-arc/snakeclef-2024"
 
 - title: "DS@GT at Touché: Image Search and Ranking via CLIP and Image Generation"
   authors:
@@ -285,7 +298,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.09090"
 
 - title: "AI Authorship Verification: an Ensembled Approach"
   authors:
@@ -295,7 +308,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://ceur-ws.org/Vol-3740/paper-270.pdf"
 
 - title: "DS@GT eRisk 2024: Sentence Transformers for Social Media Risk Assessment"
   authors:
@@ -305,7 +318,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2407.08008"
+  url_code: "https://github.com/dsgt-arc/erisk-2024"
 
 - title: "Machine Learning for ALSFRS-R Score Prediction: Making Sense of the Sensor Data"
   authors:
@@ -315,7 +329,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2407.08003"
 
 - title: "Biomedical Nested NER with Large Language Model and UMLS Heuristics"
   authors:
@@ -323,7 +337,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2407.05480v1"
 
 - title: "Using Pretrained Large Language Model with Prompt Engineering to Answer Biomedical Questions"
   authors:
@@ -332,7 +346,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "http://www.arxiv.org/abs/2407.06779"
 
 ##############################################################################
 # CLEF 2023 Publications
@@ -347,7 +361,8 @@
   year: 2023
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2306.16760"
+  url_code: "https://github.com/dsgt-birdclef/birdclef-2023"
 
 ##############################################################################
 # CLEF 2022 Publications
@@ -363,4 +378,5 @@
   year: 2022
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2206.04805"
+  url_code: "https://github.com/dsgt-birdclef/birdclef-2022"

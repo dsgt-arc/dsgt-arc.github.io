@@ -1,0 +1,27 @@
+/* For responsive YouTube videos */
+.video-responsive {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* For captioned images */
+figure.captioned-image {
+    text-align: center;
+    margin: 2em auto;
+}
+figure.captioned-image figcaption {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    font-style: italic;
+    color: var(--text-color);
+}

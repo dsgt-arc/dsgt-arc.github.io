@@ -8,6 +8,7 @@ weight = 1
 
 The [Data Science @ Georgia Tech (DS@GT)](https://datasciencegt.org) Applied Research Competitions (ARC) is a student-run research group focused on machine learning, information retrieval, and data-driven scientific modeling through participation in competitive research challenges.
 The group organizes participation in the [Conference and Labs of the Evaluation Forum (CLEF)](https://www.clef-initiative.eu) but also leverages platforms like [Kaggle](https://www.kaggle.com) and [PACE](https://pace.gatech.edu) for training and internal skill development.
+Our code is available on [GitHub](https://github.com/dsgt-arc).
 
 {{< img src="/images/20240909_clef_conference_grenoble.jpeg" alt="Group photo at CLEF 2024, Grenoble, France, Sept 9th 2024" >}}
 

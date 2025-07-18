@@ -2,7 +2,7 @@
 {{/* Get the 'src' parameter from the shortcode call and find the image in the asset folder */}}
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" | default "" }}
-{{ $resize := .Get "resize" | default "600x webp picture" }}
+{{ $resize := .Get "resize" | default "800x webp picture" }}
 
 {{ $image := resources.Get $src }}
 {{ if $image }}

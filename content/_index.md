@@ -29,8 +29,8 @@ Members are expected to be members of DS@GT and adhere to its general guidelines
 
 Recordings of our Fall 2024 Interest Group can be found below and provide an overview of the group's structure and expectations.
 
-<div align="center">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=EvIbPEjtD9H5MxKz&amp;list=PLaBtWXB-9VkYjmihEIgiyjfSLWikEVHc7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-responsive" align="center">
+<iframe src="https://www.youtube-nocookie.com/embed/videoseries?si=EvIbPEjtD9H5MxKz&amp;list=PLaBtWXB-9VkYjmihEIgiyjfSLWikEVHc7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 The group operates on a two-semester academic cycle.

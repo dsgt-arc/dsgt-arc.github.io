@@ -167,7 +167,7 @@
   url_paper: "https://arxiv.org/abs/2507.08248"
   url_code: "https://github.com/dsgt-arc/fungiclef-2025"
 
-- title: "Multi-label Plant Species Classification using Vision Transformers at PlantCLEF 2025"
+- title: "Tile-Based ViT Inference with Visual-Cluster Priors for Zero-Shot Multi-Species Plant Identification"
   authors:
     - "Murilo Gustineli"
     - "Anthony Miyaguchi"

@@ -31,7 +31,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_paper: "https://arxiv.org/abs/2507.05577"
+  url_code: "https://github.com/dsgt-arc/bioasq-2025-1b-1"
 
 - title: "DS@GT at Touché: Large Language Models for Retrieval-Augmented Debate"
   authors:

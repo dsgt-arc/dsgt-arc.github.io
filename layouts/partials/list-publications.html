@@ -11,7 +11,7 @@
     {{ end }}
 
     {{ range $venue := $venues }}
-        <h4>{{ $venue }} {{ $year }}</h4>
+        <h2>{{ $venue }} {{ $year }}</h2>
         <ul>
             {{ range $publications }}
                 {{ if and (eq .year $year) (eq .short_venue $venue) }}

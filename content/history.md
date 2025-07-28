@@ -4,7 +4,7 @@ menu = 'main'
 weight = 20
 +++
 
-### History
+# History
 
 The group began in Spring 2022 with participation in the BirdCLEF 2022 competition, where it won the Best Working Notes Award ($2,500 GCP credits). In Fall 2022, a preparatory "EDA" group focused on BirdCLEF data was formalized. The group continued its success in Spring 2023, participating in BirdCLEF 2023 and again winning the Best Working Notes Award ($2,500 cash).
 

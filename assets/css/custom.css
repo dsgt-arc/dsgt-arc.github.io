@@ -25,3 +25,12 @@ figure.captioned-image figcaption {
     font-style: italic;
     color: var(--text-color);
 }
+
+table {
+    border-collapse: collapse;
+}
+table th,
+table td {
+    border: 1px solid var(--text-color);
+    text-align: center;
+}

@@ -4,7 +4,7 @@ menu = 'main'
 weight = 1
 +++
 
-### DS@GT Applied Research and Competitions
+# DS@GT Applied Research Competitions
 
 The [Data Science @ Georgia Tech (DS@GT)](https://datasciencegt.org) Applied Research Competitions (ARC) is a student-run research group focused on machine learning, information retrieval, and data-driven scientific modeling through participation in competitive research challenges.
 The group organizes participation in the [Conference and Labs of the Evaluation Forum (CLEF)](https://www.clef-initiative.eu) but also leverages platforms like [Kaggle](https://www.kaggle.com) and [PACE](https://pace.gatech.edu) for training and internal skill development.
@@ -16,7 +16,7 @@ We recently wrapped up our Spring 2025 semester with 22 accepted working note pa
 We are preparing for the Fall 2025 Interest Group and Spring 2026 competition season.
 In addition to CLEF 2026, we plan to participate in [TREC 2025](https://trec.nist.gov), [MediaEval 2025](https://multimediaeval.github.io), and [NTCIR 19](https://research.nii.ac.jp/ntcir/ntcir-19).
 
-#### Membership
+## Membership
 
 ARC operates as a project group within the broader Data Science @ Georgia Tech student organization.
 Members are expected to be members of DS@GT and adhere to its general guidelines.
@@ -25,7 +25,7 @@ Members are expected to be members of DS@GT and adhere to its general guidelines
 - **Requirements:** Members must be part of the parent DS@GT organization (including paying dues). Active participation, especially in the Fall, is crucial for Spring team placement.
 - **Minimum Technical Expectations:** Proficiency in Python (SciPy stack: NumPy, Pandas, Matplotlib) and Git version control. Familiarity with ML concepts is highly beneficial. Prior ML/IR project experience (non-trivial complexity) or software engineering experience is expected. Completion or enrollment in a project-heavy course (e.g., ML, DL) is recommended.
 
-#### Group Structure and Schedule
+## Group Structure and Schedule
 
 Recordings of our Fall 2024 Interest Group can be found below and provide an overview of the group's structure and expectations.
 
@@ -46,7 +46,7 @@ The group operates on a two-semester academic cycle.
   - **Outcome:** Competition submissions, published papers, presentation of work.
   - **Time Commitment:** ~100-150+ hours total (equivalent to a 2-3 unit course), varies by role and project intensity.
 
-#### Team Structure
+## Team Structure
 
 - **Size:** Typically 3-5 members per team (including the lead). No more than 5 people on a single task due to complexity of sharding work.
 - **Composition:** Aim for a mix of skills and experience levels where possible, fostering inclusivity and knowledge sharing (e.g., pairing experienced members with newer ones).

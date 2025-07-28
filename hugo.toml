@@ -8,6 +8,12 @@ theme = 'hugo-bearblog'
   title = "DS@GT ARC"
   hideMadeWithLine = true
 
+[menu]
+  [[menu.main]]
+    name = "Notes"
+    url = "https://notes.dsgt-arc.org"
+    weight = 15
+
 [markup]
   [markup.highlight]
     style = 'friendly'

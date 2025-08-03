@@ -1,18 +1,21 @@
 +++
 title = 'Fall Semester'
 menu = 'main'
-weight = 30
+weight = 2
 +++
 
 # Fall Semester Interest Group Information
 
+[Interest Group Sign up Form](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog)
+
 Are you interested in doing research but need help knowing where to start? 
 Are you interested in biting your teeth into applicable, real-world datasets to solve challenging problems? 
-Join the Data Science at Georgia Tech (DS@GT) club as we tackle information retrieval and machine learning competitions at CLEF 2026 for our fifth year. 
+Join the Data Science at Georgia Tech (DS@GT) club as we tackle information retrieval and machine learning competitions at [CLEF 2026](https://clef2026.clef-initiative.eu/) in the Spring for our fifth year. 
 The DS@GT competition team has won $10,000 worth of prizes across four working note competitions, and have over 30 accepted working note papers into workshop proceedings. 
-By joining us, you'll gain valuable experience, build a network of like-minded individuals, and have the opportunity to participate in competitive research. 
+For CLEF 2025 alone, we had 43 published authors! 
+By joining us, you'll gain valuable experience, build a network of like-minded individuals, and have the opportunity to participate in competitive research. You can read more about our achievements on our [Impact](impact) page. 
 
-The interest group's goal is to learn about data science and research competitions and strategies for success. 
+The interest group takes place in the fall semester and our goal is to learn about data science and research competitions and strategies for success. 
 It will culminate in forming competition teams for CLEF 2026, a conference that systematically evaluates information access systems primarily through experimentation on shared tasks. 
 All DS@GT members are welcome, regardless of your level of experience. 
 
@@ -45,11 +48,14 @@ If more help is needed, we will also have a separate interview process at the en
 
 I hope you find this exciting and attend our first meeting and kickoff when the Fall semester starts! 
 At the first meeting, we'll introduce the club, discuss our goals and activities, and answer any questions you may have. 
-Please RSVP and I’ll remind you when dates are solidified at the end of the first week. 
+Please [RSVP](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog) and we’ll remind you when dates are solidified at the end of the first week. 
 Feel free to share this document and join us in #applied-research-competitions by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 
-Murilo Gustineli
-murilogustineli@gatech.edu
+# Points of Contact: 
+
+Murilo Gustineli murilogustineli@gatech.edu
+
+Ritesh Mehta rmehta307@gatech.edu
 
 # FAQ (make it more fall semester focused?)
 ## What is CLEF?

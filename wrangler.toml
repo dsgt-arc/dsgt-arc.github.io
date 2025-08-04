@@ -1,0 +1,10 @@
+name = "dsgt-arc"
+compatibility_date = "2025-06-12"
+
+[assets]
+directory = "./public"
+
+routes = [
+  { pattern = "dsgt-arc.org", custom_domain = true },
+  { pattern = "www.dsgt-arc.org", custom_domain = true }
+]

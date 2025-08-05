@@ -37,7 +37,7 @@ The group operates on a two-semester academic cycle.
 
 - **Fall Semester: Interest Group & Preparation**
   - **Focus:** Introduction to competitive data science (Kaggle) and research competitions (CLEF).
-  - **Activities:** Weekly meetings, EDA assignments, paper discussions, internal Kaggle competition, foundational skills training (e.g., PACE usage).
+  - **Activities:** Weekly meetings, EDA assignments, paper discussions, foundational skills training (e.g., PACE usage).
   - **Outcome:** Formation of motivated and prepared teams for the Spring semester.
   - **Time Commitment:** ~2-3 hours/week (equivalent to a 1-unit seminar).
 - **Spring Semester: Competition Execution & Publication**

@@ -4,7 +4,7 @@ menu = 'main'
 weight = 2
 +++
 
-# Fall Semester Interest Group Information
+# Fall Semester Interest Group
 
 [Interest Group Sign up Form](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog)
 

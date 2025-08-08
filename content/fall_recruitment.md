@@ -8,6 +8,9 @@ weight = 2
 
 [Interest Group Sign up Form](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog)
 
+First Meeting Date: TBD
+First Meeting: Virtual Zoom, with in-person option at Georgia Tech campus
+
 Are you interested in doing research but need help knowing where to start? 
 Are you interested in sinkng your teeth into applicable, real-world datasets to solve challenging problems? 
 Join the [Data Science at Georgia Tech (DS@GT)](https://datasciencegt.org/) club as we tackle information retrieval and machine learning competitions at [CLEF 2026](https://clef2026.clef-initiative.eu/) in the Spring for our fifth year. 

@@ -37,7 +37,7 @@ The group operates on a two-semester academic cycle.
 
 - **Fall Semester: Interest Group & Preparation**
   - **Focus:** Introduction to competitive data science (Kaggle) and research competitions (CLEF).
-  - **Activities:** Weekly meetings, EDA assignments, paper discussions, internal Kaggle competition, foundational skills training (e.g., PACE usage).
+  - **Activities:** Weekly meetings, EDA assignments, paper discussions, foundational skills training (e.g., PACE usage).
   - **Outcome:** Formation of motivated and prepared teams for the Spring semester.
   - **Time Commitment:** ~2-3 hours/week (equivalent to a 1-unit seminar).
 - **Spring Semester: Competition Execution & Publication**
@@ -48,7 +48,7 @@ The group operates on a two-semester academic cycle.
 
 ## Team Structure
 
-- **Size:** Typically 3-5 members per team (including the lead). No more than 5 people on a single task due to complexity of sharding work.
+- **Size:** Typically 3-5 members per team (including the lead). No more than 5 people on a single task due to complexity of sharing work.
 - **Composition:** Aim for a mix of skills and experience levels where possible, fostering inclusivity and knowledge sharing (e.g., pairing experienced members with newer ones).
 - **Roles:**
   - **Task Lead:** Responsible for managing a task team in the Spring. Duties include registering the team, defining the technical approach/plan, conducting weekly meetings, delegating tasks, tracking progress, reporting updates, leading paper writing/submission, and confirming team members. Requires significant time commitment and technical/project management skills.

@@ -12,6 +12,7 @@ weight = 10
   - [BirdCLEF 2022](https://www.kaggle.com/competitions/birdclef-2022/discussion/333581), $2,500 GCP credit
   - [BirdCLEF 2023](https://www.kaggle.com/competitions/birdclef-2023/discussion/392897), $2,500 cash
   - [BirdCLEF 2024](https://www.kaggle.com/competitions/birdclef-2024/discussion/506779), $2,500 cash
+  - [BirdCLEF 2025](https://www.kaggle.com/competitions/birdclef-2025/discussion/567628), $2,500 cash
 - **OMSCS Project Showcase Award**
   - [PlantCLEF 2024, Spring 2024, Student Choice Award](https://mailchi.mp/cc.gatech.edu/omscs-conference-recap-spring-showcase-winners-announced-and-more)
 - **Career, Research, Innovation, and Development Conference (CRIDC) Awards**

@@ -56,6 +56,7 @@ If more help is needed, we will also have a separate interview process at the en
 I hope you find this exciting and attend our first meeting and kickoff when the Fall semester starts! 
 At the first meeting, we'll introduce the club, discuss our goals and activities, and answer any questions you may have. 
 Please [RSVP](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog) and we’ll remind you when dates are solidified at the end of the first week. 
+
 Feel free to share this page and join us in [#applied-research-competitions](https://datasciencegt.slack.com/archives/C05MW3LPZFZ) by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 
 ## Videos

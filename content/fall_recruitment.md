@@ -6,15 +6,14 @@ weight = 2
 
 # Fall Semester Interest Group
 
-[Interest Group Sign up Form](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog)
-
-First Meeting Date: TBD, Second week of the Fall Semester
-First Meeting: Virtual Zoom, with in-person option at Georgia Tech campus
+- **Sign up here:** [Interest Group Sign up Form](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog)
+- **First Meeting Date:** TBD, Second week of the Fall Semester
+- **First Meeting:** Virtual Zoom, with in-person option at Georgia Tech campus
 
 Are you interested in doing research but need help knowing where to start? 
-Are you interested in sinkng your teeth into applicable, real-world datasets to solve challenging problems? 
-Join the [Data Science at Georgia Tech (DS@GT)](https://datasciencegt.org/) club as we tackle information retrieval and machine learning competitions at [CLEF 2026](https://clef2026.clef-initiative.eu/) in the Spring for our fifth year. 
-The DS@GT competition team has won $10,000 worth of prizes across four working note competitions, and have over 30 accepted working note papers into workshop proceedings. 
+Are you interested in sinking your teeth into applicable, real-world datasets to solve challenging problems? 
+**Join the [Data Science at Georgia Tech (DS@GT)](https://datasciencegt.org/) club as we tackle information retrieval and machine learning competitions at [CLEF 2026](https://clef2026.clef-initiative.eu/) in the Spring for our fifth year!**
+The DS@GT competition team has won $10,000 worth of prizes across four working note competitions, and have over 30 accepted working note papers into workshop proceedings.
 For CLEF 2025 alone, we had 43 published authors! 
 By joining us, you'll gain valuable experience, build a network of like-minded individuals, and have the opportunity to participate in competitive research. You can read more about our achievements on our [Impact](/impact) page. 
 
@@ -56,6 +55,7 @@ If more help is needed, we will also have a separate interview process at the en
 I hope you find this exciting and attend our first meeting and kickoff when the Fall semester starts! 
 At the first meeting, we'll introduce the club, discuss our goals and activities, and answer any questions you may have. 
 Please [RSVP](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog) and we’ll remind you when dates are solidified at the end of the first week. 
+
 Feel free to share this page and join us in [#applied-research-competitions](https://datasciencegt.slack.com/archives/C05MW3LPZFZ) by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 
 ## Videos

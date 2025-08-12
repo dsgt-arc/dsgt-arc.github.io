@@ -6,7 +6,7 @@ weight = 100
 # FAQ
 
 ## What is CLEF?
-CLEF (Conference and Labs of the Evaluation Forum) is an annual independent peer-reviewed conference that focuses on advancing research in information access systems, particularly in multilingual and multimodal contexts.
+**CLEF** [(Conference and Labs of the Evaluation Forum)](https://www.clef-initiative.eu/)** is an annual independent peer-reviewed conference that focuses on advancing research in information access systems, particularly in multilingual and multimodal contexts.
 
 CLEF aims to maintain and expand upon its tradition of community-based evaluation and discussion on evaluation issues in information retrieval. 
 It provides an infrastructure for testing, tuning, and evaluating information access systems, creating reusable test collections, and exploring new evaluation methodologies.
@@ -19,7 +19,7 @@ Are you more interested in natural language processing?
 Computer vision? Biodiversity conservation? 
 Medical applications? Multi-modality? 
 You may find a summary of each lab in the last question of the FAQ.
-Review the task overview papers on the CLEF working notes page: CEUR-WS.org/Vol-3740 - Working Notes of CLEF 2024
+Review the task overview papers on the CLEF working notes page: [CEUR-WS.org/Vol-3740 - Working Notes of CLEF 2024](https://ceur-ws.org/Vol-3740/).
 
 ## How many tasks can I participate in?
 There is no limit to tasks that someone can participate in. 
@@ -33,7 +33,7 @@ A team lead is the main person responsible for delivering the task, including:
 - Communicating team progress with team members and the DS@GT CLEF monthly meetings
 - Delegating work within the team
 - Submitting the working note paper for peer review and publication
-	
+
 A team member is responsible for the following:
 - Making a real contribution to the competition/task
 - Attending weekly meetings and reporting progress
@@ -51,7 +51,8 @@ The time commitment varies depending on your role and the effort you want to put
 However, to make a meaningful contribution, you should expect to dedicate around 100–150 hours throughout the project. 
 Think of it as the equivalent of a 2–3 unit course, requiring consistent effort. 
 Team leads require additional time to manage their tasks and coordinate with team members. 
-This is the type of experience where you get out what you put in. Ultimately, your level of involvement is up to you, but consistent effort is key to gaining valuable experience and making an impact.
+This is the type of experience where you get out what you put in.
+Ultimately, your level of involvement is up to you, but consistent effort is key to gaining valuable experience and making an impact.
 
 ## Can two teams participate in the same task?
 No. 
@@ -59,8 +60,8 @@ A person can be part of one or more teams.
 But a team can only do one task.
 
 ## Why can’t I edit the meeting documents?
-You must join the CLEF 2026 Google Group to be able to edit the meeting documents.  
-This functionality will be granted to you after joining.
+You must join the **CLEF 2026 Google Group** to be able to edit the meeting documents.  
+This functionality will be granted to you *after joining*.
 
 ## Is this opportunity only available for current students, or can alumni participate as well?
 This opportunity is not limited to current students—GT alumni are also welcome to join our group! 
@@ -72,15 +73,16 @@ To join:
 
 ## How can I earn academic credit for participating in CLEF?
 There are two primary ways to earn academic credit through CLEF participation:
-CS 8903 – Special Problems
+
+### CS 8903 – Special Problems
 This is a supervised research course that requires special permission to enroll. To take this course, you need to:
-- Develop a research proposal statement. Here’s an example of a research statement from a previous semester
+1. Develop a research proposal statement. Here’s an example of a research statement from a previous semester
 [Spring 2024 - Statement of Research, Murilo Gustineli](https://docs.google.com/document/d/1mh05O9RE9AF3MI9gyZz5aZzS08YlG2hc7mxopPquDfg/edit?usp=sharing).
-- Secure a faculty member from the College of Computing (CoC) who agrees to supervise your research
+2. Secure a faculty member from the College of Computing (CoC) who agrees to supervise your research
 Finding a professor can be challenging due to limited availability, and enrollment is contingent upon obtaining their permission. You can find more information on the [Graduate Forms & Procedures | College of Computing](https://www.cc.gatech.edu/graduate-forms-procedures).
 
 
-CS 8803 O24 – Intro to Research
+### CS 8803 O24 – Intro to Research
 This course offers a general introduction to research methods and computer science research. 
 Unlike CS 8903, you can register for this course as part of your regular course selection in the OMSCS program.
 

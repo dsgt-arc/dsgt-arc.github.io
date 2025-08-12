@@ -75,7 +75,7 @@ There are two primary ways to earn academic credit through CLEF participation:
 CS 8903 – Special Problems
 This is a supervised research course that requires special permission to enroll. To take this course, you need to:
 - Develop a research proposal statement. Here’s an example of a research statement from a previous semester
-Spring 2024 - Statement of Research, Murilo Gustineli
+[Spring 2024 - Statement of Research, Murilo Gustineli](https://docs.google.com/document/d/1mh05O9RE9AF3MI9gyZz5aZzS08YlG2hc7mxopPquDfg/edit?usp=sharing)
 - Secure a faculty member from the College of Computing (CoC) who agrees to supervise your research
 Finding a professor can be challenging due to limited availability, and enrollment is contingent upon obtaining their permission. You can find more information on the Graduate Forms & Procedures | College of Computing.
 

@@ -26,7 +26,7 @@ There is no limit to tasks that someone can participate in.
 We recommend not doing more than two tasks for first-time members.
 
 ## What’s the difference between a team lead and a team member?
-A team lead is the main person responsible for delivering the task, including:
+A **team lead** is the main person responsible for delivering the task, including:
 - Entering and participating in the competition/task
 - Interviewing potential participants to join the team
 - Conducting and hosting weekly team meetings
@@ -34,7 +34,7 @@ A team lead is the main person responsible for delivering the task, including:
 - Delegating work within the team
 - Submitting the working note paper for peer review and publication
 
-A team member is responsible for the following:
+A **team member** is responsible for the following:
 - Making a real contribution to the competition/task
 - Attending weekly meetings and reporting progress
 - Attending and presenting at DS@GT CLEF monthly group meetings

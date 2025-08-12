@@ -78,8 +78,9 @@ There are two primary ways to earn academic credit through CLEF participation:
 This is a supervised research course that requires special permission to enroll. To take this course, you need to:
 1. Develop a research proposal statement. Here’s an example of a research statement from a previous semester
 [Spring 2024 - Statement of Research, Murilo Gustineli](https://docs.google.com/document/d/1mh05O9RE9AF3MI9gyZz5aZzS08YlG2hc7mxopPquDfg/edit?usp=sharing).
-2. Secure a faculty member from the College of Computing (CoC) who agrees to supervise your research
-Finding a professor can be challenging due to limited availability, and enrollment is contingent upon obtaining their permission. You can find more information on the [Graduate Forms & Procedures | College of Computing](https://www.cc.gatech.edu/graduate-forms-procedures).
+2. Secure a faculty member from the College of Computing (CoC) who agrees to supervise your research.
+Finding a professor can be challenging due to limited availability, and enrollment is contingent upon obtaining their permission. 
+You can find more information on the [Graduate Forms & Procedures | College of Computing](https://www.cc.gatech.edu/graduate-forms-procedures).
 
 
 ### CS 8803 O24 – Intro to Research
@@ -87,7 +88,8 @@ This course offers a general introduction to research methods and computer scien
 Unlike CS 8903, you can register for this course as part of your regular course selection in the OMSCS program.
 
 ## What are the labs available at CLEF 2025?
-Below is a short overview of the labs under the CLEF 2024 conference. You may find more information on each lab by reviewing their respective overview papers on the CLEF working notes page: CEUR-WS.org/Vol-3740 - Working Notes of CLEF 2024
+Below is a short overview of the labs under the CLEF 2024 conference. 
+You may find more information on each lab by reviewing their respective overview papers on the CLEF working notes page: [CEUR-WS.org/Vol-3740 - Working Notes of CLEF 2024](https://ceur-ws.org/Vol-3740/)
 ### BioASQ
 BioASQ focuses on biomedical semantic indexing and question answering, aiming to advance systems that utilize online biomedical information to address the needs of scientists in the field.
 ### CheckThat!

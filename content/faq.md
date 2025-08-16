@@ -6,7 +6,7 @@ weight = 100
 # FAQ
 
 ## 1. What is CLEF?
-**CLEF** [(Conference and Labs of the Evaluation Forum)](https://www.clef-initiative.eu/)** is an annual independent peer-reviewed conference that focuses on advancing research in information access systems, particularly in multilingual and multimodal contexts.
+**CLEF** [(Conference and Labs of the Evaluation Forum)](https://www.clef-initiative.eu/) is an annual independent peer-reviewed conference that focuses on advancing research in information access systems, particularly in multilingual and multimodal contexts.
 
 CLEF aims to maintain and expand upon its tradition of community-based evaluation and discussion on evaluation issues in information retrieval. 
 It provides an infrastructure for testing, tuning, and evaluating information access systems, creating reusable test collections, and exploring new evaluation methodologies.

@@ -7,7 +7,7 @@ weight = 2
 # Fall Semester Interest Group
 
 - **Sign up here:** [Interest Group Sign up Form](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog)
-- **First Meeting Date:** TBD, Second week of the Fall Semester
+- **First Meeting Date:** Monday, August 25th, at 8PM EST
 - **First Meeting:** Virtual Zoom, with in-person option at Georgia Tech campus
 
 Are you interested in doing research but need help knowing where to start? 

@@ -45,6 +45,8 @@ The rough general schedule for the group is as follows:
 
 **November** - Cloud Computing Basics on PACE and Team Formation
 
+**A more detailed scheduled can be found on the [Notes](https://notes.dsgt-arc.org/schedule/#) page.** 
+
 Members can read, present, and discuss research, and write an exploratory data analysis (EDA). 
 Expected time commitment for the Fall is 2-3 hours a week, with 1 hour for meetings and 1-2 hours preparing for the next week. 
 Participation in the interest group will weigh heavily into Spring competition team placement. 
@@ -52,7 +54,7 @@ Participation in the interest group and returning members who published with us 
 This has worked well for us in the past and we have not encountered an issue where there are more interested people than the amount of teams available. 
 If more help is needed, we will also have a separate interview process at the end of the semester for broader recruitment.
 
-I hope you find this exciting and attend our first meeting and kickoff when the Fall semester starts! 
+We hope you find this exciting and attend our first meeting and kickoff when the Fall semester starts! 
 At the first meeting, we'll introduce the club, discuss our goals and activities, and answer any questions you may have. 
 Please [RSVP](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog) and we’ll remind you when dates are solidified at the end of the first week. 
 

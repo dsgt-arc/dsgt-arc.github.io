@@ -44,7 +44,7 @@ Team leads and members are expected to commit time, have strong programming skil
 
 ## 5. How do I become a team lead for a task?
 Apply in the form DS@GT CLEF 2026 Competition Signup (Form TBD) and specify your desired role (team lead or team member). 
-If you apply to be a team lead, reach out to Anthony Miyaguchi (acmiyaguchi@gatech.edu) or Murilo Gustineli (murilogustineli@gatech.edu) with an overview of your proposed solution for the particular task.
+If you apply to be a team lead, reach out to Anthony Miyaguchi (acmiyaguchi at gatech.edu) or Murilo Gustineli (murilogustineli at gatech.edu) with an overview of your proposed solution for the particular task.
 
 ## 6. What is the time commitment required to participate?
 The time commitment varies depending on your role and the effort you want to put in. 

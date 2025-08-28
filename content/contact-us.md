@@ -1,5 +1,5 @@
 +++
-title = 'Contacts'
+title = 'Contact us'
 menu = 'main'
 weight = 100
 +++
@@ -13,9 +13,9 @@ Join our slack channel [#applied-research-competitions](https://datasciencegt.sl
 
 For specific inquiries on our club please reach out to.
 
-*   **Murilo Gustineli**: murilogustineli@gatech.edu
-*   **Ritesh Mehta**: rmehta307@gatech.edu
-*   **Jason Tam**: jtam30@gatech.edu
+*   **Murilo Gustineli**: murilogustineli at gatech.edu
+*   **Ritesh Mehta**: rmehta307 at gatech.edu
+*   **Jason Tam**: jtam30 at gatech.edu
 
 ## Fall 2025 interest form
 

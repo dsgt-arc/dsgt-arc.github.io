@@ -10,7 +10,7 @@ The [Data Science @ Georgia Tech (DS@GT)](https://datasciencegt.org) Applied Res
 The group organizes participation in the [Conference and Labs of the Evaluation Forum (CLEF)](https://www.clef-initiative.eu) but also leverages platforms like [Kaggle](https://www.kaggle.com) and [PACE](https://pace.gatech.edu) for training and internal skill development.
 Our code is available on [GitHub](https://github.com/dsgt-arc).
 
-{{< img src="/images/20250910_clef_conference_madrid.jpeg" alt="Group photo at CLEF 2025, Madrid, Spain, Sept 10th 2025" >}}
+{{< img src="/images/20250910_clef_conference_madrid.jpg" alt="Group photo at CLEF 2025, Madrid, Spain, Sept 10th 2025" >}}
 
 We recently wrapped up our Spring 2025 semester with 22 accepted working note papers and 44 authors at [CLEF 2025](https://clef2025.clef-initiative.eu).
 We are preparing for the Fall 2025 Interest Group and Spring 2026 competition season.

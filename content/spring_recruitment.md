@@ -18,7 +18,7 @@ You can read more about our achievements on our [Impact](/impact) page.
 
 The CLEF 2026 competition begins in March and ends in May, with working note papers submitted by the end of May. 
 **To participate with the DS@GT-ARC CLEF 2026 team, you should meet at least one of the following criterias**: 
-- Returning members of DS@GT ARC who had published working note(s) with us
+- Returning members of DS@GT ARC who have published working note(s) with us
 - Participated in the [2025 Fall Interest Group](/fall_recruitment/)
 - Experienced students (please see the self-assessment section below)
 
@@ -26,6 +26,10 @@ We are offering a **CS8903 Special Problems** course for the first time where yo
 All participants of the course must submit a research proposal for the CLEF task they are interested in. 
 Because this will be the first cohort, seats will be limited, and completing this form does not guarantee enrollment.
 If you're an Alumnus and would like to join our research group in the spring, you will be required to register for CS 8903 (or any other course) for [PACE](https://pace.gatech.edu/) access.
+
+We hope you find this exciting and complete the sign up form to begin team formation! 
+
+Feel free to share this page and join us in [#applied-research-competitions](https://datasciencegt.slack.com/archives/C05MW3LPZFZ) by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 
 ## DS@GT ARC - CLEF Competition Schedule
 
@@ -114,10 +118,6 @@ It would also be helpful if you've had any of the following experiences:
 - You have created or managed resources in a cloud provider like AWS or GCP or [PACE](https://pace.gatech.edu/). You have experience with Terraform and/or Ansible.
 
 You might find “The Missing Semester of Your CS Education” useful if you feel weak in the software aspect of building IR/ML systems: The Missing Semester of Your CS Education   
-
-We hope you find this exciting and complete the sign up form to begin team formation! 
-
-Feel free to share this page and join us in [#applied-research-competitions](https://datasciencegt.slack.com/archives/C05MW3LPZFZ) by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 
 ## Videos
 Here is a video where we shared our trip to CLEF 2025 in Madrid, Spain during one of the meetings in the Fall. Ten members were able to attend in-person and present their approches and results. 

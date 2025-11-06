@@ -24,6 +24,8 @@ To participate with the DS@GT-ARC CLEF 2026 team, you should meet at least one o
 
 We are offering a CS8903 Special Problems course for the first time where you may enroll and earn academic credit for participating in CLEF! 
 All participants of the course must submit a research proposal for the CLEF task they are interested in. 
+Because this will be the first cohort, seats will be limited, and completing this form does not guarantee enrollment.
+If you're an Alumnus and would like to join our research group in the spring, you will be required to register for CS 8903 (or any other course) for PACE access.
 
 ## DS@GT ARC - CLEF Competition Schedule
 

@@ -53,6 +53,14 @@ The rough general schedule for the spring semester is as follows:
 
 **June** - Working Notes Feedback and Final Paper Submission
 
+## Team Structure
+
+- **Size:** Typically 3-5 members per team (including the lead). No more than 5 people on a single task due to complexity of sharing work.
+- **Composition:** Aim for a mix of skills and experience levels where possible, fostering inclusivity and knowledge sharing (e.g., pairing experienced members with newer ones).
+- **Roles:**
+  - **Lab Lead:** Responsible for managing a lab team in the Spring. Duties include registering the task teams, defining the technical approach/plan, conducting weekly meetings, delegating tasks, tracking progress, reporting updates, leading paper writing/submission, and confirming team members. Requires significant time commitment and technical/project management skills. Lab lead positions are limited to 1-2 per lab
+  - **Lab Member:** Responsible for actively contributing (coding, analysis, experiments), attending weekly meetings, reporting progress, contributing to the paper, and potentially presenting updates. Expected to have relevant technical skills (Python, Git, ML/data analysis basics) and commit sufficient time.
+
 ## Available Labs and Lab Leads
 While all labs currently have opportunities for new members to join. We will <mark>highlight the labs</mark> when at full capacity:
 

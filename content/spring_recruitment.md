@@ -27,7 +27,7 @@ All participants of the course must submit a research proposal for the CLEF task
 Because this will be the first cohort, seats will be limited, and completing this form does not guarantee enrollment.
 If you're an Alumnus and would like to join our research group in the spring, you will be required to register for CS 8903 (or any other course) for [PACE](https://pace.gatech.edu/) access.
 
-We hope you find this exciting and complete the sign up form to begin team formation! 
+We hope you find this exciting and complete the sign up form to begin team formation! Lab leads will be assigned first, and each lab leader will reach out to potential lab members.
 
 Feel free to share this page and join us in [#applied-research-competitions](https://datasciencegt.slack.com/archives/C05MW3LPZFZ) by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 

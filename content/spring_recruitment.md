@@ -41,7 +41,7 @@ The rough general schedule for the spring semester is as follows:
 
 **April** - Research Continues
 
-**May** Final submissions for the Competition
+**May** Final Submissions for the Competition
 
 **End of May** - Working Note Papers 1st Submission
 

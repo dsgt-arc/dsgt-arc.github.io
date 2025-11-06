@@ -1,10 +1,10 @@
 +++
 title = 'Fall Semester'
 menu = 'main'
-weight = 2
+weight = 3
 +++
 
-# Fall Semester Interest Group
+# Fall Interest Group
 
 - **Sign up here:** [Interest Group Sign up Form](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog)
 - **First Meeting Date:** Monday, August 25th, at 8PM EST
@@ -15,7 +15,8 @@ Are you interested in sinking your teeth into applicable, real-world datasets to
 **Join the [Data Science at Georgia Tech (DS@GT)](https://datasciencegt.org/) club as we tackle information retrieval and machine learning competitions at [CLEF 2026](https://clef2026.clef-initiative.eu/) in the Spring for our fifth year!**
 The DS@GT competition team has won $10,000 worth of prizes across four working note competitions, and have over 30 accepted working note papers into workshop proceedings.
 For CLEF 2025 alone, we had 43 published authors! 
-By joining us, you'll gain valuable experience, build a network of like-minded individuals, and have the opportunity to participate in competitive research. You can read more about our achievements on our [Impact](/impact) page. 
+By joining us, you'll gain valuable experience, build a network of like-minded individuals, and have the opportunity to participate in competitive research. 
+You can read more about our achievements on our [Impact](/impact) page. 
 
 The interest group takes place in the fall semester and our goal is to learn about data science and research competitions and strategies for success. 
 It will culminate in forming competition teams for CLEF 2026 located in Jena, Germany, a conference that systematically evaluates information access systems primarily through experimentation on shared tasks. 

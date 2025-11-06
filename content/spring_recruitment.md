@@ -25,7 +25,7 @@ The CLEF 2026 competition begins in March and ends in May, with working note pap
 We are offering a **CS8903 Special Problems** course for the first time where you may enroll and earn academic credit for participating in CLEF! 
 All participants of the course must submit a research proposal for the CLEF task they are interested in. 
 Because this will be the first cohort, seats will be limited, and completing this form does not guarantee enrollment.
-If you're an Alumnus and would like to join our research group in the spring, you will be required to register for CS 8903 (or any other course) for PACE access.
+If you're an Alumnus and would like to join our research group in the spring, you will be required to register for CS 8903 (or any other course) for [PACE](https://pace.gatech.edu/) access.
 
 ## DS@GT ARC - CLEF Competition Schedule
 
@@ -43,7 +43,7 @@ The rough general schedule for the spring semester is as follows:
 
 **April** - Research Continues
 
-**May** Final Submissions for the Competition
+**May** - Final Submissions for the Competition
 
 **End of May** - Working Note Papers 1st Submission
 

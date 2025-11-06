@@ -120,7 +120,7 @@ It would also be helpful if you've had any of the following experiences:
 You might find “The Missing Semester of Your CS Education” useful if you feel weak in the software aspect of building IR/ML systems: The Missing Semester of Your CS Education   
 
 ## Videos
-Here is a video where we shared our trip to CLEF 2025 in Madrid, Spain during one of the meetings in the Fall. Ten members were able to attend in-person and present their approches and results. 
+Here is a video where we shared our trip to CLEF 2025 in Madrid, Spain during one of the meetings in the Fall. Ten members were able to attend in-person and present their approaches and results. 
 <div class="video-responsive" align="center">
 <iframe src="https://www.youtube.com/embed/8NlxVGyl5wc?si=HDxHm1eDt9AyvQUg
 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

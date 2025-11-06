@@ -62,7 +62,7 @@ Please [RSVP](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWb
 Feel free to share this page and join us in [#applied-research-competitions](https://datasciencegt.slack.com/archives/C05MW3LPZFZ) by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 
 ## Videos
-Here is a video where we shared our trip to CLEF 2024 in Grenoble, France during one of the meetings in the Fall. Four members were able to attend in-person and present their approches and results. 
+Here is a video where we shared our trip to CLEF 2024 in Grenoble, France during one of the meetings in the Fall. Four members were able to attend in-person and present their approaches and results. 
 <div class="video-responsive" align="center">
 <iframe src="https://www.youtube-nocookie.com/embed/xx9m2ymuGgM?si=c4uVd9NcCEarLl9T
 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -26,8 +26,9 @@ We are offering a **CS8903 Special Problems** course for the first time where yo
 All participants of the course must submit a research proposal for the CLEF task they are interested in. 
 Because this will be the first cohort, seats will be limited, and completing this form does not guarantee enrollment.
 If you're an Alumnus and would like to join our research group in the spring, you will be required to register for CS 8903 (or any other course) for [PACE](https://pace.gatech.edu/) access.
+A CS8903 course can be taken as a 3 credits course or a 1 credit course.
 
-We hope you find this exciting and complete the sign up form to begin team formation! Lab leads will be assigned first, and each lab leader will reach out to potential lab members.
+We hope you find this exciting and complete the sign up form to begin team formation! Once you have completed the sign up form, a member of our team will reach out with next steps. Lab leads will be assigned first, and each lab leader will reach out to potential lab members.
 
 Feel free to share this page and join us in [#applied-research-competitions](https://datasciencegt.slack.com/archives/C05MW3LPZFZ) by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 
@@ -58,7 +59,7 @@ The rough general schedule for the spring semester is as follows:
 - **Size:** Typically 3-5 members per team (including the lead). No more than 5 people on a single task due to complexity of sharing work.
 - **Composition:** Aim for a mix of skills and experience levels where possible, fostering inclusivity and knowledge sharing (e.g., pairing experienced members with newer ones).
 - **Roles:**
-  - **Lab Lead:** Responsible for managing a lab team in the Spring. Duties include registering the task teams, defining the technical approach/plan, conducting weekly meetings, delegating tasks, tracking progress, reporting updates, leading paper writing/submission, and confirming team members. Requires significant time commitment and technical/project management skills. Lab lead positions are limited to 1-2 per lab
+  - **Lab Lead:** Responsible for managing a lab team in the Spring. Duties include registering the task teams, defining the technical approach/plan, conducting weekly meetings, delegating tasks, tracking progress, reporting updates, leading paper writing/submission, and confirming team members. Requires significant time commitment and technical/project management skills. **Lab lead positions are limited to 1-2 per lab.**
   - **Lab Member:** Responsible for actively contributing (coding, analysis, experiments), attending weekly meetings, reporting progress, contributing to the paper, and potentially presenting updates. Expected to have relevant technical skills (Python, Git, ML/data analysis basics) and commit sufficient time.
 
 ## Available Labs and Lab Leads

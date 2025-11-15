@@ -22,13 +22,13 @@ The CLEF 2026 competition begins in March and ends in May, with working note pap
 - Participated in the [2025 Fall Interest Group](/fall_recruitment/)
 - Experienced students (please see the self-assessment section below)
 
-We are offering a **CS8903 Special Problems** course for the first time where you may enroll and earn academic credit for participating in CLEF! 
+For those who are looking to earn academic credit for their research, we will also be offering an optional **CS8903 Special Problems** section for the first time. 
 All participants of the course must submit a research proposal for the CLEF task they are interested in. 
-Because this will be the first cohort, seats will be limited, and completing this form does not guarantee enrollment.
-If you're an Alumnus and would like to join our research group in the spring, you will be required to register for CS 8903 (or any other course) for [PACE](https://pace.gatech.edu/) access.
-A CS8903 course can be taken as a 3 credits course or a 1 credit course.
+Seats in the course will be limited, and completing the sign-up form does not guarantee enrollment. 
+If you’re an Alumnus and would like to join our research group in the spring, you will be required to register for CS 8903 (or any other course) for [PACE](https://pace.gatech.edu/) access. 
+CS8903 may be taken as a 3 credits course or a 1 credit course.
 
-We hope you find this exciting and complete the sign up form to begin team formation! Once you have completed the sign up form, a member of our team will reach out with next steps. Lab leads will be assigned first, and each lab leader will reach out to potential lab members.
+We hope you find this exciting and complete the **[sign up form](https://go.dsgt-arc.org/clef2026-form)** to begin team formation! Once you have completed the sign up form, a member of our team will reach out with next steps. Lab leads will be assigned first, and each lab lead will reach out to potential lab members.
 
 Feel free to share this page and join us in [#applied-research-competitions](https://datasciencegt.slack.com/archives/C05MW3LPZFZ) by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 

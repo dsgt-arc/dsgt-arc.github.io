@@ -1,10 +1,10 @@
 +++
 title = 'Fall Semester'
 menu = 'main'
-weight = 2
+weight = 3
 +++
 
-# Fall Semester Interest Group
+# Fall Interest Group
 
 - **Sign up here:** [Interest Group Sign up Form](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform?usp=dialog)
 - **First Meeting Date:** Monday, August 25th, at 8PM EST
@@ -14,8 +14,9 @@ Are you interested in doing research but need help knowing where to start?
 Are you interested in sinking your teeth into applicable, real-world datasets to solve challenging problems? 
 **Join the [Data Science at Georgia Tech (DS@GT)](https://datasciencegt.org/) club as we tackle information retrieval and machine learning competitions at [CLEF 2026](https://clef2026.clef-initiative.eu/) in the Spring for our fifth year!**
 The DS@GT competition team has won $10,000 worth of prizes across four working note competitions, and have over 30 accepted working note papers into workshop proceedings.
-For CLEF 2025 alone, we had 43 published authors! 
-By joining us, you'll gain valuable experience, build a network of like-minded individuals, and have the opportunity to participate in competitive research. You can read more about our achievements on our [Impact](/impact) page. 
+For CLEF 2025 alone, we had 44 published authors! 
+By joining us, you'll gain valuable experience, build a network of like-minded individuals, and have the opportunity to participate in competitive research. 
+You can read more about our achievements on our [Impact](/impact) page. 
 
 The interest group takes place in the fall semester and our goal is to learn about data science and research competitions and strategies for success. 
 It will culminate in forming competition teams for CLEF 2026 located in Jena, Germany, a conference that systematically evaluates information access systems primarily through experimentation on shared tasks. 
@@ -61,7 +62,7 @@ Please [RSVP](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWb
 Feel free to share this page and join us in [#applied-research-competitions](https://datasciencegt.slack.com/archives/C05MW3LPZFZ) by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 
 ## Videos
-Here is a video where we shared our trip to CLEF 2024 in Grenoble, France during one of the meetings in the Fall. Four members were able to attend in-person and present their approches and results. 
+Here is a video where we shared our trip to CLEF 2024 in Grenoble, France during one of the meetings in the Fall. Four members were able to attend in-person and present their approaches and results. 
 <div class="video-responsive" align="center">
 <iframe src="https://www.youtube-nocookie.com/embed/xx9m2ymuGgM?si=c4uVd9NcCEarLl9T
 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

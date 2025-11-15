@@ -46,11 +46,5 @@ The group operates on a two-semester academic cycle.
   - **Outcome:** Competition submissions, published papers, presentation of work.
   - **Time Commitment:** ~100-150+ hours total (equivalent to a 2-3 unit course), varies by role and project intensity.
 
-## Team Structure
 
-- **Size:** Typically 3-5 members per team (including the lead). No more than 5 people on a single task due to complexity of sharing work.
-- **Composition:** Aim for a mix of skills and experience levels where possible, fostering inclusivity and knowledge sharing (e.g., pairing experienced members with newer ones).
-- **Roles:**
-  - **Task Lead:** Responsible for managing a task team in the Spring. Duties include registering the team, defining the technical approach/plan, conducting weekly meetings, delegating tasks, tracking progress, reporting updates, leading paper writing/submission, and confirming team members. Requires significant time commitment and technical/project management skills.
-  - **Task Member:** Responsible for actively contributing (coding, analysis, experiments), attending weekly meetings, reporting progress, contributing to the paper, and potentially presenting updates. Expected to have relevant technical skills (Python, Git, ML/data analysis basics) and commit sufficient time.
-- **Goal:** One team per competition task, with no overlap in tasks between teams.
+<!-- - **Goal:** One team per competition task, with no overlap in tasks between teams. -->

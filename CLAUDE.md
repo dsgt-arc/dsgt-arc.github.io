@@ -29,11 +29,17 @@ hugo
 
 ### Assets
 - **`/assets/css/custom.css`** - Custom styles for responsive videos, captioned images, and tables
+- **`/assets/js/theme-toggle.js`** - JavaScript for light/dark theme switching
 - **`/assets/images/`** - Images processed through Hugo's asset pipeline (optimized, fingerprinted)
 - **`/static/`** - Static files copied as-is to build output
 
 ### Theme
 Hugo-bearblog theme is managed as a git submodule in `/themes/hugo-bearblog/`. Customizations are made via layout overrides and custom CSS injection through `/layouts/partials/custom_head.html`.
+
+### Light/Dark Mode Toggle
+The site includes a theme toggle button in the header (upper right corner). Implementation:
+- **`/layouts/partials/header.html`** - Contains the toggle button
+- **`/assets/js/theme-toggle.js`** - Handles theme switching, persists preference in localStorage, and respects OS color scheme preference
 
 ## Key Workflows
 

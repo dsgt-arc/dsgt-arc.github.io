@@ -1,2 +1,5 @@
 {{ $customCSS := resources.Get "css/custom.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $customCSS.RelPermalink }}" integrity="{{ $customCSS.Data.Integrity }}">
+
+{{ $themeToggle := resources.Get "js/theme-toggle.js" | minify | fingerprint }}
+<script src="{{ $themeToggle.RelPermalink }}" integrity="{{ $themeToggle.Data.Integrity }}"></script>

@@ -1,7 +1,7 @@
-<a href="{{ "" | relURL }}" class="title">
-  <h2>{{ .Site.Title }}</h2>
-</a>
-<nav>
-  {{- partial "nav.html" . -}}
+<div class="header-top">
+  <a href="{{ "" | relURL }}" class="title">
+    <h2>{{ .Site.Title }}</h2>
+  </a>
   <button id="theme-toggle" aria-label="Toggle theme">&#127769;</button>
-</nav>
+</div>
+<nav>{{- partial "nav.html" . -}}</nav>

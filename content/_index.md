@@ -6,6 +6,11 @@ weight = 1
 
 # DS@GT Applied Research Competitions
 
+<div id="spotify-banner">
+  <iframe src="https://open.spotify.com/embed/episode/2LfGpvB0ip7xghKmvA1crN" width="350" height="200" frameborder="0" allowtransparency="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <p style="margin: -50px 0 0 0; font-size: 12px; text-align: center; color: var(--text-color);">OMSCS Buzz episode featuring DS@GT and Murilo!</p>
+</div>
+
 The [Data Science @ Georgia Tech (DS@GT)](https://datasciencegt.org) Applied Research Competitions (ARC) is a student-run research group focused on machine learning, information retrieval, and data-driven scientific modeling through participation in competitive research challenges.
 The group organizes participation in the [Conference and Labs of the Evaluation Forum (CLEF)](https://www.clef-initiative.eu) but also leverages platforms like [Kaggle](https://www.kaggle.com) and [PACE](https://pace.gatech.edu) for training and internal skill development.
 Our code is available on [GitHub](https://github.com/dsgt-arc).

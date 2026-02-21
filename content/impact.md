@@ -8,15 +8,16 @@ weight = 10
 
 ## Awards & Recognition
 
+- **Career, Research, Innovation, and Development Conference (CRIDC) Awards**
+  - [CRIDC 2026 Best Poster Award](https://grad.gatech.edu/news/award-winning-graduate-research-takes-center-stage-cridc-2026), $1,500 Travel Grant
+  - [PlantCLEF 2024, CRIDC 2025 Poster Competition, Vice Provost for Graduate and Postdoctoral Education Winner](https://grad.gatech.edu/news/cridc-2025-awards-40000-competition-winners), $2,000 Travel Grant
 - **Kaggle BirdCLEF Best Working Notes Award**
-  - [BirdCLEF 2022](https://www.kaggle.com/competitions/birdclef-2022/discussion/333581), $2,500 GCP credit
-  - [BirdCLEF 2023](https://www.kaggle.com/competitions/birdclef-2023/discussion/392897), $2,500 cash
-  - [BirdCLEF 2024](https://www.kaggle.com/competitions/birdclef-2024/discussion/506779), $2,500 cash
   - [BirdCLEF 2025](https://www.kaggle.com/competitions/birdclef-2025/discussion/567628), $2,500 cash
+  - [BirdCLEF 2024](https://www.kaggle.com/competitions/birdclef-2024/discussion/506779), $2,500 cash
+  - [BirdCLEF 2023](https://www.kaggle.com/competitions/birdclef-2023/discussion/392897), $2,500 cash
+  - [BirdCLEF 2022](https://www.kaggle.com/competitions/birdclef-2022/discussion/333581), $2,500 GCP credit
 - **OMSCS Project Showcase Award**
   - [PlantCLEF 2024, Spring 2024, Student Choice Award](https://mailchi.mp/cc.gatech.edu/omscs-conference-recap-spring-showcase-winners-announced-and-more)
-- **Career, Research, Innovation, and Development Conference (CRIDC) Awards**
-  - [PlantCLEF 2024, CRIDC 2025 Poster Competition, Vice Provost for Graduate and Postdoctoral Education Winner](https://grad.gatech.edu/news/cridc-2025-awards-40000-competition-winners), $2,000 Travel Grant
 
 ## Funding
 

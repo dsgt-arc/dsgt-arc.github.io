@@ -76,3 +76,26 @@ table td {
     border: 1px solid var(--text-color);
     text-align: center;
 }
+
+/* Spotify Banner */
+#spotify-banner {
+  position: fixed;
+  left: 250px;
+  top: 150px;
+  z-index: 1000;
+  background: var(--background-color);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#spotify-banner iframe {
+  border-radius: 5px;
+}
+
+/* Hide on mobile */
+@media (max-width: 768px) {
+  #spotify-banner {
+    display: none;
+  }
+}

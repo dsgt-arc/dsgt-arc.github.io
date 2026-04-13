@@ -21,4 +21,6 @@ Fall 2023 saw the establishment of the "Kaggle-CLEF Interest Group" model – a 
 <script async src="//www.instagram.com/embed.js"></script>
 </div>
 
-In Fall 2024, the group continued the Fall Interest Group model, refining the schedule, incorporating PACE cluster training, and securing access to Georgia Tech's PACE HPC cluster via PACESHIP alongside continued GCP use. This helped set up a larger Spring 2025 cycle with participation across nearly all CLEF labs, roughly 20 accepted papers, and about 55 authors across 15 labs.
+In Fall 2024, the group continued the Fall Interest Group model, refining the schedule, incorporating PACE cluster training, and securing access to Georgia Tech's PACE HPC cluster via PACESHIP alongside continued GCP use. That foundation supported a much larger Spring 2025 cycle: ARC reported 78 total participants, 44 published authors, 22 working note papers, and active participation across 14 CLEF labs. The group also received EVPR-PACESHIP support, continued to translate competition work into course credit, conference presentations, and external recognition, and sent 10 Georgia Tech representatives to present in person at CLEF 2025 in Madrid, Spain.
+
+Fall 2025 continued ARC's onboarding and preparation model for the next competition cycle. As of mid-Spring 2026, the Spring 2026 CLEF cycle is underway, while most new students are expected to enter through the next fall recruitment cycle.

@@ -10,7 +10,7 @@ weight = 10
 
 DS@GT ARC measures impact through publications, awards, funding, presentations, and sustained student participation in competitive research.
 
-For a fuller picture of the group's work, see our [publications](/publications/), [history](/history/), and current [recruitment pages](/spring_recruitment/).
+For a fuller picture of the group's work, see our [publications](/publications/), [history](/history/), and [Join](/join/) page.
 
 ## Awards & Recognition
 

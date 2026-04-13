@@ -1,9 +1,8 @@
 +++
-title = 'Spring CLEF Competition'
-linkTitle = 'Spring Semester'
+title = 'Spring 2026 CLEF Competition'
 description = 'Join the DS@GT ARC spring CLEF competition cycle and learn about eligibility, expectations, schedule, and team formation.'
-menu = 'main'
-weight = 2
+aliases = ['/spring_recruitment/']
+weight = 20
 +++
 
 # Spring CLEF 2026 Competition
@@ -18,12 +17,12 @@ For CLEF 2025 alone, we had 44 published authors!
 By joining us, you'll gain valuable experience, build a network of like-minded individuals, and have the opportunity to participate in competitive research. 
 You can read more about our achievements on our [Impact](/impact) page and browse prior [publications](/publications/) to see examples of ARC research outputs. 
 
-If you are new to ARC, reviewing the [Fall Interest Group](/fall_recruitment/), [FAQ](/faq/), and [Contact page](/contact-us/) may also help.
+If you are new to ARC, reviewing the [Join page](/join/), [Fall 2025 Interest Group](/join/fall-2025/), [FAQ](/faq/), and [Contact page](/contact-us/) may also help.
 
 The CLEF 2026 competition begins in March and ends in May, with working note papers submitted by the end of May. 
 **To participate with the DS@GT-ARC CLEF 2026 team, you should meet at least one of the following criterias**: 
 - Returning members of DS@GT ARC who have published working note(s) with us
-- Participated in the [2025 Fall Interest Group](/fall_recruitment/)
+- Participated in the [2025 Fall Interest Group](/join/fall-2025/)
 - Experienced students (please see the self-assessment section below)
 
 For those who are looking to earn academic credit for their research, we will also be offering an optional **CS8903 Special Problems** section for the first time. 

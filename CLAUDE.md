@@ -81,12 +81,13 @@ When making product/content decisions, prefer changes that improve one or more o
 - **`/hugo.toml`** - Main Hugo configuration
   - `baseURL = "https://dsgt-arc.org/"`
   - theme is `hugo-bearblog`
-  - the top nav is partly driven by front matter (`menu = 'main'`) and partly by explicit menu config
+  - the top nav is primarily driven by page front matter (`menu = 'main'`) for internal pages, with explicit menu config used for external links like `Notes`
   - Goldmark is configured with `unsafe = true`, so raw HTML in markdown is allowed
 - **`/wrangler.toml`** - Cloudflare deployment configuration; static assets are served from `./public`
 
 ### Content Structure
-- **`/content/`** - Markdown pages (homepage, publications, FAQ, recruitment pages, history, impact, contact)
+- **`/content/`** - Markdown pages (homepage, join flow, publications, FAQ, history, impact, contact)
+- **`/content/join/`** - Join landing page plus semester-specific recruitment/archive pages such as `fall-2025.md` and `spring-2026.md`
 - **`/archetypes/default.md`** - Default TOML front matter template for new content
 
 Most pages are standard Hugo content pages with TOML front matter such as:
@@ -161,8 +162,10 @@ There is currently **no in-repo GitHub Actions deployment workflow**, so do not 
 Create or edit markdown files in `/content/`.
 
 Use TOML front matter and, when appropriate:
-- `menu = 'main'` to place the page in navigation
-- `weight = ...` to control nav ordering
+- `menu = 'main'` to place a top-level internal page in navigation
+- `weight = ...` to control nav ordering or page ordering within a section
+
+For recruitment pages, prefer placing semester-specific content under `content/join/` and linking to it from the top-level `Join` page rather than placing each semester directly in the main nav.
 
 Because Hugo is configured with `goldmark.renderer.unsafe = true`, raw HTML such as embedded iframes may be used in markdown content.
 

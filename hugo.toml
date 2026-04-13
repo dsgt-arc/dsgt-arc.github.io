@@ -17,7 +17,7 @@ enableRobotsTXT = true
   [[menu.main]]
     name = "Notes"
     url = "https://notes.dsgt-arc.org"
-    weight = 15
+    weight = 110
 
 [markup]
   [markup.highlight]

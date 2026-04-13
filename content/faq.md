@@ -3,11 +3,11 @@ title = 'FAQ about DS@GT ARC and CLEF'
 linkTitle = 'FAQ'
 description = 'Find answers to common questions about DS@GT ARC, CLEF participation, team roles, expectations, and the time commitment for members.'
 menu = 'main'
-weight = 100
+weight = 30
 +++
 # FAQ
 
-This FAQ answers common questions about CLEF, team roles, participation expectations, and how DS@GT ARC operates. If you are looking for the fastest path to getting involved, start with the [Fall Interest Group](/fall_recruitment/), the [Spring CLEF Competition page](/spring_recruitment/), or [Contact us](/contact-us/).
+This FAQ answers common questions about CLEF, team roles, participation expectations, and how DS@GT ARC operates. If you are looking for the fastest path to getting involved, start with the [Join](/join/) page or [Contact us](/contact-us/).
 
 ## 1. What is CLEF?
 **CLEF** [(Conference and Labs of the Evaluation Forum)](https://www.clef-initiative.eu/) is an annual independent peer-reviewed conference that focuses on advancing research in information access systems, particularly in multilingual and multimodal contexts.

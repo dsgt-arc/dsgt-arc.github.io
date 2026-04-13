@@ -20,7 +20,7 @@ In addition to CLEF 2026, we plan to participate in [TREC 2025](https://trec.nis
 
 ## Explore ARC
 
-- Learn how to get involved through the [Fall Interest Group](/fall_recruitment/), [Spring CLEF Competition](/spring_recruitment/), and [Contact page](/contact-us/).
+- Learn how to get involved through the [Join page](/join/), the [Fall 2025 Interest Group](/join/fall-2025/), the [Spring 2026 CLEF Competition](/join/spring-2026/), and the [Contact page](/contact-us/).
 - Browse our [publications and working notes](/publications/) to see the research output produced by ARC teams.
 - Review [awards, funding, and group statistics](/impact/) to understand the group's impact.
 - Read the [group history](/history/) and [FAQ](/faq/) for more context on how ARC operates.

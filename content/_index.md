@@ -15,7 +15,7 @@ Our code is available on [GitHub](https://github.com/dsgt-arc).
 {{< img src="/images/20250910_clef_conference_madrid.jpg" alt="Group photo at CLEF 2025, Madrid, Spain, Sept 10th 2025" >}}
 
 We recently wrapped up our Spring 2025 semester with 22 accepted working note papers and 44 authors at [CLEF 2025](https://clef2025.clef-initiative.eu).
-We are preparing for the Fall 2025 Interest Group and Spring 2026 competition season.
+We are preparing for the [Fall 2025 Interest Group](/join/fall-2025/) and [Spring 2026 CLEF Competition](/join/spring-2026/) season — if you are new to ARC, start with the [Join page](/join/).
 In addition to CLEF 2026, we plan to participate in [TREC 2025](https://trec.nist.gov), [MediaEval 2025](https://multimediaeval.github.io), and [NTCIR 19](https://research.nii.ac.jp/ntcir/ntcir-19).
 
 ## Explore ARC
@@ -28,7 +28,7 @@ In addition to CLEF 2026, we plan to participate in [TREC 2025](https://trec.nis
 ## Membership
 
 ARC operates as a project group within the broader Data Science @ Georgia Tech student organization.
-Members are expected to be members of DS@GT and adhere to its general guidelines.
+Members are expected to be members of DS@GT and adhere to its general guidelines. New members should usually begin with the [Join page](/join/), which points to the right entry path for the current cycle.
 
 - **Eligibility:** Open to all Georgia Tech students (undergraduate, graduate - including OMSCS/OMSA, PhD), and alumni with student status (e.g., enrolled in a for-credit seminar). Both on-campus and online students participate actively.
 - **Requirements:** Members must be part of the parent DS@GT organization (including paying dues). Active participation, especially in the Fall, is crucial for Spring team placement.
@@ -44,12 +44,12 @@ Recordings of our Fall 2024 Interest Group can be found below and provide an ove
 
 The group operates on a two-semester academic cycle.
 
-- **Fall Semester: Interest Group & Preparation**
+- **[Fall Semester: Interest Group & Preparation](/join/fall-2025/)**
   - **Focus:** Introduction to competitive data science (Kaggle) and research competitions (CLEF).
   - **Activities:** Weekly meetings, EDA assignments, paper discussions, foundational skills training (e.g., PACE usage).
   - **Outcome:** Formation of motivated and prepared teams for the Spring semester.
   - **Time Commitment:** ~2-3 hours/week (equivalent to a 1-unit seminar).
-- **Spring Semester: Competition Execution & Publication**
+- **[Spring Semester: Competition Execution & Publication](/join/spring-2026/)**
   - **Focus:** Deep dive into specific CLEF tasks within dedicated teams.
   - **Activities:** Team-based research and development, model building, experimentation, result submission, writing and submitting working notes papers.
   - **Outcome:** Competition submissions, published papers, presentation of work.

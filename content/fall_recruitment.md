@@ -1,5 +1,6 @@
 +++
 title = 'Fall Semester'
+description = 'Learn about the DS@GT ARC fall interest group, prerequisites, meeting format, and how to prepare for spring research competitions.'
 menu = 'main'
 weight = 3
 +++

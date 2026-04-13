@@ -1,5 +1,6 @@
 +++
 title = 'History'
+description = 'Explore the history of DS@GT ARC from its founding in 2022 through its growth in competitive research, publications, and student participation.'
 menu = 'main'
 weight = 20
 +++

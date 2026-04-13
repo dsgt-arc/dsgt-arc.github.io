@@ -37,7 +37,7 @@ docker compose run --rm site hugo --gc --minify
 docker compose run --rm --entrypoint git site submodule update --init --recursive
 
 # run on a different host port
-HUGO_HOST_PORT=8080 HUGO_BASEURL=http://localhost:8080/ docker compose up --build
+HUGO_HOST_PORT=8080 SITE_BASEURL=http://localhost:8080/ docker compose up --build
 ```
 
 Notes:

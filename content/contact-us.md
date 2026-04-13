@@ -1,5 +1,6 @@
 +++
 title = 'Contact us'
+description = 'Contact DS@GT ARC, join the Slack channel, and find current recruitment and interest forms for getting involved.'
 menu = 'main'
 weight = 100
 +++

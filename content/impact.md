@@ -1,5 +1,6 @@
 +++
 title = 'Impact'
+description = 'See awards, funding, participation statistics, and research outcomes from DS@GT ARC across CLEF, Kaggle, and other competitions.'
 menu = 'main'
 weight = 10
 +++

@@ -3,3 +3,26 @@
 
 {{ $themeToggle := resources.Get "js/theme-toggle.js" | minify | fingerprint }}
 <script src="{{ $themeToggle.RelPermalink }}" integrity="{{ $themeToggle.Data.Integrity }}"></script>
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{ $defaultSocialImagePath := .Site.Params.defaultSocialImage | default "images/20240909_clef_conference_grenoble.jpeg" }}
+{{ with resources.Get $defaultSocialImagePath }}
+  {{ $socialImage := .Fill "1200x630 Center jpg q85" }}
+  <meta property="og:image" content="{{ $socialImage.Permalink }}">
+  <meta property="og:image:width" content="{{ $socialImage.Width }}">
+  <meta property="og:image:height" content="{{ $socialImage.Height }}">
+  <meta property="og:image:alt" content="DS@GT ARC group photo from CLEF 2024 in Grenoble, France">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ $socialImage.Permalink }}">
+{{ end }}
+
+{{ $organization := dict
+  "@context" "https://schema.org"
+  "@type" "Organization"
+  "name" (.Site.Params.organizationName | default .Site.Title)
+  "url" .Site.BaseURL
+  "description" .Site.Params.description
+  "sameAs" (slice .Site.Params.github .Site.Params.notes)
+}}
+<script type="application/ld+json">{{ $organization | jsonify | safeJS }}</script>

@@ -1,5 +1,6 @@
 +++
 title = 'Home'
+description = 'Learn about DS@GT Applied Research Competitions, a Georgia Tech student research group focused on machine learning, information retrieval, and competitive research challenges.'
 menu = 'main'
 weight = 1
 +++

@@ -2,8 +2,8 @@
 set -eu
 
 THEME_DIR="${THEME_DIR:-themes/hugo-bearblog}"
-DEFAULT_BASEURL="${HUGO_BASEURL:-http://localhost:1313/}"
-DEFAULT_POLL_INTERVAL="${HUGO_POLL_INTERVAL:-700ms}"
+DEFAULT_BASEURL="${SITE_BASEURL:-http://localhost:1313/}"
+DEFAULT_POLL_INTERVAL="${SITE_POLL_INTERVAL:-700ms}"
 
 require_theme() {
   if [ ! -d "$THEME_DIR" ] || [ -z "$(find "$THEME_DIR" -mindepth 1 -maxdepth 1 2>/dev/null)" ]; then

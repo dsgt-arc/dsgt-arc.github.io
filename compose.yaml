@@ -13,8 +13,8 @@ services:
       - hugo_cache:/tmp/hugo_cache
     environment:
       HUGO_CACHEDIR: /tmp/hugo_cache
-      HUGO_BASEURL: ${HUGO_BASEURL:-http://localhost:1313/}
-      HUGO_POLL_INTERVAL: ${HUGO_POLL_INTERVAL:-700ms}
+      SITE_BASEURL: ${SITE_BASEURL:-http://localhost:1313/}
+      SITE_POLL_INTERVAL: ${SITE_POLL_INTERVAL:-700ms}
 
 volumes:
   hugo_cache:

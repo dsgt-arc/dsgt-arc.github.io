@@ -2,11 +2,16 @@ baseURL = 'https://dsgt-arc.org/'
 languageCode = 'en-us'
 title = 'DS@GT ARC'
 theme = 'hugo-bearblog'
+enableRobotsTXT = true
 
 [params]
-  description = "Data Science at Georgia Tech - Applied Research Competitions"
+  description = "DS@GT Applied Research Competitions is a student-run research group at Georgia Tech focused on machine learning, information retrieval, and competitive research challenges."
   title = "DS@GT ARC"
   hideMadeWithLine = true
+  defaultSocialImage = 'images/20240909_clef_conference_grenoble.jpeg'
+  organizationName = 'DS@GT Applied Research Competitions'
+  github = 'https://github.com/dsgt-arc'
+  notes = 'https://notes.dsgt-arc.org'
 
 [menu]
   [[menu.main]]

@@ -1,5 +1,6 @@
 +++
 title = 'Spring Semester'
+description = 'Join the DS@GT ARC spring CLEF competition cycle and learn about eligibility, expectations, schedule, and team formation.'
 menu = 'main'
 weight = 2
 +++

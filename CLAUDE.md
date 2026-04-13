@@ -31,6 +31,42 @@ Before doing any meaningful work locally:
 
 Without the submodule, `themes/hugo-bearblog/` will be empty and the site will not render correctly.
 
+## Website Scope and Priorities
+
+This site should function primarily as the **public front door and durable archive** for DS@GT ARC.
+
+The highest-level goals of the website are to:
+1. explain what ARC is,
+2. show prospective members how to join,
+3. demonstrate impact and credibility, and
+4. preserve a historical record of the group's work.
+
+Primary audiences:
+- **Prospective members** looking to understand ARC, expectations, and how to get involved.
+- **External visitors** such as faculty, collaborators, recruiters, conference organizers, and prospective students.
+- **Current/future maintainers** who need the site to be easy to update and keep accurate.
+
+In-scope content areas:
+- organization overview,
+- join/recruitment information,
+- publications and related outputs,
+- impact (awards, talks, newsletters, recognition),
+- history/archive,
+- FAQ/contact/navigation.
+
+Out-of-scope or lower-priority directions:
+- turning the site into an internal operations portal,
+- adding a heavy dynamic web app/backend,
+- maintaining complex member profile systems unless there is a clear owner,
+- using the homepage as a real-time dashboard that will quickly go stale.
+
+When making product/content decisions, prefer changes that improve one or more of these qualities:
+- **clarity** - visitors should understand the group quickly,
+- **credibility** - the site should show concrete outputs and recognition,
+- **actionability** - visitors should know what to do next,
+- **maintainability** - updates should be easy enough that the site stays current,
+- **archival value** - important outputs should remain discoverable over time.
+
 ## Architecture
 
 ### Site Configuration
@@ -173,3 +209,17 @@ When making changes:
 - If a UI change does not appear, check whether a local layout override is shadowing the theme.
 - If publication data is updated but the page does not change, inspect `layouts/partials/list-publications.html` for hardcoded year logic.
 - If the site fails to render locally, verify Hugo is installed and the theme submodule is initialized.
+
+When deciding what to prioritize, favor changes that improve:
+- the **join/recruitment flow** for prospective members,
+- the **visibility and accuracy** of publications, talks, awards, and other outputs,
+- the **clarity of navigation and information architecture**,
+- the site's **SEO, accessibility, and maintainability**.
+
+When proposing new pages or features, ask whether they help visitors:
+- understand ARC,
+- join ARC,
+- trust ARC's impact, or
+- explore ARC's historical record.
+
+If a proposed addition does not clearly support one of those goals, consider whether it belongs on this site versus an internal notes/workflow system.

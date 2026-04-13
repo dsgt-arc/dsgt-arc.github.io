@@ -19,6 +19,8 @@ enableRobotsTXT = true
     url = "https://notes.dsgt-arc.org"
     weight = 110
 
+[taxonomies]
+
 [markup]
   [markup.highlight]
     style = 'friendly'

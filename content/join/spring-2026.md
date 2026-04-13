@@ -7,7 +7,10 @@ weight = 20
 
 # Spring CLEF 2026 Competition
 
-- **Sign up here:** [CLEF 2026 Competition Sign up Form](https://go.dsgt-arc.org/clef2026-form)
+The Spring 2026 competition cycle is currently underway. Team formation for this cycle is already in progress, so most new students should plan for the next Fall recruitment cycle instead of joining mid-semester.
+
+- **Cycle status:** active and underway
+- **Best path for most new students:** follow updates through the [Join page](/join/), the [DS@GT Slack channel](https://datasciencegt.slack.com/?redir=%2Farchives%2FC05MW3LPZFZ%3Fname%3DC05MW3LPZFZ), or [Contact](/contact-us/)
 
 Are you interested in doing research but need help knowing where to start? 
 Are you interested in sinking your teeth into applicable, real-world datasets to solve challenging problems? 
@@ -17,9 +20,9 @@ For CLEF 2025 alone, we had 44 published authors!
 By joining us, you'll gain valuable experience, build a network of like-minded individuals, and have the opportunity to participate in competitive research. 
 You can read more about our achievements on our [Impact](/impact) page and browse prior [publications](/publications/) to see examples of ARC research outputs. 
 
-If you are new to ARC, reviewing the [Join page](/join/), [Fall 2025 Interest Group](/join/fall-2025/), [FAQ](/faq/), and [Contact page](/contact-us/) may also help.
+If you are new to ARC, reviewing the [Join page](/join/), the archived [Fall 2025 Interest Group](/join/fall-2025/), [FAQ](/faq/), and [Contact page](/contact-us/) may also help.
 
-The CLEF 2026 competition begins in March and ends in May, with working note papers submitted by the end of May. 
+The CLEF 2026 competition is now in progress, with team research and experiments underway during the spring semester and working note papers submitted near the end of the cycle. 
 **To participate with the DS@GT-ARC CLEF 2026 team, you should meet at least one of the following criterias**: 
 - Returning members of DS@GT ARC who have published working note(s) with us
 - Participated in the [2025 Fall Interest Group](/join/fall-2025/)
@@ -31,7 +34,7 @@ Seats in the course will be limited, and completing the sign-up form does not gu
 If you’re an Alumnus and would like to join our research group in the spring, you will be required to register for CS 8903 (or any other course) for [PACE](https://pace.gatech.edu/) access. 
 CS8903 may be taken as a 3 credits course or a 1 credit course.
 
-We hope you find this exciting and complete the **[sign up form](https://go.dsgt-arc.org/clef2026-form)** to begin team formation! Once you have completed the sign up form, a member of our team will reach out with next steps. Lab leads will be assigned first, and each lab lead will reach out to potential lab members.
+Team formation for Spring 2026 is no longer the primary entry point for most new students. If you want to get involved with ARC, the best next step is to monitor the [Join page](/join/) and join the [DS@GT Slack channel](https://datasciencegt.slack.com/?redir=%2Farchives%2FC05MW3LPZFZ%3Fname%3DC05MW3LPZFZ) for future recruitment updates.
 
 Feel free to share this page and join us in [#applied-research-competitions](https://datasciencegt.slack.com/archives/C05MW3LPZFZ) by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 
@@ -66,7 +69,7 @@ The rough general schedule for the spring semester is as follows:
   - **Lab Member:** Responsible for actively contributing (coding, analysis, experiments), attending weekly meetings, reporting progress, contributing to the paper, and potentially presenting updates. Expected to have relevant technical skills (Python, Git, ML/data analysis basics) and commit sufficient time.
 
 ## Available Labs and Lab Leads
-While all labs currently have opportunities for new members to join. We will <mark>highlight the labs</mark> when at full capacity:
+This list reflects the labs ARC has been tracking during the Spring 2026 cycle. Capacity and participation status may change over the semester:
 
 * **[BioASQ](https://www.bioasq.org/workshop2026): Large-scale Biomedical Semantic Indexing and Question Answering**
   - TBD

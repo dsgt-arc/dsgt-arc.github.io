@@ -14,15 +14,15 @@ ARC gives students a path into applied research through team-based competition w
 
 {{< img src="/images/20250910_clef_conference_madrid.jpg" alt="Group photo at CLEF 2025, Madrid, Spain, Sept 10th 2025" >}}
 
-We recently wrapped up our Spring 2025 semester with 22 accepted working note papers and 44 authors at [CLEF 2025](https://clef2025.clef-initiative.eu). We are now preparing for the [Fall 2025 Interest Group](/join/fall-2025/) and [Spring 2026 CLEF Competition](/join/spring-2026/).
+The [Spring 2026 CLEF Competition](/join/spring-2026/) cycle is now underway, building on our Spring 2025 semester with 22 accepted working note papers and 44 authors at [CLEF 2025](https://clef2025.clef-initiative.eu).
 
-In addition to CLEF 2026, we plan to participate in [TREC 2025](https://trec.nist.gov), [MediaEval 2025](https://multimediaeval.github.io), and [NTCIR 19](https://research.nii.ac.jp/ntcir/ntcir-19).
+In addition to CLEF, ARC has also participated in venues such as [TREC](https://trec.nist.gov), [MediaEval](https://multimediaeval.github.io), and [NTCIR](https://research.nii.ac.jp/ntcir/ntcir-19).
 
-New here? Start with the [Join page](/join/).
+New here? The next main entry point for most students will be Fall 2026 recruitment, so start with the [Join page](/join/) for current status and contact information.
 
 ## Explore ARC
 
-- Learn how to get involved through the [Join page](/join/), the [Fall 2025 Interest Group](/join/fall-2025/), the [Spring 2026 CLEF Competition](/join/spring-2026/), and the [Contact page](/contact-us/).
+- Learn how to get involved through the [Join page](/join/), review the current [Spring 2026 CLEF Competition](/join/spring-2026/), browse the archived [Fall 2025 Interest Group](/join/fall-2025/), and use the [Contact page](/contact-us/) if you still have questions.
 - Browse our [publications and working notes](/publications/) to see the research output produced by ARC teams.
 - Review [awards, funding, and group statistics](/impact/) to understand the group's impact.
 - Read the [group history](/history/) and [FAQ](/faq/) for more context on how ARC operates.

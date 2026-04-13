@@ -47,8 +47,7 @@ A **Lab member** is responsible for the following:
 Team leads and members are expected to commit time, have strong programming skills, and be legitimately curious about the lab and task.
 
 ## 5. How do I become a team lead for a task?
-Apply in the form DS@GT CLEF 2026 Competition Signup (Form TBD) and specify your desired role (team lead or team member). 
-If you apply to be a team lead, reach out to Anthony Miyaguchi (acmiyaguchi at gatech.edu) or Murilo Gustineli (murilogustineli at gatech.edu) with an overview of your proposed solution for the particular task.
+Team lead selection typically happens before the spring competition cycle begins. If you are interested in leading a future task, monitor the [Join page](/join/) and reach out to Anthony Miyaguchi (acmiyaguchi at gatech.edu) or Murilo Gustineli (murilogustineli at gatech.edu) with an overview of your proposed solution for the particular task.
 
 ## 6. What is the time commitment required to participate?
 The time commitment varies depending on your role and the effort you want to put in. 
@@ -63,8 +62,7 @@ No. A person can be part of one or more teams.
 But a team can only do one task.
 
 ## 8. Why can’t I edit the meeting documents?
-You must join the **CLEF 2026 Google Group** (TBD) to be able to edit the meeting documents.  
-This functionality will be granted to you *after joining*.
+Meeting documents and collaboration resources are typically shared with active participants after team formation. If you think you should already have access, ask in the DS@GT Slack or use the [Contact page](/contact-us/).
 
 ## 9. Is this opportunity only available for current students, or can alumni participate as well?
 This opportunity is not limited to current students—GT alumni are also welcome to join our group! 
@@ -93,9 +91,8 @@ You can find more information on the [Graduate Forms & Procedures | College of C
 This course offers a general introduction to research methods and computer science research. 
 Unlike CS 8903, you can register for this course as part of your regular course selection in the OMSCS program.
 
-## 11. What are the labs available at CLEF 2025?
-Below is a short overview of the labs under the CLEF 2024 conference. 
-You may find more information on each lab by reviewing their respective overview papers on the CLEF working notes page: [CEUR-WS.org/Vol-3740 - Working Notes of CLEF 2024](https://ceur-ws.org/Vol-3740/)
+## 11. What kinds of labs are available through CLEF?
+Below is a short overview of labs commonly represented in the CLEF ecosystem. You may find more information by reviewing their official lab pages and recent CLEF working notes: [CEUR-WS.org/Vol-3740 - Working Notes of CLEF 2024](https://ceur-ws.org/Vol-3740/)
 
 ### BioASQ
 The aim of the BioASQ Lab is to push the research frontier towards systems that use the diverse and voluminous information available online to respond directly to the information needs of biomedical scientists.

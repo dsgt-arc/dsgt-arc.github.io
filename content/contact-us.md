@@ -1,7 +1,7 @@
 +++
 title = 'Contact and Join DS@GT ARC'
 linkTitle = 'Contact'
-description = 'Contact DS@GT ARC, join the Slack channel, and find current recruitment and interest forms for getting involved.'
+description = 'Contact DS@GT ARC, join the Slack channel, and get the latest information about upcoming recruitment cycles.'
 menu = 'main'
 weight = 40
 +++
@@ -21,7 +21,7 @@ For specific inquiries on our club please reach out to.
 *   **Ritesh Mehta**: rmehta307 at gatech.edu
 *   **Jason Tam**: jtam30 at gatech.edu
 
-## Current forms
+## Current join status
 
-For current sign-up forms and the best path into the group, please use the [Join page](/join/).
+The Spring 2026 cycle is already underway. For most new members, the next main entry point will be Fall 2026 recruitment. Please use the [Join page](/join/) for the latest status.
 

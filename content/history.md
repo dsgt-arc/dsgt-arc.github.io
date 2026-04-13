@@ -10,7 +10,7 @@ weight = 20
 
 This page summarizes the history of DS@GT ARC from its founding through its expansion in student participation, publications, and competition results.
 
-For current opportunities, visit the [Join](/join/) page, the [Fall 2025 Interest Group](/join/fall-2025/), or the [Spring 2026 CLEF Competition](/join/spring-2026/). For outcomes, see [Impact](/impact/) and [Publications](/publications/).
+For current cycle status and upcoming recruitment, visit the [Join](/join/) page. For outcomes, see [Impact](/impact/) and [Publications](/publications/).
 
 The group began in Spring 2022 with participation in the BirdCLEF 2022 competition, where it won the Best Working Notes Award ($2,500 GCP credits). In Fall 2022, a preparatory "EDA" group focused on BirdCLEF data was formalized. The group continued its success in Spring 2023, participating in BirdCLEF 2023 and again winning the Best Working Notes Award ($2,500 cash).
 
@@ -21,4 +21,4 @@ Fall 2023 saw the establishment of the "Kaggle-CLEF Interest Group" model – a 
 <script async src="//www.instagram.com/embed.js"></script>
 </div>
 
-In Fall 2024, the group continued the Fall Interest Group model, refining the schedule, incorporating PACE cluster training, and securing access to Georgia Tech's PACE HPC cluster via PACESHIP alongside continued GCP use. The aim was to have over 50 participants. For Spring 2025, the group aims for participation across all CLEF labs (~15), targeting 50 active members and 15 accepted papers, and is currently on track for potentially 20 papers and 55 authors across 15 labs.
+In Fall 2024, the group continued the Fall Interest Group model, refining the schedule, incorporating PACE cluster training, and securing access to Georgia Tech's PACE HPC cluster via PACESHIP alongside continued GCP use. This helped set up a larger Spring 2025 cycle with participation across nearly all CLEF labs, roughly 20 accepted papers, and about 55 authors across 15 labs.

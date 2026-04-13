@@ -7,7 +7,7 @@ weight = 30
 +++
 # FAQ
 
-This FAQ answers common questions about CLEF, team roles, participation expectations, and how DS@GT ARC operates. If you are looking for the fastest path to getting involved, start with the [Join](/join/) page or [Contact us](/contact-us/).
+This FAQ answers common questions about CLEF, team roles, participation expectations, and how DS@GT ARC operates. If you are new to ARC, start with the [Join](/join/) page.
 
 ## 1. What is CLEF?
 **CLEF** [(Conference and Labs of the Evaluation Forum)](https://www.clef-initiative.eu/) is an annual independent peer-reviewed conference that focuses on advancing research in information access systems, particularly in multilingual and multimodal contexts.

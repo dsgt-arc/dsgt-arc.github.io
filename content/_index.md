@@ -27,8 +27,9 @@ In addition to CLEF 2026, we plan to participate in [TREC 2025](https://trec.nis
 
 ## Membership
 
-ARC operates as a project group within the broader Data Science @ Georgia Tech student organization.
-Members are expected to be members of DS@GT and adhere to its general guidelines. New members should usually begin with the [Join page](/join/), which points to the right entry path for the current cycle.
+ARC operates as a project group within the broader Data Science @ Georgia Tech student organization. New members should usually begin with the [Join page](/join/), which points to the right entry path for the current cycle.
+
+Members are expected to be members of DS@GT and adhere to its general guidelines.
 
 - **Eligibility:** Open to all Georgia Tech students (undergraduate, graduate - including OMSCS/OMSA, PhD), and alumni with student status (e.g., enrolled in a for-credit seminar). Both on-campus and online students participate actively.
 - **Requirements:** Members must be part of the parent DS@GT organization (including paying dues). Active participation, especially in the Fall, is crucial for Spring team placement.

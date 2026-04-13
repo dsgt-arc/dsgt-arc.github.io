@@ -5,9 +5,9 @@ description = 'Contact DS@GT ARC, join the Slack channel, and find current recru
 menu = 'main'
 weight = 40
 +++
-# Contact/How to Join Us
+# Contact ARC
 
-If you are exploring the group for the first time, start with the [Join page](/join/), the [FAQ](/faq/), and the current [Fall 2025 Interest Group](/join/fall-2025/) and [Spring 2026 CLEF Competition](/join/spring-2026/) pages. You can also browse our [publications](/publications/) and [impact](/impact/) to understand the type of work ARC produces.
+If you are new to ARC, start with the [Join page](/join/). This page is mainly for direct contact information.
 
 ## Slack channel
 
@@ -21,7 +21,7 @@ For specific inquiries on our club please reach out to.
 *   **Ritesh Mehta**: rmehta307 at gatech.edu
 *   **Jason Tam**: jtam30 at gatech.edu
 
-## Fall 2025 interest form
+## Current forms
 
-For Fall 2025 recruitment initiatives, please fill out the following form: [Link](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform)
+For current sign-up forms and the best path into the group, please use the [Join page](/join/).
 

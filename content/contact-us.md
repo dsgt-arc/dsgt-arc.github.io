@@ -1,10 +1,13 @@
 +++
-title = 'Contact us'
+title = 'Contact and Join DS@GT ARC'
+linkTitle = 'Contact us'
 description = 'Contact DS@GT ARC, join the Slack channel, and find current recruitment and interest forms for getting involved.'
 menu = 'main'
 weight = 100
 +++
 # Contact/How to Join Us
+
+If you are exploring the group for the first time, start with the [Fall Interest Group](/fall_recruitment/), the [Spring CLEF Competition page](/spring_recruitment/), and the [FAQ](/faq/). You can also browse our [publications](/publications/) and [impact](/impact/) to understand the type of work ARC produces.
 
 ## Slack channel
 

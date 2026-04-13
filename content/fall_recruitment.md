@@ -1,5 +1,6 @@
 +++
-title = 'Fall Semester'
+title = 'Fall Interest Group'
+linkTitle = 'Fall Semester'
 description = 'Learn about the DS@GT ARC fall interest group, prerequisites, meeting format, and how to prepare for spring research competitions.'
 menu = 'main'
 weight = 3
@@ -17,7 +18,9 @@ Are you interested in sinking your teeth into applicable, real-world datasets to
 The DS@GT competition team has won $10,000 worth of prizes across four working note competitions, and have over 30 accepted working note papers into workshop proceedings.
 For CLEF 2025 alone, we had 44 published authors! 
 By joining us, you'll gain valuable experience, build a network of like-minded individuals, and have the opportunity to participate in competitive research. 
-You can read more about our achievements on our [Impact](/impact) page. 
+You can read more about our achievements on our [Impact](/impact) page and browse prior [publications](/publications/) to see what teams produce. 
+
+If you are deciding whether ARC is a good fit, you may also want to read our [FAQ](/faq/) and [history](/history/).
 
 The interest group takes place in the fall semester and our goal is to learn about data science and research competitions and strategies for success. 
 It will culminate in forming competition teams for CLEF 2026 located in Jena, Germany, a conference that systematically evaluates information access systems primarily through experimentation on shared tasks. 

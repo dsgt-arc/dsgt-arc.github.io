@@ -1,11 +1,16 @@
 +++
-title = 'History'
+title = 'History of DS@GT ARC'
+linkTitle = 'History'
 description = 'Explore the history of DS@GT ARC from its founding in 2022 through its growth in competitive research, publications, and student participation.'
 menu = 'main'
 weight = 20
 +++
 
 # History
+
+This page summarizes the history of DS@GT ARC from its founding through its expansion in student participation, publications, and competition results.
+
+For current opportunities, visit the [Fall Interest Group](/fall_recruitment/) or [Spring CLEF Competition](/spring_recruitment/). For outcomes, see [Impact](/impact/) and [Publications](/publications/).
 
 The group began in Spring 2022 with participation in the BirdCLEF 2022 competition, where it won the Best Working Notes Award ($2,500 GCP credits). In Fall 2022, a preparatory "EDA" group focused on BirdCLEF data was formalized. The group continued its success in Spring 2023, participating in BirdCLEF 2023 and again winning the Best Working Notes Award ($2,500 cash).
 

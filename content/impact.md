@@ -1,11 +1,16 @@
 +++
-title = 'Impact'
+title = 'Impact, Awards, and Recognition'
+linkTitle = 'Impact'
 description = 'See awards, funding, participation statistics, and research outcomes from DS@GT ARC across CLEF, Kaggle, and other competitions.'
 menu = 'main'
 weight = 10
 +++
 
 # Impact
+
+DS@GT ARC measures impact through publications, awards, funding, presentations, and sustained student participation in competitive research.
+
+For a fuller picture of the group's work, see our [publications](/publications/), [history](/history/), and current [recruitment pages](/spring_recruitment/).
 
 ## Awards & Recognition
 

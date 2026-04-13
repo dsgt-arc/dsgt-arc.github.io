@@ -1,5 +1,6 @@
 +++
-title = 'Home'
+title = 'DS@GT Applied Research Competitions at Georgia Tech'
+linkTitle = 'Home'
 description = 'Learn about DS@GT Applied Research Competitions, a Georgia Tech student research group focused on machine learning, information retrieval, and competitive research challenges.'
 menu = 'main'
 weight = 1
@@ -16,6 +17,13 @@ Our code is available on [GitHub](https://github.com/dsgt-arc).
 We recently wrapped up our Spring 2025 semester with 22 accepted working note papers and 44 authors at [CLEF 2025](https://clef2025.clef-initiative.eu).
 We are preparing for the Fall 2025 Interest Group and Spring 2026 competition season.
 In addition to CLEF 2026, we plan to participate in [TREC 2025](https://trec.nist.gov), [MediaEval 2025](https://multimediaeval.github.io), and [NTCIR 19](https://research.nii.ac.jp/ntcir/ntcir-19).
+
+## Explore ARC
+
+- Learn how to get involved through the [Fall Interest Group](/fall_recruitment/), [Spring CLEF Competition](/spring_recruitment/), and [Contact page](/contact-us/).
+- Browse our [publications and working notes](/publications/) to see the research output produced by ARC teams.
+- Review [awards, funding, and group statistics](/impact/) to understand the group's impact.
+- Read the [group history](/history/) and [FAQ](/faq/) for more context on how ARC operates.
 
 ## Membership
 

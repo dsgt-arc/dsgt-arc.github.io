@@ -1,5 +1,5 @@
 +++
-title = 'DS@GT Applied Research Competitions at Georgia Tech'
+title = 'DS@GT Applied Research Competitions'
 linkTitle = 'Home'
 description = 'Learn about DS@GT Applied Research Competitions, a Georgia Tech student research group focused on machine learning, information retrieval, and competitive research challenges.'
 menu = 'main'

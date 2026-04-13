@@ -5,7 +5,7 @@ aliases = ['/spring_recruitment/']
 weight = 20
 +++
 
-# Spring CLEF 2026 Competition
+# Spring 2026 CLEF Competition
 
 The Spring 2026 competition cycle is currently underway. Team formation for this cycle is already in progress, so most new students should plan for the next Fall recruitment cycle instead of joining mid-semester.
 

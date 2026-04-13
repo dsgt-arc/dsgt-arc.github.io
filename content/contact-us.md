@@ -1,11 +1,11 @@
 +++
-title = 'Contact and Join DS@GT ARC'
+title = 'Contact'
 linkTitle = 'Contact'
 description = 'Contact DS@GT ARC, join the Slack channel, and get the latest information about upcoming recruitment cycles.'
 menu = 'main'
 weight = 40
 +++
-# Contact ARC
+# Contact
 
 If you are new to ARC, start with the [Join page](/join/). This page is mainly for direct contact information.
 

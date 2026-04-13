@@ -1,5 +1,5 @@
 +++
-title = 'History of DS@GT ARC'
+title = 'History'
 linkTitle = 'History'
 description = 'Explore the history of DS@GT ARC from its founding in 2022 through its growth in competitive research, publications, and student participation.'
 menu = 'main'

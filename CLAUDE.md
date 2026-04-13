@@ -12,10 +12,16 @@ This is the website for **DS@GT Applied Research Competitions (ARC)**, a student
 # Initialize the theme submodule after cloning
 git submodule update --init --recursive
 
-# Local development server (includes draft content)
+# Docker-based local development server with hot reload
+docker compose up --build
+
+# Docker production build (outputs to /public)
+docker compose run --rm site hugo
+
+# Host-based local development server (includes draft content)
 hugo server -D
 
-# Build production site (outputs to /public)
+# Host-based production build (outputs to /public)
 hugo
 ```
 
@@ -23,13 +29,15 @@ hugo
 
 Before doing any meaningful work locally:
 
-1. Install **Hugo**.
-2. Initialize the theme submodule:
+1. Initialize the theme submodule:
    ```bash
    git submodule update --init --recursive
    ```
+2. Use either:
+   - **Docker + Docker Compose** via `docker compose up --build`, or
+   - a host installation of **Hugo** via `hugo server -D`.
 
-Without the submodule, `themes/hugo-bearblog/` will be empty and the site will not render correctly.
+Without the submodule, `themes/hugo-bearblog/` will be empty and the site will not render correctly. The Docker entrypoint also fails fast with a clear error if the submodule is missing.
 
 ## Website Scope and Priorities
 
@@ -208,7 +216,9 @@ When making changes:
 - Prefer editing files under `/content/`, `/data/`, `/layouts/`, and `/assets/` before touching the theme submodule.
 - If a UI change does not appear, check whether a local layout override is shadowing the theme.
 - If publication data is updated but the page does not change, inspect `layouts/partials/list-publications.html` for hardcoded year logic.
-- If the site fails to render locally, verify Hugo is installed and the theme submodule is initialized.
+- For local preview, prefer the Docker workflow first: `docker compose up --build`.
+- If the site fails to render locally, verify the theme submodule is initialized. If Hugo is unavailable on the host, use Docker instead.
+- For Docker-based builds, use `docker compose run --rm site hugo`.
 
 When deciding what to prioritize, favor changes that improve:
 - the **join/recruitment flow** for prospective members,

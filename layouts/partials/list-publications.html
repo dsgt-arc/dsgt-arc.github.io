@@ -1,30 +1,41 @@
 <!-- beautify ignore:start -->
 {{ $publications := .Site.Data.publications }}
-{{ range $year := (slice 2025 2024 2023 2022) }}
+{{ $years := slice }}
+{{ range $publications }}
+    {{ $years = $years | append .year }}
+{{ end }}
+{{ $uniqueYears := collections.Reverse ($years | uniq | sort) }}
+
+{{ range $year := $uniqueYears }}
     {{ $yearPubs := where $publications "year" $year }}
     {{ if $yearPubs }}
         {{ $venues := slice }}
         {{ range $yearPubs }}
-        {{ if not (in $venues .short_venue) }} 
-            {{ $venues = $venues | append .short_venue }} 
-        {{ end }}
-    {{ end }}
-
-    {{ range $venue := $venues }}
-        <h2>{{ $venue }} {{ $year }}</h2>
-        <ul>
-            {{ range $publications }}
-                {{ if and (eq .year $year) (eq .short_venue $venue) }}
-                <li>
-                    <strong><em>{{ .title }}</em></strong>
-                    {{ with .url_paper }}<a href="{{ . }}"> [Paper]</a>{{ end }}
-                    {{ with .url_code }}<a href="{{ . }}"> [Code]</a>{{ end }}
-                    <br>
-                    {{ range $index, $author := .authors }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}
-                </li>
-                {{ end }}
+            {{ if not (in $venues .short_venue) }} 
+                {{ $venues = $venues | append .short_venue }} 
             {{ end }}
-        </ul>
+        {{ end }}
+
+        {{ range $venue := $venues }}
+            <h2>{{ $venue }} {{ $year }}</h2>
+            <ul>
+                {{ range $publications }}
+                    {{ if and (eq .year $year) (eq .short_venue $venue) }}
+                    <li>
+                        <strong><em>{{ .title }}</em></strong>
+                        {{ with .url_paper }}<a href="{{ . }}"> [Paper]</a>{{ end }}
+                        {{ with .url_ceur }}<a href="{{ . }}"> [CEUR]</a>{{ end }}
+                        {{ with .url_arxiv }}<a href="{{ . }}"> [arXiv]</a>{{ end }}
+                        {{ with .url_code }}<a href="{{ . }}"> [Code]</a>{{ end }}
+                        {{ with .url_slides }}<a href="{{ . }}"> [Slides]</a>{{ end }}
+                        {{ with .url_project }}<a href="{{ . }}"> [Project]</a>{{ end }}
+                        {{ with .doi }}<a href="https://doi.org/{{ . }}"> [DOI]</a>{{ end }}
+                        <br>
+                        {{ range $index, $author := .authors }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}
+                    </li>
+                    {{ end }}
+                {{ end }}
+            </ul>
         {{ end }}
     {{ end }}
 {{ end }}

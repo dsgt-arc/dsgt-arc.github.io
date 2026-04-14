@@ -11,9 +11,13 @@
 #   year: (Number) The publication year.
 #   venue: (String) The full name of the conference, workshop, or journal.
 #   short_venue: (String) An abbreviated name for display (e.g., "CLEF").
-#   url_paper: (String) A direct URL to the PDF or publication page.
+#   url_paper: (String, Optional) A direct URL to the PDF or publication page.
+#   url_ceur: (String, Optional) A URL to the CEUR-WS publication page.
+#   url_arxiv: (String, Optional) A URL to the arXiv preprint page.
 #   url_code: (String, Optional) A URL to the code repository.
 #   url_slides: (String, Optional) A URL to a presentation slideshow.
+#   url_project: (String, Optional) A URL to a project or demo website.
+#   doi: (String, Optional) The DOI of the publication (e.g., "10.1007/978-3-031-28244-7_28").
 #   abstract: (String, Optional) The paper's abstract.
 #   keywords: (List, Optional) A list of keywords for filtering and searching.
 #   bibtex: (Multiline String, Optional) The full BibTeX entry for easy citation.
@@ -31,7 +35,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.05577"
+  url_arxiv: "https://arxiv.org/abs/2507.05577"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-666.pdf"
   url_code: "https://github.com/dsgt-arc/bioasq-2025-1b-1"
 
 - title: "DS@GT at Touché: Large Language Models for Retrieval-Augmented Debate"
@@ -42,7 +47,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-4641.pdf"
   url_code: "https://github.com/dsgt-arc/touche-2025-rad"
 
 - title: "Enhancing Biomedical Named Entity Recognition using GLiNER-BioMed with Targeted Dictionary-Based Post-processing for BioASQ 2025 task 6"
@@ -51,7 +56,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-460.pdf"
 
 - title: "DS@GT at CheckThat! 2025: A Simple Retrieval-First, LLM-Backed Framework for Claim Normalization"
   authors:
@@ -61,7 +66,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-1096.pdf"
 
 - title: "DS@GT at CheckThat! 2025 - Ensemble Methods for Detection of Scientific Discourse on Social Media"
   authors:
@@ -72,7 +77,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.06205"
+  url_arxiv: "https://arxiv.org/abs/2507.06205"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-1084.pdf"
 
 - title: "DS@GT at CheckThat! 2025: Exploring Retrieval and Reranking Pipelines for Scientific Claim Source Retrieval on Social Media Discourse"
   authors:
@@ -83,7 +89,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.06563"
+  url_arxiv: "https://arxiv.org/abs/2507.06563"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-1193.pdf"
 
 - title: "DS@GT at CheckThat! 2025: Detecting Subjectivity via Transfer-Learning and Corrective Data Augmentation"
   authors:
@@ -92,7 +99,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.06189"
+  url_arxiv: "https://arxiv.org/abs/2507.06189"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-977.pdf"
 
 - title: "DS@GT at CheckThat! 2025: Evaluating Context and Tokenization Strategies for Numerical Fact Verification"
   authors:
@@ -101,7 +109,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.06195"
+  url_arxiv: "https://arxiv.org/abs/2507.06195"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-988.pdf"
 
 - title: "DS@GT at eRisk 2025: From prompts to predictions, benchmarking early depression detection with conversational agent based assessments and temporal attention models"
   authors:
@@ -112,7 +121,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.10958"
+  url_arxiv: "https://arxiv.org/abs/2507.10958"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-1590.pdf"
 
 - title: "Tackling Sexism in Multimodal Social Media: Exploring Hybrid Generative-Transformer models"
   authors:
@@ -123,7 +133,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-1777.pdf"
 
 - title: "Pun Intended: Multi-Agent Translation of Wordplay with Contrastive Learning and Phonetic-Semantic Embeddings"
   authors:
@@ -133,7 +143,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.06506"
+  url_arxiv: "https://arxiv.org/abs/2507.06506"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-2870.pdf"
 
 - title: "DS@GT AnimalCLEF: Triplet Learning over ViT Manifolds with Nearest Neighbor Classification for Animal Re-identification"
   authors:
@@ -143,7 +154,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-3128.pdf"
 
 - title: "Distilling Spectrograms into Tokens: Fast and Lightweight Bioacoustic Classification for BirdCLEF+ 2025"
   authors:
@@ -153,7 +164,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.08236"
+  url_arxiv: "https://arxiv.org/abs/2507.08236"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-3111.pdf"
   url_code: "https://github.com/dsgt-arc/birdclef-2025"
 
 - title: "Transfer Learning and Mixup for Fine-Grained Few-Shot Fungi Classification"
@@ -164,7 +176,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.08248"
+  url_arxiv: "https://arxiv.org/abs/2507.08248"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-3229.pdf"
   url_code: "https://github.com/dsgt-arc/fungiclef-2025"
 
 - title: "Tile-Based ViT Inference with Visual-Cluster Priors for Zero-Shot Multi-Species Plant Identification"
@@ -176,7 +189,8 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.06093"
+  url_arxiv: "https://arxiv.org/abs/2507.06093"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-3029.pdf"
   url_code: "https://github.com/dsgt-arc/plantclef-2025"
 
 - title: "DS@GT at LongEval: Evaluating Temporal Performance in Web Search Systems and Topics with Two-Stage Retrieval"
@@ -187,18 +201,20 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.08360"
+  url_arxiv: "https://arxiv.org/abs/2507.08360"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-3475.pdf"
   url_code: "https://github.com/dsgt-arc/longeval-2025"
 
 - title: "Cultivating Multimodal Intelligence: Interpretive Reasoning and Agentic RAG Approaches to Dermatological Diagnosis"
   authors:
-    - Karishma Thakrar
-    - Shreyas Basavatia
-    - Akshay Daftardar
+    - "Karishma Thakrar"
+    - "Shreyas Basavatia"
+    - "Akshay Daftardar"
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.05520"
+  url_arxiv: "https://arxiv.org/abs/2507.05520"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-2651.pdf"
 
 - title: "Binoculars, BART, and Adversaries: Multi-Faceted AI Text Detection for PAN 2025"
   authors:
@@ -208,7 +224,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-3875.pdf"
 
 - title: "Quantum Annealing for Machine Learning: Applications in Feature Selection, Instance Selection, and Clustering"
   authors:
@@ -219,7 +235,7 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-4141.pdf"
 
 - title: "LLM-Guided Planning and Summary-Based Scientific Text Simplification: DS@GT at CLEF 2025 SimpleText"
   authors:
@@ -228,7 +244,16 @@
   year: 2025
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: ""
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-4338.pdf"
+
+- title: "Hallucination Detection and Mitigation in Scientific Text Simplification using Ensemble Approaches"
+  authors:
+    - "Krishna Chaitanya Marturi"
+    - "Heba H. Elwazzan"
+  year: 2025
+  venue: "Conference and Labs of the Evaluation Forum"
+  short_venue: "CLEF"
+  url_ceur: "https://ceur-ws.org/Vol-4038/paper-4324.pdf"
 
 ##############################################################################
 # CLEF 2024 Publications
@@ -243,7 +268,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "http://www.arxiv.org/abs/2407.06291"
+  url_arxiv: "http://www.arxiv.org/abs/2407.06291"
+  url_ceur: "https://ceur-ws.org/Vol-3740/paper-202.pdf"
   url_code: "https://github.com/dsgt-arc/birdclef-2024"
 
 - title: "Multi-Label Plant Species Classification with Self-Supervised Vision Transformers"
@@ -254,7 +280,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2407.06298"
+  url_arxiv: "https://arxiv.org/abs/2407.06298"
+  url_ceur: "https://ceur-ws.org/Vol-3740/paper-197.pdf"
   url_code: "https://github.com/dsgt-arc/plantclef-2024"
 
 - title: "Tile Compression and Embeddings for Multi-Label Classification in GeoLifeCLEF 2024"
@@ -265,7 +292,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2407.06326"
+  url_arxiv: "https://arxiv.org/abs/2407.06326"
+  url_ceur: "https://ceur-ws.org/Vol-3740/paper2144.pdf"
   url_code: "https://github.com/dsgt-arc/geolifeclef-2024"
 
 - title: "Fine-Grained Classification for Poisonous Fungi Identification with Transfer Learning"
@@ -277,7 +305,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2407.07492"
+  url_arxiv: "https://arxiv.org/abs/2407.07492"
+  url_ceur: "https://ceur-ws.org/Vol-3740/paper2016.pdf"
   url_code: "https://github.com/dsgt-arc/fungiclef-2024"
 
 - title: "Transfer Learning with Self-Supervised Vision Transformers for Snake Identification"
@@ -289,7 +318,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2407.06178"
+  url_arxiv: "https://arxiv.org/abs/2407.06178"
+  url_ceur: "https://ceur-ws.org/Vol-3740/paper-203.pdf"
   url_code: "https://github.com/dsgt-arc/snakeclef-2024"
 
 - title: "DS@GT at Touché: Image Search and Ranking via CLIP and Image Generation"
@@ -299,7 +329,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2507.09090"
+  url_arxiv: "https://arxiv.org/abs/2507.09090"
+  url_ceur: "https://ceur-ws.org/Vol-3740/paper-332.pdf"
 
 - title: "AI Authorship Verification: an Ensembled Approach"
   authors:
@@ -309,7 +340,7 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://ceur-ws.org/Vol-3740/paper-270.pdf"
+  url_ceur: "https://ceur-ws.org/Vol-3740/paper-270.pdf"
 
 - title: "DS@GT eRisk 2024: Sentence Transformers for Social Media Risk Assessment"
   authors:
@@ -319,7 +350,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2407.08008"
+  url_arxiv: "https://arxiv.org/abs/2407.08008"
+  url_ceur: "https://ceur-ws.org/Vol-3740/paper-77.pdf"
   url_code: "https://github.com/dsgt-arc/erisk-2024"
 
 - title: "Machine Learning for ALSFRS-R Score Prediction: Making Sense of the Sensor Data"
@@ -330,7 +362,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2407.08003"
+  url_arxiv: "https://arxiv.org/abs/2407.08003"
+  url_ceur: "https://ceur-ws.org/Vol-3740/paper-127.pdf"
 
 - title: "Biomedical Nested NER with Large Language Model and UMLS Heuristics"
   authors:
@@ -338,7 +371,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2407.05480v1"
+  url_arxiv: "https://arxiv.org/abs/2407.05480v1"
+  url_ceur: "https://ceur-ws.org/Vol-3740/paper-21.pdf"
 
 - title: "Using Pretrained Large Language Model with Prompt Engineering to Answer Biomedical Questions"
   authors:
@@ -347,7 +381,8 @@
   year: 2024
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "http://www.arxiv.org/abs/2407.06779"
+  url_arxiv: "http://www.arxiv.org/abs/2407.06779"
+  url_ceur: "https://ceur-ws.org/Vol-3740/paper-22.pdf"
 
 ##############################################################################
 # CLEF 2023 Publications
@@ -362,7 +397,8 @@
   year: 2023
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2306.16760"
+  url_arxiv: "https://arxiv.org/abs/2306.16760"
+  url_ceur: "https://ceur-ws.org/Vol-3497/paper-177.pdf"
   url_code: "https://github.com/dsgt-birdclef/birdclef-2023"
 
 ##############################################################################
@@ -379,5 +415,6 @@
   year: 2022
   venue: "Conference and Labs of the Evaluation Forum"
   short_venue: "CLEF"
-  url_paper: "https://arxiv.org/abs/2206.04805"
+  url_arxiv: "https://arxiv.org/abs/2206.04805"
+  url_ceur: "https://ceur-ws.org/Vol-3180/paper-171.pdf"
   url_code: "https://github.com/dsgt-birdclef/birdclef-2022"

@@ -104,6 +104,7 @@ Navigation order is generally controlled by `weight`.
 
 ### Data-Driven Content
 - **`/data/publications/`** - Structured YAML database of publications, split into one file per venue-year (for example `clef-2025.yml`, `trec-2025.yml`, `mediaeval-2025.yml`)
+- **`/data/venues/`** - Structured venue metadata, with one file per venue-year keyed to the publications data (for example `clef-2025.yml`)
 
 Publication entries may include:
 - title
@@ -172,10 +173,11 @@ Because Hugo is configured with `goldmark.renderer.unsafe = true`, raw HTML such
 ### Adding Publications
 Edit:
 - **`/data/publications/`**
+- **`/data/venues/`** when a new venue-year is introduced
 
 Add new entries to the appropriate venue-year file using the existing schema (for example `clef-2025.yml` or `trec-2025.yml`).
 
-The publications template now collects all files in `data/publications/` dynamically, so new years and venues render automatically.
+The publications template now collects all files in `data/publications/` dynamically and joins them against `data/venues/` by matching file name, so new venue-years should add both a publications file and a venue metadata file.
 
 ### Using the Custom Image Shortcode
 Use:

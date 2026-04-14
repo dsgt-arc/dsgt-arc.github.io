@@ -62,7 +62,7 @@ But a team can only do one task.
 Meeting documents and collaboration resources are typically shared with active participants after team formation. If you think you should already have access, ask in the DS@GT Slack or use the [Contact page](/contact-us/).
 
 ## 9. Is this opportunity only available for current students, or can alumni participate as well?
-This opportunity is not limited to current students—GT alumni are also welcome to join our group! 
+This opportunity is not limited to current students; GT alumni are also welcome to join our group! 
 However, participants must be members of the Data Science @ Georgia Tech (DS@GT) club and have paid their membership dues. 
 To join:
 - Join the DS@GT Slack channel through [@datasciencegt | Linktree](https://linktr.ee/datasciencegt) 
@@ -89,7 +89,7 @@ This course offers a general introduction to research methods and computer scien
 Unlike CS 8903, you can register for this course as part of your regular course selection in the OMSCS program.
 
 ## 11. What kinds of labs are available through CLEF?
-The table below summarizes the labs in the current **[CLEF 2026 program](https://clef2026.clef-initiative.eu/labs)**. Lab lineups shift year to year — visit the CLEF 2026 labs page for each lab's current tasks, call for participation, and official lab pages.
+The table below summarizes the labs in the current **[CLEF 2026 program](https://clef2026.clef-initiative.eu/labs)**. Lab lineups shift year to year, so visit the CLEF 2026 labs page for each lab's current tasks, call for participation, and official lab pages.
 
 | Lab | Focus |
 |-----|-------|

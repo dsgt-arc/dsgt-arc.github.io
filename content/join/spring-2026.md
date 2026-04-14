@@ -23,7 +23,7 @@ You can read more about our achievements on our [Impact](/impact) page and brows
 If you are new to ARC, reviewing the [Join page](/join/), the archived [Fall 2025 Interest Group](/join/fall-2025/), [FAQ](/faq/), and [Contact page](/contact-us/) may also help.
 
 The CLEF 2026 competition is now in progress, with team research and experiments underway during the spring semester and working note papers submitted near the end of the cycle. 
-**To participate with the DS@GT-ARC CLEF 2026 team, you should meet at least one of the following criterias**: 
+**To participate with the DS@GT-ARC CLEF 2026 team, you should meet at least one of the following criteria**: 
 - Returning members of DS@GT ARC who have published working note(s) with us
 - Participated in the [2025 Fall Interest Group](/join/fall-2025/)
 - Experienced students (please see the self-assessment section below)

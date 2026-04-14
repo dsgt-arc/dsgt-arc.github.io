@@ -30,8 +30,8 @@ ARC operates as a project group within the broader Data Science @ Georgia Tech s
 
 The group operates on a two-semester academic cycle.
 
-- **Fall — Interest Group & Preparation:** introductory training in competitive data science that prepares students for spring team placement. ~2–3 hours/week.
-- **Spring — Competition Execution & Publication:** team-based CLEF research producing submissions, working notes, and presentations. ~100–150+ hours total, depending on role.
+- **Fall Interest Group & Preparation:** introductory training in competitive data science that prepares students for spring team placement. ~2–3 hours/week.
+- **Spring Competition Execution & Publication:** team-based CLEF research producing submissions, working notes, and presentations. ~100–150+ hours total, depending on role.
 
 Recordings from our Fall 2024 Interest Group provide an overview of the group's structure and expectations.
 

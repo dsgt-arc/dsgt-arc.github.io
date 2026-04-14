@@ -18,8 +18,6 @@ The [Spring 2026 CLEF Competition](/join/spring-2026/) cycle is now underway, bu
 
 In addition to CLEF, ARC has also participated in venues such as [TREC](https://trec.nist.gov), [MediaEval](https://multimediaeval.github.io), and [NTCIR](https://research.nii.ac.jp/ntcir/ntcir-19).
 
-New here? The next main entry point for most students will be Fall 2026 recruitment, so start with the [Join page](/join/) for current status and contact information.
-
 ## Explore ARC
 
 - Learn how to get involved through the [Join page](/join/), review the current [Spring 2026 CLEF Competition](/join/spring-2026/), browse the archived [Fall 2025 Interest Group](/join/fall-2025/), and use the [Contact page](/contact-us/) if you still have questions.

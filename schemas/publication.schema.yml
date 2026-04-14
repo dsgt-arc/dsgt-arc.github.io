@@ -1,4 +1,14 @@
 $schema: https://json-schema.org/draft/2020-12/schema
+
+# Schema for a single publication entry inside data/publications/*.yml.
+#
+# Repo conventions:
+# - Each publication file contains a list of publication objects.
+# - Empty optional fields should be omitted rather than set to an empty string.
+# - For CLEF working notes, url_ceur is usually the canonical final publication link.
+# - url_arxiv is optional and should only be added when a real preprint exists.
+# - doi should be the DOI string only (for example 10.1000/xyz123), not a full https://doi.org URL.
+
 title: Publication entry
 type: object
 required:
@@ -8,55 +18,85 @@ required:
   - venue
   - short_venue
 properties:
+  # Full paper title as it appears on the public paper page.
   title:
     type: string
     minLength: 1
+
+  # Ordered author list for display on the site.
   authors:
     type: array
     minItems: 1
     items:
       type: string
       minLength: 1
+
+  # Publication or competition year used for archive grouping.
   year:
     type: integer
     minimum: 1900
+
+  # Full venue name. This should match the paired venue metadata object.
   venue:
     type: string
     minLength: 1
+
+  # Short venue label used in headings, for example CLEF, TREC, or MediaEval.
   short_venue:
     type: string
     minLength: 1
+
+  # Generic paper URL for non-CEUR / non-arXiv canonical links.
   url_paper:
     type: string
     format: uri
+
+  # CEUR proceedings or PDF link. Prefer this for CLEF working notes when available.
   url_ceur:
     type: string
     format: uri
+
+  # arXiv abstract page for a preprint, if one exists.
   url_arxiv:
     type: string
     format: uri
+
+  # Public code repository for the paper or competition entry.
   url_code:
     type: string
     format: uri
+
+  # Public slides deck for a talk or presentation.
   url_slides:
     type: string
     format: uri
+
+  # Project page, demo page, or lab/task page specifically associated with this work.
   url_project:
     type: string
     format: uri
+
+  # DOI string only, without the doi.org prefix.
   doi:
     type: string
     minLength: 1
+
+  # Optional abstract shown or reused in richer publication views later.
   abstract:
     type: string
     minLength: 1
+
+  # Optional keyword list for search/filtering and future metadata enrichment.
   keywords:
     type: array
     minItems: 1
     items:
       type: string
       minLength: 1
+
+  # Raw BibTeX entry for citation/export.
   bibtex:
     type: string
     minLength: 1
+
 additionalProperties: false

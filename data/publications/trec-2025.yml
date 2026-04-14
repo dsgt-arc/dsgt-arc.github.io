@@ -1,0 +1,11 @@
+# TREC 2025 publications
+
+- title: 'DS@GT at TREC TOT 2025: Bridging Vague Recollection with Fusion Retrieval and Learned Reranking'
+  authors:
+  - Wenxin Zhou
+  - Ritesh Mehta
+  - Anthony Miyaguchi
+  year: 2025
+  venue: Text REtrieval Conference
+  short_venue: TREC
+  url_arxiv: https://arxiv.org/abs/2601.15518

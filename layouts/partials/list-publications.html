@@ -1,5 +1,10 @@
 <!-- beautify ignore:start -->
-{{ $publications := .Site.Data.publications }}
+{{ $publications := slice }}
+{{ range $groupName, $groupPubs := .Site.Data.publications }}
+    {{ range $groupPubs }}
+        {{ $publications = $publications | append . }}
+    {{ end }}
+{{ end }}
 {{ $years := slice }}
 {{ range $publications }}
     {{ $years = $years | append .year }}

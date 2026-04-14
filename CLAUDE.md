@@ -103,7 +103,7 @@ weight = 10
 Navigation order is generally controlled by `weight`.
 
 ### Data-Driven Content
-- **`/data/publications.yml`** - Structured YAML database of publications
+- **`/data/publications/`** - Structured YAML database of publications, split into one file per venue-year (for example `clef-2025.yml`, `trec-2025.yml`, `mediaeval-2025.yml`)
 
 Publication entries may include:
 - title
@@ -171,13 +171,11 @@ Because Hugo is configured with `goldmark.renderer.unsafe = true`, raw HTML such
 
 ### Adding Publications
 Edit:
-- **`/data/publications.yml`**
+- **`/data/publications/`**
 
-Add new entries near the top using the existing schema.
+Add new entries to the appropriate venue-year file using the existing schema (for example `clef-2025.yml` or `trec-2025.yml`).
 
-Important caveat:
-- **`/layouts/partials/list-publications.html` currently hardcodes the years 2025, 2024, 2023, and 2022.**
-- If a new publication year is added to the YAML file, the template must also be updated or those entries will not render.
+The publications template now collects all files in `data/publications/` dynamically, so new years and venues render automatically.
 
 ### Using the Custom Image Shortcode
 Use:
@@ -218,7 +216,7 @@ Behavior summary:
 When making changes:
 - Prefer editing files under `/content/`, `/data/`, `/layouts/`, and `/assets/` before touching the theme submodule.
 - If a UI change does not appear, check whether a local layout override is shadowing the theme.
-- If publication data is updated but the page does not change, inspect `layouts/partials/list-publications.html` for hardcoded year logic.
+- If publication data is updated but the page does not change, inspect `layouts/partials/list-publications.html` and confirm the new entry was added under `data/publications/` rather than an old path.
 - For local preview, prefer the Docker workflow first: `docker compose up --build`.
 - If the site fails to render locally, verify the theme submodule is initialized. If Hugo is unavailable on the host, use Docker instead.
 - For Docker-based builds, use `docker compose run --rm site hugo`.

@@ -47,7 +47,7 @@ Annual conference for Georgia Tech's Online Master of Science in Computer Scienc
 
 ## Funding
 
-- **[EVPR-PACESHIP](https://pace.gatech.edu/evpr-paceship-application)**
+- **[EVPR-PACESHIP](https://pace.gatech.edu/participation/)**
   - DS@GT CLEF 2025, $1,000 credit (January 2025)
   - DS@GT TREC 2025, $1,000 credit (July 2025)
   - DS@GT MediaEval 2025, $1,000 credit (July 2025)

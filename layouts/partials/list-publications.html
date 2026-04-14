@@ -1,5 +1,7 @@
 <!-- beautify ignore:start -->
 {{ $authors := $.Site.Data.authors }}
+{{ $baseURL := $.Site.BaseURL }}
+{{ $orgName := $.Site.Params.organizationName | default $.Site.Title }}
 {{ $venueGroups := slice }}
 {{ range $groupName, $groupPubs := .Site.Data.publications }}
     {{ $venue := index $.Site.Data.venues $groupName }}
@@ -26,6 +28,7 @@
                 {{ with .doi }}<a href="https://doi.org/{{ . }}"> [DOI]</a>{{ end }}
                 <br>
                 {{ range $index, $slug := .authors }}{{ if $index }}, {{ end }}{{ $ad := index $authors $slug }}{{ if $ad }}{{ $ad.name }}{{ if $ad.orcid }}<sup><a class="orcid-id" href="https://orcid.org/{{ $ad.orcid }}" title="ORCID: {{ $ad.orcid }}">iD</a></sup>{{ end }}{{ else }}{{ $slug }}{{ end }}{{ end }}
+                {{ partial "publication-jsonld.html" (dict "pub" . "venue" $venue "authorsMap" $authors "baseURL" $baseURL "orgName" $orgName) }}
             </li>
         {{ end }}
     </ul>

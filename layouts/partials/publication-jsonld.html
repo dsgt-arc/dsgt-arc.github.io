@@ -1,0 +1,86 @@
+{{/*
+  Renders a ScholarlyArticle JSON-LD block for one publication.
+  Parameters (passed via dict):
+    pub        - the publication map
+    venue      - the matching venue map from data/venues
+    authorsMap - $.Site.Data.authors (slug -> {name, orcid?})
+    baseURL    - .Site.BaseURL
+    orgName    - organization display name
+*/}}
+{{- $pub := .pub -}}
+{{- $venue := .venue -}}
+{{- $authors := .authorsMap -}}
+{{- $baseURL := .baseURL -}}
+{{- $orgName := .orgName -}}
+
+{{- /* Author list with optional ORCID @id */ -}}
+{{- $authorList := slice -}}
+{{- range $slug := $pub.authors -}}
+  {{- $a := index $authors $slug -}}
+  {{- $name := $slug -}}
+  {{- if $a -}}{{- $name = $a.name -}}{{- end -}}
+  {{- $entry := dict "@type" "Person" "name" $name -}}
+  {{- if and $a $a.orcid -}}
+    {{- $orcidUri := printf "https://orcid.org/%s" $a.orcid -}}
+    {{- $entry = merge $entry (dict "@id" $orcidUri) -}}
+  {{- end -}}
+  {{- $authorList = $authorList | append $entry -}}
+{{- end -}}
+
+{{- /* PublicationEvent for the venue */ -}}
+{{- $event := dict "@type" "PublicationEvent" "name" $venue.name -}}
+{{- with $venue.start_date -}}{{- $event = merge $event (dict "startDate" .) -}}{{- end -}}
+{{- with $venue.end_date -}}{{- $event = merge $event (dict "endDate" .) -}}{{- end -}}
+{{- with $venue.location -}}{{- $event = merge $event (dict "location" .) -}}{{- end -}}
+{{- with $venue.website -}}{{- $event = merge $event (dict "url" .) -}}{{- end -}}
+
+{{- /* Date published: prefer full ISO start_date, fall back to year */ -}}
+{{- $datePublished := printf "%d" $pub.year -}}
+{{- with $venue.start_date -}}{{- $datePublished = . -}}{{- end -}}
+
+{{- /* Primary URL: prefer paper, fall back to preprint */ -}}
+{{- $url := "" -}}
+{{- with $pub.url_paper -}}{{- $url = . -}}{{- end -}}
+{{- if not $url -}}{{- with $pub.url_preprint -}}{{- $url = . -}}{{- end -}}{{- end -}}
+
+{{- /* sameAs: secondary URLs (skip preprint if it's already the primary) */ -}}
+{{- $sameAs := slice -}}
+{{- with $pub.url_preprint -}}{{- if ne . $url -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}{{- end -}}
+{{- with $pub.url_code -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+{{- with $pub.url_slides -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+{{- with $pub.url_project -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+
+{{- /* Publisher: venue.publisher if set (e.g. CEUR-WS), else the producing org */ -}}
+{{- $publisher := dict "@type" "Organization" "name" $orgName "url" $baseURL -}}
+{{- with $venue.publisher -}}
+  {{- $publisher = dict "@type" "Organization" "name" . -}}
+{{- end -}}
+
+{{- $obj := dict
+  "@context" "https://schema.org"
+  "@type" "ScholarlyArticle"
+  "headline" $pub.title
+  "name" $pub.title
+  "inLanguage" "en"
+  "author" $authorList
+  "datePublished" $datePublished
+  "isPartOf" $event
+  "publisher" $publisher
+  "sourceOrganization" (dict "@type" "Organization" "name" $orgName "url" $baseURL)
+-}}
+{{- if $url -}}
+  {{- $obj = merge $obj (dict "url" $url "mainEntityOfPage" $url) -}}
+{{- end -}}
+{{- if $sameAs -}}
+  {{- $obj = merge $obj (dict "sameAs" $sameAs) -}}
+{{- end -}}
+{{- with $pub.abstract -}}
+  {{- $obj = merge $obj (dict "abstract" .) -}}
+{{- end -}}
+{{- with $pub.keywords -}}
+  {{- $obj = merge $obj (dict "keywords" (delimit . ", ")) -}}
+{{- end -}}
+{{- with $pub.doi -}}
+  {{- $obj = merge $obj (dict "identifier" (dict "@type" "PropertyValue" "propertyID" "doi" "value" .)) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>

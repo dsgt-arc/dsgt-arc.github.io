@@ -1,0 +1,33 @@
+{{/*
+  Renders a CollectionPage JSON-LD block summarizing the publications page.
+  Lists every publication via hasPart references so crawlers see the page as
+  one coherent collection. Expects the page context (.) so it can read
+  .Site.Data.publications and .Permalink directly.
+*/}}
+{{- $hasPart := slice -}}
+{{- range $groupName, $groupPubs := .Site.Data.publications -}}
+  {{- $venue := index $.Site.Data.venues $groupName -}}
+  {{- if $venue -}}
+    {{- range $groupPubs -}}
+      {{- $url := "" -}}
+      {{- with .url_paper -}}{{- $url = . -}}{{- end -}}
+      {{- if not $url -}}{{- with .url_preprint -}}{{- $url = . -}}{{- end -}}{{- end -}}
+      {{- $entry := dict "@type" "ScholarlyArticle" "name" .title -}}
+      {{- if $url -}}{{- $entry = merge $entry (dict "url" $url) -}}{{- end -}}
+      {{- $hasPart = $hasPart | append $entry -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $obj := dict
+  "@context" "https://schema.org"
+  "@type" "CollectionPage"
+  "name" .Title
+  "url" .Permalink
+  "isPartOf" (dict "@type" "WebSite" "name" .Site.Title "url" .Site.BaseURL)
+  "hasPart" $hasPart
+-}}
+{{- with .Description -}}
+  {{- $obj = merge $obj (dict "description" .) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>

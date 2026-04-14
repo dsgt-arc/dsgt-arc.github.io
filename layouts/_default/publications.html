@@ -1,5 +1,6 @@
 {{ define "main" }}
 <main>
+    {{ partial "publications-collection-jsonld.html" . }}
     {{ .Content }}
 
     {{/* This is where you call the partial */}}

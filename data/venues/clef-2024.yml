@@ -4,8 +4,8 @@ short_name: CLEF
 year: 2024
 location: Grenoble, France
 dates: September 9–12, 2024
-start_date: 2024-09-09
-end_date: 2024-09-12
+start_date: '2024-09-09'
+end_date: '2024-09-12'
 website: https://clef2024.imag.fr/
 url_proceedings: https://ceur-ws.org/Vol-3740/
 publisher: CEUR-WS

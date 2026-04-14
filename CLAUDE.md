@@ -15,6 +15,9 @@ git submodule update --init --recursive
 # Docker-based local development server with hot reload
 docker compose up --build
 
+# Validate structured publications/venues data
+uv run scripts/validate_data.py
+
 # Docker production build (outputs to /public)
 docker compose run --rm site hugo
 
@@ -178,6 +181,9 @@ Edit:
 Add new entries to the appropriate venue-year file using the existing schema (for example `clef-2025.yml` or `trec-2025.yml`).
 
 The publications template now collects all files in `data/publications/` dynamically and joins them against `data/venues/` by matching file name, so new venue-years should add both a publications file and a venue metadata file.
+
+After editing structured data, run:
+- **`uv run scripts/validate_data.py`**
 
 ### Using the Custom Image Shortcode
 Use:

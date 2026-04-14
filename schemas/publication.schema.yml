@@ -1,0 +1,62 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Publication entry
+type: object
+required:
+  - title
+  - authors
+  - year
+  - venue
+  - short_venue
+properties:
+  title:
+    type: string
+    minLength: 1
+  authors:
+    type: array
+    minItems: 1
+    items:
+      type: string
+      minLength: 1
+  year:
+    type: integer
+    minimum: 1900
+  venue:
+    type: string
+    minLength: 1
+  short_venue:
+    type: string
+    minLength: 1
+  url_paper:
+    type: string
+    format: uri
+  url_ceur:
+    type: string
+    format: uri
+  url_arxiv:
+    type: string
+    format: uri
+  url_code:
+    type: string
+    format: uri
+  url_slides:
+    type: string
+    format: uri
+  url_project:
+    type: string
+    format: uri
+  doi:
+    type: string
+    minLength: 1
+  abstract:
+    type: string
+    minLength: 1
+  keywords:
+    type: array
+    minItems: 1
+    items:
+      type: string
+      minLength: 1
+  bibtex:
+    type: string
+    minLength: 1
+additionalProperties: false

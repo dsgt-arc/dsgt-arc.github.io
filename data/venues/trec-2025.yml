@@ -4,8 +4,8 @@ short_name: TREC
 year: 2025
 location: Online
 dates: December 11–12, 2025
-start_date: 2025-12-11
-end_date: 2025-12-12
+start_date: '2025-12-11'
+end_date: '2025-12-12'
 website: https://trec.nist.gov/
 url_proceedings: https://trec.nist.gov/pubs/trec34/
 publisher: National Institute of Standards and Technology (NIST)

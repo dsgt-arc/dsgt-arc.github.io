@@ -4,8 +4,8 @@ short_name: CLEF
 year: 2022
 location: Bologna, Italy
 dates: September 5–8, 2022
-start_date: 2022-09-05
-end_date: 2022-09-08
+start_date: '2022-09-05'
+end_date: '2022-09-08'
 website: https://clef2022.clef-initiative.eu/
 url_proceedings: https://ceur-ws.org/Vol-3180/
 publisher: CEUR-WS

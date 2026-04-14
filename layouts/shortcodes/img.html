@@ -8,8 +8,8 @@
 {{ if $image }}
     {{ $image := $image.Resize $resize }}
     <figure class="captioned-image">
-        <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}">
-        {{ with $alt }}<figcaption><b>Figured: </b>{{ . }}</figcaption>{{ end }}
+        <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async" width="{{ $image.Width }}" height="{{ $image.Height }}">
+        {{ with $alt }}<figcaption><b>Figure: </b>{{ . }}</figcaption>{{ end }}
     </figure>
 {{ else }}
     {{ errorf "Image not found for src '%s' in shortcode 'img.html'" $src }}

@@ -4,6 +4,7 @@ linkTitle = 'FAQ'
 description = 'Find answers to common questions about DS@GT ARC, CLEF participation, team roles, expectations, and the time commitment for members.'
 menu = 'main'
 weight = 30
+layout = 'faq'
 +++
 # FAQ
 

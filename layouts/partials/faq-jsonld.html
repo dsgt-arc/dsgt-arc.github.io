@@ -1,0 +1,37 @@
+{{/*
+  Renders a FAQPage JSON-LD block by parsing the page's RawContent for
+  numbered Q/A pairs of the form:
+
+      ## N. Question text?
+      Answer text...
+
+  The intro before the first ## heading is skipped. Each answer is
+  rendered to HTML via markdownify so links and formatting survive into
+  the JSON-LD payload.
+*/}}
+{{- $items := slice -}}
+{{- $sections := split .RawContent "\n## " -}}
+{{- range $i, $section := $sections -}}
+  {{- if gt $i 0 -}}
+    {{- $lines := split $section "\n" -}}
+    {{- $rawQ := index $lines 0 -}}
+    {{- $q := replaceRE "^\\s*[0-9]+\\.\\s+" "" $rawQ -}}
+    {{- $q = trim (plainify (markdownify $q)) " \n\r\t" -}}
+    {{- $answerLines := after 1 $lines -}}
+    {{- $answer := trim (delimit $answerLines "\n") " \n\r\t" -}}
+    {{- $answerHTML := trim (string (markdownify $answer)) " \n\r\t" -}}
+    {{- if and $q $answerHTML -}}
+      {{- $items = $items | append (dict
+        "@type" "Question"
+        "name" $q
+        "acceptedAnswer" (dict "@type" "Answer" "text" $answerHTML)
+      ) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $obj := dict
+  "@context" "https://schema.org"
+  "@type" "FAQPage"
+  "mainEntity" $items
+-}}
+<script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>

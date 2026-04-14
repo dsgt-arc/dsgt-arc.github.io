@@ -2,10 +2,10 @@
 
 - title: Transfer Learning with Pseudo Multi-Label Birdcall Classification for DS@GT BirdCLEF 2024
   authors:
-  - Anthony Miyaguchi
-  - Adrian Cheung
-  - Murilo Gustineli
-  - Ashley Kim
+  - anthony-miyaguchi
+  - adrian-cheung
+  - murilo-gustineli
+  - ashley-kim
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -14,9 +14,9 @@
   url_paper: https://ceur-ws.org/Vol-3740/paper-202.pdf
 - title: Multi-Label Plant Species Classification with Self-Supervised Vision Transformers
   authors:
-  - Murilo Gustineli
-  - Anthony Miyaguchi
-  - Ian Stalter
+  - murilo-gustineli
+  - anthony-miyaguchi
+  - ian-stalter
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -25,9 +25,9 @@
   url_paper: https://ceur-ws.org/Vol-3740/paper-197.pdf
 - title: Tile Compression and Embeddings for Multi-Label Classification in GeoLifeCLEF 2024
   authors:
-  - Anthony Miyaguchi
-  - Patcharapong Aphiwetsa
-  - Mark McDuffie
+  - anthony-miyaguchi
+  - patcharapong-aphiwetsa
+  - mark-mcduffie
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -36,10 +36,10 @@
   url_paper: https://ceur-ws.org/Vol-3740/paper-201.pdf
 - title: Fine-Grained Classification for Poisonous Fungi Identification with Transfer Learning
   authors:
-  - Christopher Chiu
-  - Maximilian Heil
-  - Teresa Kim
-  - Anthony Miyaguchi
+  - christopher-chiu
+  - maximilian-heil
+  - teresa-kim
+  - anthony-miyaguchi
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -48,10 +48,10 @@
   url_paper: https://ceur-ws.org/Vol-3740/paper-191.pdf
 - title: Transfer Learning with Self-Supervised Vision Transformers for Snake Identification
   authors:
-  - Anthony Miyaguchi
-  - Murilo Gustineli
-  - Austin Fischer
-  - Ryan Lundqvist
+  - anthony-miyaguchi
+  - murilo-gustineli
+  - austin-fischer
+  - ryan-lundqvist
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -60,8 +60,8 @@
   url_paper: https://ceur-ws.org/Vol-3740/paper-203.pdf
 - title: 'DS@GT at Touché: Image Search and Ranking via CLIP and Image Generation'
   authors:
-  - Benjamin Ostrower
-  - Patcharapong Aphiwetsa
+  - benjamin-ostrower
+  - patcharapong-aphiwetsa
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -69,18 +69,18 @@
   url_paper: https://ceur-ws.org/Vol-3740/paper-332.pdf
 - title: 'AI Authorship Verification: an Ensembled Approach'
   authors:
-  - Benjamin Ostrower
-  - Jacob Wessell
-  - Abhinav Bindal
+  - benjamin-ostrower
+  - jacob-wessell
+  - abhinav-bindal
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
   url_paper: https://ceur-ws.org/Vol-3740/paper-270.pdf
 - title: 'DS@GT eRisk 2024: Sentence Transformers for Social Media Risk Assessment'
   authors:
-  - David Guecha
-  - Aaryan Potdar
-  - Anthony Miyaguchi
+  - david-guecha
+  - aaryan-potdar
+  - anthony-miyaguchi
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -89,9 +89,9 @@
   url_paper: https://ceur-ws.org/Vol-3740/paper-77.pdf
 - title: 'Machine Learning for ALSFRS-R Score Prediction: Making Sense of the Sensor Data'
   authors:
-  - Ritesh Mehta
-  - Aleksandar Pramov
-  - Shashank Verma
+  - ritesh-mehta
+  - aleksandar-pramov
+  - shashank-verma
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -99,7 +99,7 @@
   url_paper: https://ceur-ws.org/Vol-3740/paper-127.pdf
 - title: Biomedical Nested NER with Large Language Model and UMLS Heuristics
   authors:
-  - Wenxin Zhou
+  - wenxin-zhou
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -107,8 +107,8 @@
   url_paper: https://ceur-ws.org/Vol-3740/paper-21.pdf
 - title: Using Pretrained Large Language Model with Prompt Engineering to Answer Biomedical Questions
   authors:
-  - Wenxin Zhou
-  - Thuy Hang Ngo
+  - wenxin-zhou
+  - thuy-hang-ngo
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF

@@ -24,12 +24,13 @@ properties:
     minLength: 1
 
   # Ordered author list for display on the site.
+  # Each entry is a slug key from data/authors.yml (e.g. anthony-miyaguchi).
   authors:
     type: array
     minItems: 1
     items:
       type: string
-      minLength: 1
+      pattern: '^[a-z0-9]+(-[a-z0-9]+)*$'
 
   # Publication or competition year used for archive grouping.
   year:

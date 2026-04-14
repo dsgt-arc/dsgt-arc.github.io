@@ -2,10 +2,10 @@
 
 - title: Transfer Learning with Semi-Supervised Dataset Annotation for Birdcall Classification
   authors:
-  - Anthony Miyaguchi
-  - Nathan Zhong
-  - Murilo Gustineli
-  - Chris Hayduk
+  - anthony-miyaguchi
+  - nathan-zhong
+  - murilo-gustineli
+  - chris-hayduk
   year: 2023
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF

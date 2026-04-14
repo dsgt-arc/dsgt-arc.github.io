@@ -1,0 +1,25 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+
+# Schema for the authors lookup table at data/authors.yml.
+#
+# Repo conventions:
+# - Keys are stable kebab-case slugs (e.g. anthony-miyaguchi).
+# - Slugs must consist of lowercase ASCII letters, digits, and hyphens only.
+# - name is the canonical display name as it should appear on the site.
+# - orcid is optional; omit the field rather than setting it to an empty string.
+# - orcid must be the 16-character iD string only (e.g. 0000-0002-9165-8718), not a full URL.
+
+title: Authors lookup table
+type: object
+additionalProperties:
+  type: object
+  required:
+    - name
+  properties:
+    name:
+      type: string
+      minLength: 1
+    orcid:
+      type: string
+      pattern: '^\d{4}-\d{4}-\d{4}-\d{3}[\dX]$'
+  additionalProperties: false

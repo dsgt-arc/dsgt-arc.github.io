@@ -2,9 +2,9 @@
 
 - title: 'Beyond Retrieval: Ensembling Cross-Encoders and GPT Rerankers with LLMs for Biomedical QA'
   authors:
-  - Shashank Verma
-  - Fengyi Jiang
-  - Xiangning Xue
+  - shashank-verma
+  - fengyi-jiang
+  - xiangning-xue
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -13,9 +13,9 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_50.pdf
 - title: 'DS@GT at Touché: Large Language Models for Retrieval-Augmented Debate'
   authors:
-  - Anthony Miyaguchi
-  - Conor Johnston
-  - Aaryan Potdar
+  - anthony-miyaguchi
+  - conor-johnston
+  - aaryan-potdar
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -23,26 +23,26 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_387.pdf
 - title: Enhancing Biomedical Named Entity Recognition using GLiNER-BioMed with Targeted Dictionary-Based Post-processing for BioASQ 2025 task 6
   authors:
-  - Ritesh Mehta
+  - ritesh-mehta
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
   url_paper: https://ceur-ws.org/Vol-4038/paper_32.pdf
 - title: 'DS@GT at CheckThat! 2025: A Simple Retrieval-First, LLM-Backed Framework for Claim Normalization'
   authors:
-  - Aleksandar Pramov
-  - Jiangqin Ma
-  - Bina Patel
+  - aleksandar-pramov
+  - jiangqin-ma
+  - bina-patel
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
   url_paper: https://ceur-ws.org/Vol-4038/paper_85.pdf
 - title: DS@GT at CheckThat! 2025 - Ensemble Methods for Detection of Scientific Discourse on Social Media
   authors:
-  - Ayush Parikh
-  - Hoang Thanh Thanh Truong
-  - Jeanette Schofield
-  - Maximilian Heil
+  - ayush-parikh
+  - hoang-thanh-thanh-truong
+  - jeanette-schofield
+  - maximilian-heil
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -50,10 +50,10 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_84.pdf
 - title: 'DS@GT at CheckThat! 2025: Exploring Retrieval and Reranking Pipelines for Scientific Claim Source Retrieval on Social Media Discourse'
   authors:
-  - Jeanette Schofield
-  - Shuyu Tian
-  - Hoang Thanh Thanh Truong
-  - Maximilian Heil
+  - jeanette-schofield
+  - shuyu-tian
+  - hoang-thanh-thanh-truong
+  - maximilian-heil
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -61,8 +61,8 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_93.pdf
 - title: 'DS@GT at CheckThat! 2025: Detecting Subjectivity via Transfer-Learning and Corrective Data Augmentation'
   authors:
-  - Maximilian Heil
-  - Dionne Bang
+  - maximilian-heil
+  - dionne-bang
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -70,8 +70,8 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_75.pdf
 - title: 'DS@GT at CheckThat! 2025: Evaluating Context and Tokenization Strategies for Numerical Fact Verification'
   authors:
-  - Maximilian Heil
-  - Aleksandar Pramov
+  - maximilian-heil
+  - aleksandar-pramov
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -79,10 +79,10 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_76.pdf
 - title: 'DS@GT at eRisk 2025: From prompts to predictions, benchmarking early depression detection with conversational agent based assessments and temporal attention models'
   authors:
-  - Anthony Miyaguchi
-  - David Guecha
-  - Yuwen Chiu
-  - Sidharth Gaur
+  - anthony-miyaguchi
+  - david-guecha
+  - yuwen-chiu
+  - sidharth-gaur
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -90,19 +90,19 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_128.pdf
 - title: 'Tackling Sexism in Multimodal Social Media: Exploring Hybrid Generative-Transformer models'
   authors:
-  - Moiz Ali
-  - Lakshmi Yendapalli
-  - Bishoy Tawfik
-  - Matt Winzenried
+  - moiz-ali
+  - lakshmi-yendapalli
+  - bishoy-tawfik
+  - matt-winzenried
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
   url_paper: https://ceur-ws.org/Vol-4038/paper_139.pdf
 - title: 'Pun Intended: Multi-Agent Translation of Wordplay with Contrastive Learning and Phonetic-Semantic Embeddings'
   authors:
-  - Russell Taylor
-  - Benjamin Herbert
-  - Michael Sana
+  - russell-taylor
+  - benjamin-herbert
+  - michael-sana
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -110,18 +110,18 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_229.pdf
 - title: 'DS@GT AnimalCLEF: Triplet Learning over ViT Manifolds with Nearest Neighbor Classification for Animal Re-identification'
   authors:
-  - Anthony Miyaguchi
-  - Chandrasekaran Maruthaiyannan
-  - Charles R. Clark
+  - anthony-miyaguchi
+  - chandrasekaran-maruthaiyannan
+  - charles-r-clark
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
   url_paper: https://ceur-ws.org/Vol-4038/paper_250.pdf
 - title: 'Distilling Spectrograms into Tokens: Fast and Lightweight Bioacoustic Classification for BirdCLEF+ 2025'
   authors:
-  - Anthony Miyaguchi
-  - Murilo Gustineli
-  - Adrian Cheung
+  - anthony-miyaguchi
+  - murilo-gustineli
+  - adrian-cheung
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -130,9 +130,9 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_249.pdf
 - title: Transfer Learning and Mixup for Fine-Grained Few-Shot Fungi Classification
   authors:
-  - Jason Kahei Tam
-  - Murilo Gustineli
-  - Anthony Miyaguchi
+  - jason-kahei-tam
+  - murilo-gustineli
+  - anthony-miyaguchi
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -141,10 +141,10 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_257.pdf
 - title: Tile-Based ViT Inference with Visual-Cluster Priors for Zero-Shot Multi-Species Plant Identification
   authors:
-  - Murilo Gustineli
-  - Anthony Miyaguchi
-  - Adrian Cheung
-  - Divyansh Khattak
+  - murilo-gustineli
+  - anthony-miyaguchi
+  - adrian-cheung
+  - divyansh-khattak
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -153,9 +153,9 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_242.pdf
 - title: 'DS@GT at LongEval: Evaluating Temporal Performance in Web Search Systems and Topics with Two-Stage Retrieval'
   authors:
-  - Anthony Miyaguchi
-  - Imran Afrulbasha
-  - Aleksandar Pramov
+  - anthony-miyaguchi
+  - imran-afrulbasha
+  - aleksandar-pramov
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -164,9 +164,9 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_274.pdf
 - title: 'Cultivating Multimodal Intelligence: Interpretive Reasoning and Agentic RAG Approaches to Dermatological Diagnosis'
   authors:
-  - Karishma Thakrar
-  - Shreyas Basavatia
-  - Akshay Daftardar
+  - karishma-thakrar
+  - shreyas-basavatia
+  - akshay-daftardar
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
@@ -174,35 +174,35 @@
   url_paper: https://ceur-ws.org/Vol-4038/paper_209.pdf
 - title: 'Binoculars, BART, and Adversaries: Multi-Faceted AI Text Detection for PAN 2025'
   authors:
-  - Benjamin Ostrower
-  - Poonam Doongare
-  - Mathitha Thekkinkattuvalappil Unnikrishnan
+  - benjamin-ostrower
+  - poonam-doongare
+  - mathitha-thekkinkattuvalappil-unnikrishnan
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
   url_paper: https://ceur-ws.org/Vol-4038/paper_313.pdf
 - title: 'Quantum Annealing for Machine Learning: Applications in Feature Selection, Instance Selection, and Clustering'
   authors:
-  - Chloe Pomeroy
-  - Aleksandar Pramov
-  - Karishma Thakrar
-  - Lakshmi Yendapalli
+  - chloe-pomeroy
+  - aleksandar-pramov
+  - karishma-thakrar
+  - lakshmi-yendapalli
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
   url_paper: https://ceur-ws.org/Vol-4038/paper_342.pdf
 - title: 'LLM-Guided Planning and Summary-Based Scientific Text Simplification: DS@GT at CLEF 2025 SimpleText'
   authors:
-  - Krishna C. Marturi
-  - Heba H. Elwazzan
+  - krishna-chaitanya-marturi
+  - heba-h-elwazzan
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
   url_paper: https://ceur-ws.org/Vol-4038/paper_357.pdf
 - title: Hallucination Detection and Mitigation in Scientific Text Simplification using Ensemble Approaches
   authors:
-  - Krishna Chaitanya Marturi
-  - Heba H. Elwazzan
+  - krishna-chaitanya-marturi
+  - heba-h-elwazzan
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF

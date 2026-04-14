@@ -19,6 +19,7 @@ from jsonschema import Draft202012Validator, FormatChecker
 ROOT = Path(__file__).resolve().parent.parent
 PUBLICATIONS_DIR = ROOT / "data" / "publications"
 VENUES_DIR = ROOT / "data" / "venues"
+AUTHORS_FILE = ROOT / "data" / "authors.yml"
 SCHEMAS_DIR = ROOT / "schemas"
 
 
@@ -59,9 +60,15 @@ def main() -> int:
 
     publication_validator = load_validator(SCHEMAS_DIR / "publication.schema.yml")
     venue_validator = load_validator(SCHEMAS_DIR / "venue.schema.yml")
+    author_validator = load_validator(SCHEMAS_DIR / "author.schema.yml")
 
     publication_files = sorted(PUBLICATIONS_DIR.glob("*.yml"))
     venue_files = sorted(VENUES_DIR.glob("*.yml"))
+
+    # Validate and load the authors lookup table.
+    authors_data = load_yaml(AUTHORS_FILE)
+    validate_entity(author_validator, authors_data, AUTHORS_FILE, errors)
+    known_author_slugs: set[str] = set(authors_data.keys()) if isinstance(authors_data, dict) else set()
 
     publication_stems = {path.stem for path in publication_files}
     venue_stems = {path.stem for path in venue_files}
@@ -130,6 +137,15 @@ def main() -> int:
                 errors.append(ValidationErrorRecord(publication_path, f"entry {idx}: publication must be an object"))
                 continue
 
+            for slug in publication.get("authors") or []:
+                if isinstance(slug, str) and slug not in known_author_slugs:
+                    errors.append(
+                        ValidationErrorRecord(
+                            publication_path,
+                            f"entry {idx}: unknown author slug '{slug}' — add it to data/authors.yml",
+                        )
+                    )
+
             if venue:
                 if publication.get("year") != venue.get("year"):
                     errors.append(
@@ -163,6 +179,7 @@ def main() -> int:
     print("Data validation passed.")
     print(f"- publication files: {len(publication_files)}")
     print(f"- venue files: {len(venue_files)}")
+    print(f"- authors: {len(known_author_slugs)}")
     return 0
 
 

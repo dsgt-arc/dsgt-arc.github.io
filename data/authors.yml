@@ -1,0 +1,162 @@
+# Authors lookup table.
+#
+# Keys are stable slugs (kebab-case) used in data/publications/*.yml.
+# name: display name as it should appear on the site.
+# orcid: ORCID iD (16-digit string, e.g. 0000-0002-9165-8718). Optional.
+
+aaryan-potdar:
+  name: Aaryan Potdar
+abhinav-bindal:
+  name: Abhinav Bindal
+adrian-cheung:
+  name: Adrian Cheung
+  orcid: 0009-0006-8650-4550
+akshay-daftardar:
+  name: Akshay Daftardar
+  orcid: 0009-0006-5578-5783
+aleksandar-pramov:
+  name: Aleksandar Pramov
+  orcid: 0009-0005-9049-1337
+aniketh-swain:
+  name: Aniketh Swain
+  orcid: 0000-0001-8329-9682
+anthony-miyaguchi:
+  name: Anthony Miyaguchi
+  orcid: 0000-0002-9165-8718
+ashley-kim:
+  name: Ashley Kim
+austin-fischer:
+  name: Austin Fischer
+ayush-parikh:
+  name: Ayush Parikh
+  orcid: 0009-0002-8364-3011
+benjamin-herbert:
+  name: Benjamin Herbert
+  orcid: 0009-0009-0179-3835
+benjamin-ostrower:
+  name: Benjamin Ostrower
+bina-patel:
+  name: Bina Patel
+  orcid: 0009-0002-7815-6331
+bishoy-tawfik:
+  name: Bishoy Tawfik
+  orcid: 0009-0001-1163-0847
+bryan-cheungvivatpant:
+  name: Bryan Cheungvivatpant
+  orcid: 0000-0002-2030-7494
+chandrasekaran-maruthaiyannan:
+  name: Chandrasekaran Maruthaiyannan
+  orcid: 0009-0005-5757-4480
+charles-r-clark:
+  name: Charles R. Clark
+  orcid: 0009-0008-0415-111X
+chris-hayduk:
+  name: Chris Hayduk
+christopher-chiu:
+  name: Christopher Chiu
+  orcid: 0000-0002-4219-1795
+chloe-pomeroy:
+  name: Chloe Pomeroy
+  orcid: 0009-0004-2283-7909
+conor-johnston:
+  name: Conor Johnston
+  orcid: 0009-0001-1777-9255
+dakota-dudley:
+  name: Dakota Dudley
+  orcid: 0000-0001-8352-0391
+david-guecha:
+  name: David Guecha
+  orcid: 0009-0009-9855-5330
+dionne-bang:
+  name: Dionne Bang
+divyansh-khattak:
+  name: Divyansh Khattak
+fengyi-jiang:
+  name: Fengyi Jiang
+  orcid: 0009-0007-9420-5259
+heba-h-elwazzan:
+  name: Heba H. Elwazzan
+hoang-thanh-thanh-truong:
+  name: Hoang Thanh Thanh Truong
+  orcid: 0009-0007-4130-3349
+ian-stalter:
+  name: Ian Stalter
+imran-afrulbasha:
+  name: Imran Afrulbasha
+  orcid: 0009-0002-7602-5194
+jacob-wessell:
+  name: Jacob Wessell
+jason-kahei-tam:
+  name: Jason Kahei Tam
+jeanette-schofield:
+  name: Jeanette Schofield
+  orcid: 0009-0000-0669-8962
+jiangqin-ma:
+  name: Jiangqin Ma
+  orcid: 0009-0006-0058-6349
+jiangyue-yu:
+  name: Jiangyue Yu
+  orcid: 0000-0003-4466-9913
+karishma-thakrar:
+  name: Karishma Thakrar
+  orcid: 0009-0008-2563-7370
+krishna-chaitanya-marturi:
+  name: Krishna Chaitanya Marturi
+lakshmi-yendapalli:
+  name: Lakshmi Yendapalli
+  orcid: 0009-0001-8486-4804
+mark-mcduffie:
+  name: Mark McDuffie
+mathitha-thekkinkattuvalappil-unnikrishnan:
+  name: Mathitha Thekkinkattuvalappil Unnikrishnan
+matt-winzenried:
+  name: Matt Winzenried
+  orcid: 0009-0008-3112-7828
+maximilian-heil:
+  name: Maximilian Heil
+  orcid: 0009-0002-6459-6459
+michael-sana:
+  name: Michael Sana
+  orcid: 0009-0007-6608-7347
+moiz-ali:
+  name: Moiz Ali
+  orcid: 0009-0005-9509-586X
+murilo-gustineli:
+  name: Murilo Gustineli
+  orcid: 0009-0003-9818-496X
+nathan-zhong:
+  name: Nathan Zhong
+patcharapong-aphiwetsa:
+  name: Patcharapong Aphiwetsa
+poonam-doongare:
+  name: Poonam Doongare
+ritesh-mehta:
+  name: Ritesh Mehta
+russell-taylor:
+  name: Russell Taylor
+  orcid: 0009-0007-0702-2375
+ryan-lundqvist:
+  name: Ryan Lundqvist
+shashank-verma:
+  name: Shashank Verma
+  orcid: 0009-0003-1478-4328
+shreyas-basavatia:
+  name: Shreyas Basavatia
+  orcid: 0009-0000-6467-802X
+sidharth-gaur:
+  name: Sidharth Gaur
+shuyu-tian:
+  name: Shuyu Tian
+  orcid: 0000-0001-6444-651X
+teresa-kim:
+  name: Teresa Kim
+  orcid: 0009-0002-4514-3710
+thuy-hang-ngo:
+  name: Thuy Hang Ngo
+wenxin-zhou:
+  name: Wenxin Zhou
+xiangning-xue:
+  name: Xiangning Xue
+  orcid: 0000-0002-5775-1193
+yuwen-chiu:
+  name: Yuwen Chiu

@@ -25,6 +25,26 @@ For a fuller picture of the group's work, see our [publications](/publications/)
 - **OMSCS Project Showcase Award**
   - [PlantCLEF 2024, Spring 2024, Student Choice Award](https://mailchi.mp/cc.gatech.edu/omscs-conference-recap-spring-showcase-winners-announced-and-more)
 
+## Presentations
+
+### OMSCS Conference
+
+Annual conference for Georgia Tech's Online Master of Science in Computer Science program.
+
+- **2026** — *Building a Culture of Applied Research: The DS@GT ARC Story*, Murilo Gustineli, Traditional Talk ([Program](https://omscs.gatech.edu/2026-omscs-conference-program))
+- **2025** — *Multi-Label Plant Species Classification with Self-Supervised Vision Transformers*, Murilo Gustineli, Poster Session ([Poster Session](https://omscs.gatech.edu/2025-omscs-conference-poster-demo-session))
+- **2024** — *DS@GT PlantCLEF 2024: Plant Biodiversity Identification Using Deep Learning*, Murilo Gustineli, Traditional Talk ([Program](https://omscs.gatech.edu/2024-omscs-conference-program))
+- **2023** — *Running a Kaggle Competition Team: Insights and Lessons from BirdCLEF with Data Science @ Georgia Tech*, Anthony Miyaguchi, Traditional Talk ([Program](https://omscs.gatech.edu/sites/default/files/documents/2024/OMSCS%20Conference-2023%20OMSCS%20Conference%20program.pdf))
+
+### Academic Workshops
+
+- **CVPR 2025 / FGVC12** — *Multi-label Plant Species Classification using Vision Transformers for PlantCLEF 2025*, Murilo Gustineli, Poster ([Blog post](https://murilogustineli.com/blog-posts/2025-06-20-cvpr-poster/))
+
+### OMSCS Buzz Podcast
+
+- [S5E3 — Murilo Gustineli](https://omscs.gatech.edu/news/omscs-buzz-s5e3-murilo-gustineli) (September 23, 2025)
+- [S2E10 — Anthony Miyaguchi](https://omscs.gatech.edu/news/omscs-buzz-s2e10-anthony-miyaguchi) (July 24, 2024)
+
 ## Funding
 
 - **[EVPR-PACESHIP](https://pace.gatech.edu/evpr-paceship-application)**

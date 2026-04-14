@@ -25,7 +25,7 @@
                 {{ with .url_project }}<a href="{{ . }}"> [Project]</a>{{ end }}
                 {{ with .doi }}<a href="https://doi.org/{{ . }}"> [DOI]</a>{{ end }}
                 <br>
-                {{ range $index, $slug := .authors }}{{ if $index }}, {{ end }}{{ $ad := index $authors $slug }}{{ if $ad }}{{ if $ad.orcid }}<a href="https://orcid.org/{{ $ad.orcid }}">{{ $ad.name }}</a>{{ else }}{{ $ad.name }}{{ end }}{{ else }}{{ $slug }}{{ end }}{{ end }}
+                {{ range $index, $slug := .authors }}{{ if $index }}, {{ end }}{{ $ad := index $authors $slug }}{{ if $ad }}{{ $ad.name }}{{ if $ad.orcid }}<sup><a class="orcid-id" href="https://orcid.org/{{ $ad.orcid }}" title="ORCID: {{ $ad.orcid }}">iD</a></sup>{{ end }}{{ else }}{{ $slug }}{{ end }}{{ end }}
             </li>
         {{ end }}
     </ul>

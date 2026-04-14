@@ -68,6 +68,23 @@ figure.captioned-image figcaption {
     color: var(--text-color);
 }
 
+/* ORCID iD superscript badge */
+sup a.orcid-id {
+    font-size: 0.65em;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+}
+sup a.orcid-id:hover {
+    text-decoration: underline;
+}
+html[data-theme="light"] sup a.orcid-id {
+    color: #4a7c00; /* darkened for contrast on white (~5:1) */
+}
+html[data-theme="dark"] sup a.orcid-id {
+    color: #a6ce39; /* ORCID brand green, readable on dark bg */
+}
+
 table {
     border-collapse: collapse;
 }

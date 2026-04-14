@@ -42,9 +42,33 @@ The [Spring 2026 CLEF Competition](/join/spring-2026/) cycle is currently underw
 - [DS@GT Slack channel for applied-research-competitions](https://datasciencegt.slack.com/?redir=%2Farchives%2FC05MW3LPZFZ%3Fname%3DC05MW3LPZFZ)
 - [Contact page](/contact-us/)
 
-## Eligibility and expectations at a glance
+## Membership
 
-ARC is open to Georgia Tech students across degree programs, including online students. Members are expected to join the broader DS@GT organization, pay dues, and contribute consistently. For most students, the fall semester is the right place to build the skills and context needed for spring competition work.
+ARC operates as a project group within the broader Data Science @ Georgia Tech student organization.
+
+- **Who can join:** Georgia Tech students across programs, including online students. Alumni may also participate when they still have student status.
+- **Baseline expectations:** Members should join DS@GT, pay dues, and contribute consistently across the semester.
+- **Technical background:** Python, Git, and prior project-based technical experience are strongly recommended.
+- **Details:** See the [FAQ](/faq/) for fuller expectations.
+
+## Group Structure and Schedule
+
+Recordings of our Fall 2024 Interest Group can be found below and provide an overview of the group's structure and expectations.
+
+<div class="video-responsive" align="center">
+<iframe src="https://www.youtube-nocookie.com/embed/videoseries?si=EvIbPEjtD9H5MxKz&amp;list=PLaBtWXB-9VkYjmihEIgiyjfSLWikEVHc7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+The group operates on a two-semester academic cycle.
+
+- **[Fall Semester: Interest Group & Preparation](/join/fall-2025/)**
+  - **Focus:** Introductory training in competitive data science and research competitions.
+  - **Outcome:** Preparation for Spring team placement.
+  - **Time Commitment:** ~2-3 hours/week.
+- **[Spring Semester: Competition Execution & Publication](/join/spring-2026/)**
+  - **Focus:** Team-based research on specific CLEF tasks.
+  - **Outcome:** Competition submissions, working notes, and presentations.
+  - **Time Commitment:** ~100-150+ hours total, depending on role and project intensity.
 
 ## Learn more before joining
 

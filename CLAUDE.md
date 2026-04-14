@@ -116,6 +116,7 @@ Publication entries may include:
 - venue
 - short_venue
 - url_paper
+- url_preprint
 - url_code
 - url_slides
 - abstract

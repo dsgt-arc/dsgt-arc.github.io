@@ -5,8 +5,8 @@ $schema: https://json-schema.org/draft/2020-12/schema
 # Repo conventions:
 # - Each publication file contains a list of publication objects.
 # - Empty optional fields should be omitted rather than set to an empty string.
-# - For CLEF working notes, url_ceur is usually the canonical final publication link.
-# - url_arxiv is optional and should only be added when a real preprint exists.
+# - url_paper should be the canonical final publication link when one exists.
+# - url_preprint is optional and should only be added when a real preprint exists.
 # - doi should be the DOI string only (for example 10.1000/xyz123), not a full https://doi.org URL.
 
 title: Publication entry
@@ -46,18 +46,13 @@ properties:
     type: string
     minLength: 1
 
-  # Generic paper URL for non-CEUR / non-arXiv canonical links.
+  # Canonical final publication link. This may point to CEUR, publisher pages, a proceedings PDF, etc.
   url_paper:
     type: string
     format: uri
 
-  # CEUR proceedings or PDF link. Prefer this for CLEF working notes when available.
-  url_ceur:
-    type: string
-    format: uri
-
-  # arXiv abstract page for a preprint, if one exists.
-  url_arxiv:
+  # Preprint link, usually an arXiv abstract page.
+  url_preprint:
     type: string
     format: uri
 

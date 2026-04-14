@@ -18,8 +18,7 @@
             <li>
                 <strong><em>{{ .title }}</em></strong>
                 {{ with .url_paper }}<a href="{{ . }}"> [Paper]</a>{{ end }}
-                {{ with .url_ceur }}<a href="{{ . }}"> [CEUR]</a>{{ end }}
-                {{ with .url_arxiv }}<a href="{{ . }}"> [arXiv]</a>{{ end }}
+                {{ with .url_preprint }}<a href="{{ . }}"> [Preprint]</a>{{ end }}
                 {{ with .url_code }}<a href="{{ . }}"> [Code]</a>{{ end }}
                 {{ with .url_slides }}<a href="{{ . }}"> [Slides]</a>{{ end }}
                 {{ with .url_project }}<a href="{{ . }}"> [Project]</a>{{ end }}

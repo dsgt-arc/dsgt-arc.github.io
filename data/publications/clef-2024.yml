@@ -9,9 +9,9 @@
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
-  url_arxiv: http://www.arxiv.org/abs/2407.06291
-  url_ceur: https://ceur-ws.org/Vol-3740/paper-202.pdf
   url_code: https://github.com/dsgt-arc/birdclef-2024
+  url_preprint: http://www.arxiv.org/abs/2407.06291
+  url_paper: https://ceur-ws.org/Vol-3740/paper-202.pdf
 - title: Multi-Label Plant Species Classification with Self-Supervised Vision Transformers
   authors:
   - Murilo Gustineli
@@ -20,9 +20,9 @@
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
-  url_arxiv: https://arxiv.org/abs/2407.06298
-  url_ceur: https://ceur-ws.org/Vol-3740/paper-197.pdf
   url_code: https://github.com/dsgt-arc/plantclef-2024
+  url_preprint: https://arxiv.org/abs/2407.06298
+  url_paper: https://ceur-ws.org/Vol-3740/paper-197.pdf
 - title: Tile Compression and Embeddings for Multi-Label Classification in GeoLifeCLEF 2024
   authors:
   - Anthony Miyaguchi
@@ -31,9 +31,9 @@
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
-  url_arxiv: https://arxiv.org/abs/2407.06326
-  url_ceur: https://ceur-ws.org/Vol-3740/paper2144.pdf
   url_code: https://github.com/dsgt-arc/geolifeclef-2024
+  url_preprint: https://arxiv.org/abs/2407.06326
+  url_paper: https://ceur-ws.org/Vol-3740/paper-201.pdf
 - title: Fine-Grained Classification for Poisonous Fungi Identification with Transfer Learning
   authors:
   - Christopher Chiu
@@ -43,9 +43,9 @@
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
-  url_arxiv: https://arxiv.org/abs/2407.07492
-  url_ceur: https://ceur-ws.org/Vol-3740/paper2016.pdf
   url_code: https://github.com/dsgt-arc/fungiclef-2024
+  url_preprint: https://arxiv.org/abs/2407.07492
+  url_paper: https://ceur-ws.org/Vol-3740/paper-191.pdf
 - title: Transfer Learning with Self-Supervised Vision Transformers for Snake Identification
   authors:
   - Anthony Miyaguchi
@@ -55,9 +55,9 @@
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
-  url_arxiv: https://arxiv.org/abs/2407.06178
-  url_ceur: https://ceur-ws.org/Vol-3740/paper-203.pdf
   url_code: https://github.com/dsgt-arc/snakeclef-2024
+  url_preprint: https://arxiv.org/abs/2407.06178
+  url_paper: https://ceur-ws.org/Vol-3740/paper-203.pdf
 - title: 'DS@GT at Touché: Image Search and Ranking via CLIP and Image Generation'
   authors:
   - Benjamin Ostrower
@@ -65,8 +65,8 @@
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
-  url_arxiv: https://arxiv.org/abs/2507.09090
-  url_ceur: https://ceur-ws.org/Vol-3740/paper-332.pdf
+  url_preprint: https://arxiv.org/abs/2507.09090
+  url_paper: https://ceur-ws.org/Vol-3740/paper-332.pdf
 - title: 'AI Authorship Verification: an Ensembled Approach'
   authors:
   - Benjamin Ostrower
@@ -75,7 +75,7 @@
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
-  url_ceur: https://ceur-ws.org/Vol-3740/paper-270.pdf
+  url_paper: https://ceur-ws.org/Vol-3740/paper-270.pdf
 - title: 'DS@GT eRisk 2024: Sentence Transformers for Social Media Risk Assessment'
   authors:
   - David Guecha
@@ -84,9 +84,9 @@
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
-  url_arxiv: https://arxiv.org/abs/2407.08008
-  url_ceur: https://ceur-ws.org/Vol-3740/paper-77.pdf
   url_code: https://github.com/dsgt-arc/erisk-2024
+  url_preprint: https://arxiv.org/abs/2407.08008
+  url_paper: https://ceur-ws.org/Vol-3740/paper-77.pdf
 - title: 'Machine Learning for ALSFRS-R Score Prediction: Making Sense of the Sensor Data'
   authors:
   - Ritesh Mehta
@@ -95,16 +95,16 @@
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
-  url_arxiv: https://arxiv.org/abs/2407.08003
-  url_ceur: https://ceur-ws.org/Vol-3740/paper-127.pdf
+  url_preprint: https://arxiv.org/abs/2407.08003
+  url_paper: https://ceur-ws.org/Vol-3740/paper-127.pdf
 - title: Biomedical Nested NER with Large Language Model and UMLS Heuristics
   authors:
   - Wenxin Zhou
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
-  url_arxiv: https://arxiv.org/abs/2407.05480v1
-  url_ceur: https://ceur-ws.org/Vol-3740/paper-21.pdf
+  url_preprint: https://arxiv.org/abs/2407.05480v1
+  url_paper: https://ceur-ws.org/Vol-3740/paper-21.pdf
 - title: Using Pretrained Large Language Model with Prompt Engineering to Answer Biomedical Questions
   authors:
   - Wenxin Zhou
@@ -112,5 +112,5 @@
   year: 2024
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
-  url_arxiv: http://www.arxiv.org/abs/2407.06779
-  url_ceur: https://ceur-ws.org/Vol-3740/paper-22.pdf
+  url_preprint: http://www.arxiv.org/abs/2407.06779
+  url_paper: https://ceur-ws.org/Vol-3740/paper-22.pdf

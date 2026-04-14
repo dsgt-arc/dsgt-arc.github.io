@@ -8,4 +8,5 @@
   year: 2025
   venue: Text REtrieval Conference
   short_venue: TREC
-  url_arxiv: https://arxiv.org/abs/2601.15518
+  url_preprint: https://arxiv.org/abs/2601.15518
+  url_paper: https://trec.nist.gov/pubs/trec34/papers/DS@GT.tot.pdf

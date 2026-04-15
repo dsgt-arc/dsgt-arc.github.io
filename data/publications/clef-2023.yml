@@ -1,0 +1,14 @@
+# CLEF 2023 publications
+
+- title: Transfer Learning with Semi-Supervised Dataset Annotation for Birdcall Classification
+  authors:
+  - anthony-miyaguchi
+  - nathan-zhong
+  - murilo-gustineli
+  - chris-hayduk
+  year: 2023
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_code: https://github.com/dsgt-birdclef/birdclef-2023
+  url_preprint: https://arxiv.org/abs/2306.16760
+  url_paper: https://ceur-ws.org/Vol-3497/paper-177.pdf

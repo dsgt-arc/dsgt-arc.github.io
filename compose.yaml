@@ -1,0 +1,20 @@
+services:
+  site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dsgt-arc-site:dev
+    working_dir: /src
+    ports:
+      - "${HUGO_HOST_PORT:-1313}:1313"
+    volumes:
+      - .:/src
+      - ./scripts/docker-entrypoint.sh:/usr/local/bin/docker-entrypoint.sh:ro
+      - hugo_cache:/tmp/hugo_cache
+    environment:
+      HUGO_CACHEDIR: /tmp/hugo_cache
+      SITE_BASEURL: ${SITE_BASEURL:-http://localhost:1313/}
+      SITE_POLL_INTERVAL: ${SITE_POLL_INTERVAL:-700ms}
+
+volumes:
+  hugo_cache:

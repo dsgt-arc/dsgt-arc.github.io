@@ -1,0 +1,12 @@
+key: clef-2025
+name: Conference and Labs of the Evaluation Forum
+short_name: CLEF
+year: 2025
+location: Madrid, Spain
+dates: September 9–12, 2025
+start_date: '2025-09-09'
+end_date: '2025-09-12'
+website: https://clef2025.clef-initiative.eu/
+url_proceedings: https://ceur-ws.org/Vol-4038/
+publisher: CEUR-WS
+type: conference

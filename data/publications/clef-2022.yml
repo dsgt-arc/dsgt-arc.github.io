@@ -1,0 +1,15 @@
+# CLEF 2022 publications
+
+- title: Motif Mining and Unsupervised Representation Learning for BirdCLEF 2022
+  authors:
+  - anthony-miyaguchi
+  - jiangyue-yu
+  - bryan-cheungvivatpant
+  - dakota-dudley
+  - aniketh-swain
+  year: 2022
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_code: https://github.com/dsgt-birdclef/birdclef-2022
+  url_preprint: https://arxiv.org/abs/2206.04805
+  url_paper: https://ceur-ws.org/Vol-3180/paper-171.pdf

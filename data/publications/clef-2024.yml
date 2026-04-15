@@ -1,0 +1,116 @@
+# CLEF 2024 publications
+
+- title: Transfer Learning with Pseudo Multi-Label Birdcall Classification for DS@GT BirdCLEF 2024
+  authors:
+  - anthony-miyaguchi
+  - adrian-cheung
+  - murilo-gustineli
+  - ashley-kim
+  year: 2024
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_code: https://github.com/dsgt-arc/birdclef-2024
+  url_preprint: http://www.arxiv.org/abs/2407.06291
+  url_paper: https://ceur-ws.org/Vol-3740/paper-202.pdf
+- title: Multi-Label Plant Species Classification with Self-Supervised Vision Transformers
+  authors:
+  - murilo-gustineli
+  - anthony-miyaguchi
+  - ian-stalter
+  year: 2024
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_code: https://github.com/dsgt-arc/plantclef-2024
+  url_preprint: https://arxiv.org/abs/2407.06298
+  url_paper: https://ceur-ws.org/Vol-3740/paper-197.pdf
+- title: Tile Compression and Embeddings for Multi-Label Classification in GeoLifeCLEF 2024
+  authors:
+  - anthony-miyaguchi
+  - patcharapong-aphiwetsa
+  - mark-mcduffie
+  year: 2024
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_code: https://github.com/dsgt-arc/geolifeclef-2024
+  url_preprint: https://arxiv.org/abs/2407.06326
+  url_paper: https://ceur-ws.org/Vol-3740/paper-201.pdf
+- title: Fine-Grained Classification for Poisonous Fungi Identification with Transfer Learning
+  authors:
+  - christopher-chiu
+  - maximilian-heil
+  - teresa-kim
+  - anthony-miyaguchi
+  year: 2024
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_code: https://github.com/dsgt-arc/fungiclef-2024
+  url_preprint: https://arxiv.org/abs/2407.07492
+  url_paper: https://ceur-ws.org/Vol-3740/paper-191.pdf
+- title: Transfer Learning with Self-Supervised Vision Transformers for Snake Identification
+  authors:
+  - anthony-miyaguchi
+  - murilo-gustineli
+  - austin-fischer
+  - ryan-lundqvist
+  year: 2024
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_code: https://github.com/dsgt-arc/snakeclef-2024
+  url_preprint: https://arxiv.org/abs/2407.06178
+  url_paper: https://ceur-ws.org/Vol-3740/paper-203.pdf
+- title: 'DS@GT at Touché: Image Search and Ranking via CLIP and Image Generation'
+  authors:
+  - benjamin-ostrower
+  - patcharapong-aphiwetsa
+  year: 2024
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2507.09090
+  url_paper: https://ceur-ws.org/Vol-3740/paper-332.pdf
+- title: 'AI Authorship Verification: an Ensembled Approach'
+  authors:
+  - benjamin-ostrower
+  - jacob-wessell
+  - abhinav-bindal
+  year: 2024
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_paper: https://ceur-ws.org/Vol-3740/paper-270.pdf
+- title: 'DS@GT eRisk 2024: Sentence Transformers for Social Media Risk Assessment'
+  authors:
+  - david-guecha
+  - aaryan-potdar
+  - anthony-miyaguchi
+  year: 2024
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_code: https://github.com/dsgt-arc/erisk-2024
+  url_preprint: https://arxiv.org/abs/2407.08008
+  url_paper: https://ceur-ws.org/Vol-3740/paper-77.pdf
+- title: 'Machine Learning for ALSFRS-R Score Prediction: Making Sense of the Sensor Data'
+  authors:
+  - ritesh-mehta
+  - aleksandar-pramov
+  - shashank-verma
+  year: 2024
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2407.08003
+  url_paper: https://ceur-ws.org/Vol-3740/paper-127.pdf
+- title: Biomedical Nested NER with Large Language Model and UMLS Heuristics
+  authors:
+  - wenxin-zhou
+  year: 2024
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2407.05480v1
+  url_paper: https://ceur-ws.org/Vol-3740/paper-21.pdf
+- title: Using Pretrained Large Language Model with Prompt Engineering to Answer Biomedical Questions
+  authors:
+  - wenxin-zhou
+  - thuy-hang-ngo
+  year: 2024
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: http://www.arxiv.org/abs/2407.06779
+  url_paper: https://ceur-ws.org/Vol-3740/paper-22.pdf

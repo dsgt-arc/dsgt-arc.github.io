@@ -1,0 +1,89 @@
+{{/*
+  Emits schema.org Event and PodcastEpisode entries describing ARC's
+  presentations, conference appearances, and podcast features. Pulled
+  from the impact page's "Presentations" section. Update this partial
+  when entries are added there.
+*/}}
+{{- $authors := .Site.Data.authors -}}
+{{- $baseURL := .Site.BaseURL -}}
+
+{{- $omscsConfPlace := dict
+  "@type" "Place"
+  "name" "Georgia Tech (OMSCS Conference)"
+  "address" (dict "@type" "PostalAddress" "addressLocality" "Atlanta" "addressRegion" "GA" "addressCountry" "US")
+-}}
+
+{{- $cvprPlace := dict
+  "@type" "Place"
+  "name" "CVPR 2025 / FGVC12 Workshop"
+-}}
+
+{{- /* Talk entries */ -}}
+{{- $talks := slice
+  (dict "year" 2026 "title" "Building a Culture of Applied Research: The DS@GT ARC Story" "slug" "murilo-gustineli" "type" "Traditional Talk" "url" "https://omscs.gatech.edu/2026-omscs-conference-program" "conference" "OMSCS Conference 2026" "place" $omscsConfPlace)
+  (dict "year" 2025 "title" "Multi-Label Plant Species Classification with Self-Supervised Vision Transformers" "slug" "murilo-gustineli" "type" "Poster Session" "url" "https://omscs.gatech.edu/2025-omscs-conference-poster-demo-session" "conference" "OMSCS Conference 2025" "place" $omscsConfPlace)
+  (dict "year" 2024 "title" "DS@GT PlantCLEF 2024: Plant Biodiversity Identification Using Deep Learning" "slug" "murilo-gustineli" "type" "Traditional Talk" "url" "https://omscs.gatech.edu/2024-omscs-conference-program" "conference" "OMSCS Conference 2024" "place" $omscsConfPlace)
+  (dict "year" 2023 "title" "Running a Kaggle Competition Team: Insights and Lessons from BirdCLEF with Data Science @ Georgia Tech" "slug" "anthony-miyaguchi" "type" "Traditional Talk" "url" "https://omscs.gatech.edu/sites/default/files/documents/2024/OMSCS%20Conference-2023%20OMSCS%20Conference%20program.pdf" "conference" "OMSCS Conference 2023" "place" $omscsConfPlace)
+  (dict "year" 2025 "title" "Multi-label Plant Species Classification using Vision Transformers for PlantCLEF 2025" "slug" "murilo-gustineli" "type" "Poster" "url" "https://murilogustineli.com/blog-posts/2025-06-20-cvpr-poster/" "conference" "CVPR 2025 / FGVC12" "place" $cvprPlace)
+-}}
+
+{{- /* Podcast episodes */ -}}
+{{- $podcastSeries := dict
+  "@type" "PodcastSeries"
+  "name" "OMSCS Buzz"
+  "url" "https://omscs.gatech.edu/news/category/omscs-buzz-podcast"
+-}}
+{{- $podcasts := slice
+  (dict "name" "OMSCS Buzz S5E3: Murilo Gustineli" "slug" "murilo-gustineli" "datePublished" "2025-09-23" "url" "https://omscs.gatech.edu/news/omscs-buzz-s5e3-murilo-gustineli")
+  (dict "name" "OMSCS Buzz S2E10: Anthony Miyaguchi" "slug" "anthony-miyaguchi" "datePublished" "2024-07-24" "url" "https://omscs.gatech.edu/news/omscs-buzz-s2e10-anthony-miyaguchi")
+-}}
+
+{{- $orgRef := dict "@type" "Organization" "name" "DS@GT Applied Research Competitions" "url" $baseURL -}}
+
+{{- $graph := slice -}}
+
+{{- range $talk := $talks -}}
+  {{- $a := index $authors $talk.slug -}}
+  {{- $personName := $talk.slug -}}
+  {{- if $a -}}{{- $personName = $a.name -}}{{- end -}}
+  {{- $performer := dict "@type" "Person" "name" $personName -}}
+  {{- if and $a $a.orcid -}}
+    {{- $performer = merge $performer (dict "@id" (printf "https://orcid.org/%s" $a.orcid)) -}}
+  {{- end -}}
+  {{- $event := dict
+    "@type" "Event"
+    "name" $talk.title
+    "description" (printf "%s at %s" $talk.type $talk.conference)
+    "startDate" (printf "%d" $talk.year)
+    "eventStatus" "https://schema.org/EventScheduled"
+    "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
+    "location" $talk.place
+    "performer" $performer
+    "url" $talk.url
+    "superEvent" (dict "@type" "Event" "name" $talk.conference "startDate" (printf "%d" $talk.year))
+    "organizer" $orgRef
+  -}}
+  {{- $graph = $graph | append $event -}}
+{{- end -}}
+
+{{- range $ep := $podcasts -}}
+  {{- $a := index $authors $ep.slug -}}
+  {{- $personName := $ep.slug -}}
+  {{- if $a -}}{{- $personName = $a.name -}}{{- end -}}
+  {{- $actor := dict "@type" "Person" "name" $personName -}}
+  {{- if and $a $a.orcid -}}
+    {{- $actor = merge $actor (dict "@id" (printf "https://orcid.org/%s" $a.orcid)) -}}
+  {{- end -}}
+  {{- $entry := dict
+    "@type" "PodcastEpisode"
+    "name" $ep.name
+    "datePublished" $ep.datePublished
+    "url" $ep.url
+    "actor" $actor
+    "partOfSeries" $podcastSeries
+  -}}
+  {{- $graph = $graph | append $entry -}}
+{{- end -}}
+
+{{- $obj := dict "@context" "https://schema.org" "@graph" $graph -}}
+<script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>

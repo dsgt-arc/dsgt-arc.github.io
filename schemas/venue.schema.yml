@@ -1,0 +1,94 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+
+# Schema for a single venue metadata file in data/venues/*.yml.
+#
+# Repo conventions:
+# - Each venue file contains exactly one object.
+# - The filename stem must match key (for example data/venues/clef-2025.yml -> key: clef-2025).
+# - start_date and end_date should be quoted ISO strings so YAML keeps them as strings.
+# - dates is a human-friendly display string for the site.
+# - website should point to the main venue/event page.
+# - url_proceedings should point to the proceedings landing page when available.
+
+title: Venue metadata
+type: object
+required:
+  - key
+  - name
+  - short_name
+  - year
+  - location
+  - dates
+  - start_date
+  - end_date
+  - website
+  - type
+properties:
+  # Stable identifier used to pair venue metadata with a publications file.
+  key:
+    type: string
+    minLength: 1
+
+  # Full venue or workshop name.
+  name:
+    type: string
+    minLength: 1
+
+  # Short venue label shown in section headers, for example CLEF or TREC.
+  short_name:
+    type: string
+    minLength: 1
+
+  # Venue year used for grouping and filename conventions.
+  year:
+    type: integer
+    minimum: 1900
+
+  # Human-readable location string exactly as we want to show it on the site.
+  location:
+    type: string
+    minLength: 1
+
+  # Human-readable date string for display.
+  dates:
+    type: string
+    minLength: 1
+
+  # Machine-readable start date used for reverse chronological sorting.
+  start_date:
+    type: string
+    pattern: '^\d{4}-\d{2}-\d{2}$'
+
+  # Machine-readable end date used for consistency checks and future formatting.
+  end_date:
+    type: string
+    pattern: '^\d{4}-\d{2}-\d{2}$'
+
+  # Official venue website.
+  website:
+    type: string
+    format: uri
+
+  # Proceedings landing page, if available.
+  url_proceedings:
+    type:
+      - string
+      - 'null'
+    format: uri
+
+  # Publisher or proceedings host, if known.
+  publisher:
+    type:
+      - string
+      - 'null'
+
+  # Broad venue type used for display semantics and future filtering.
+  type:
+    type: string
+    enum:
+      - conference
+      - workshop
+      - benchmark
+      - competition
+
+additionalProperties: false

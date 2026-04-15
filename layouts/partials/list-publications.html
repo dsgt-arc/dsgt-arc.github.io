@@ -1,31 +1,36 @@
 <!-- beautify ignore:start -->
-{{ $publications := .Site.Data.publications }}
-{{ range $year := (slice 2025 2024 2023 2022) }}
-    {{ $yearPubs := where $publications "year" $year }}
-    {{ if $yearPubs }}
-        {{ $venues := slice }}
-        {{ range $yearPubs }}
-        {{ if not (in $venues .short_venue) }} 
-            {{ $venues = $venues | append .short_venue }} 
-        {{ end }}
+{{ $authors := $.Site.Data.authors }}
+{{ $baseURL := $.Site.BaseURL }}
+{{ $orgName := $.Site.Params.organizationName | default $.Site.Title }}
+{{ $venueGroups := slice }}
+{{ range $groupName, $groupPubs := .Site.Data.publications }}
+    {{ $venue := index $.Site.Data.venues $groupName }}
+    {{ if $venue }}
+        {{ $venueGroups = $venueGroups | append (dict "key" $groupName "venue" $venue "publications" $groupPubs "start_date" $venue.start_date) }}
     {{ end }}
+{{ end }}
 
-    {{ range $venue := $venues }}
-        <h2>{{ $venue }} {{ $year }}</h2>
-        <ul>
-            {{ range $publications }}
-                {{ if and (eq .year $year) (eq .short_venue $venue) }}
-                <li>
-                    <strong><em>{{ .title }}</em></strong>
-                    {{ with .url_paper }}<a href="{{ . }}"> [Paper]</a>{{ end }}
-                    {{ with .url_code }}<a href="{{ . }}"> [Code]</a>{{ end }}
-                    <br>
-                    {{ range $index, $author := .authors }}{{ if $index }}, {{ end }}{{ $author }}{{ end }}
-                </li>
-                {{ end }}
-            {{ end }}
-        </ul>
+{{ range $group := sort $venueGroups "start_date" "desc" }}
+    {{ $venue := $group.venue }}
+    <h2>{{ $venue.short_name }} {{ $venue.year }}</h2>
+    <p>
+        <em>{{ $venue.name }}</em>{{ if or $venue.location $venue.dates $venue.website $venue.url_proceedings }} · {{ end }}{{ with $venue.location }}{{ . }}{{ end }}{{ if and $venue.location $venue.dates }} · {{ end }}{{ with $venue.dates }}<strong>{{ . }}</strong>{{ end }}{{ if and (or $venue.location $venue.dates) (or $venue.website $venue.url_proceedings) }} · {{ end }}{{ with $venue.website }}<a href="{{ . }}">[Website]</a>{{ end }}{{ if and $venue.website $venue.url_proceedings }} · {{ end }}{{ with $venue.url_proceedings }}<a href="{{ . }}">[Proceedings]</a>{{ end }}
+    </p>
+    <ul>
+        {{ range $group.publications }}
+            <li>
+                <strong><em>{{ .title }}</em></strong>
+                {{ with .url_paper }}<a href="{{ . }}"> [Paper]</a>{{ end }}
+                {{ with .url_preprint }}<a href="{{ . }}"> [Preprint]</a>{{ end }}
+                {{ with .url_code }}<a href="{{ . }}"> [Code]</a>{{ end }}
+                {{ with .url_slides }}<a href="{{ . }}"> [Slides]</a>{{ end }}
+                {{ with .url_project }}<a href="{{ . }}"> [Project]</a>{{ end }}
+                {{ with .doi }}<a href="https://doi.org/{{ . }}"> [DOI]</a>{{ end }}
+                <br>
+                {{ range $index, $slug := .authors }}{{ if $index }}, {{ end }}{{ $ad := index $authors $slug }}{{ if $ad }}{{ $ad.name }}{{ if $ad.orcid }}<sup><a class="orcid-id" href="https://orcid.org/{{ $ad.orcid }}" title="ORCID: {{ $ad.orcid }}">iD</a></sup>{{ end }}{{ else }}{{ $slug }}{{ end }}{{ end }}
+                {{ partial "publication-jsonld.html" (dict "pub" . "venue" $venue "authorsMap" $authors "baseURL" $baseURL "orgName" $orgName) }}
+            </li>
         {{ end }}
-    {{ end }}
+    </ul>
 {{ end }}
 <!-- beautify ignore:end -->

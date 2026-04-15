@@ -1,23 +1,27 @@
 +++
-title = 'Contact us'
+title = 'Contact'
+linkTitle = 'Contact'
+description = 'Contact DS@GT ARC, join the Slack channel, and get the latest information about upcoming recruitment cycles.'
 menu = 'main'
-weight = 100
+weight = 40
 +++
-# Contact/How to Join Us
+# Contact
+
+If you are new to ARC, start with the [Join page](/join/). This page is mainly for direct contact information.
 
 ## Slack channel
 
-Join our slack channel [#applied-research-competitions](https://datasciencegt.slack.com/?redir=%2Farchives%2FC05MW3LPZFZ%3Fname%3DC05MW3LPZFZ) on the **DS@GT Slack** to find out more details and chat with us
+Join the [#applied-research-competitions](https://datasciencegt.slack.com/?redir=%2Farchives%2FC05MW3LPZFZ%3Fname%3DC05MW3LPZFZ) channel on the **DS@GT Slack** for announcements and general discussion.
 
 ## Points of Contact
 
-For specific inquiries on our club please reach out to.
+For specific questions about ARC, reach out to:
 
-*   **Murilo Gustineli**: murilogustineli at gatech.edu
-*   **Ritesh Mehta**: rmehta307 at gatech.edu
-*   **Jason Tam**: jtam30 at gatech.edu
+- **Murilo Gustineli**: murilogustineli at gatech.edu
+- **Ritesh Mehta**: rmehta307 at gatech.edu
+- **Jason Tam**: jtam30 at gatech.edu
 
-## Fall 2025 interest form
+## Current join status
 
-For Fall 2025 recruitment initiatives, please fill out the following form: [Link](https://docs.google.com/forms/d/e/1FAIpQLSfODo9AxoE0exzTFT2115nYWbYw4dWfDK3jvnDvKoKH-3LkbA/viewform)
+See the [Join page](/join/) for the current cycle status and the next recruitment entry point.
 

@@ -1,0 +1,12 @@
+key: clef-2023
+name: Conference and Labs of the Evaluation Forum
+short_name: CLEF
+year: 2023
+location: Thessaloniki, Greece
+dates: September 18–21, 2023
+start_date: '2023-09-18'
+end_date: '2023-09-21'
+website: https://clef2023.clef-initiative.eu/
+url_proceedings: https://ceur-ws.org/Vol-3497/
+publisher: CEUR-WS
+type: conference

@@ -1,0 +1,51 @@
+{{- $authors := $.Site.Data.authors -}}
+{{- $venueGroups := slice -}}
+{{- range $groupName, $groupPubs := .Site.Data.publications -}}
+    {{- $venue := index $.Site.Data.venues $groupName -}}
+    {{- if $venue -}}
+        {{- $venueGroups = $venueGroups | append (dict "key" $groupName "venue" $venue "publications" $groupPubs "start_date" $venue.start_date) -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $allPubs := slice -}}
+{{- range $group := sort $venueGroups "start_date" "desc" -}}
+    {{- $venue := $group.venue -}}
+    {{- range $group.publications -}}
+        {{- $authorList := slice -}}
+        {{- range .authors -}}
+            {{- $ad := index $authors . -}}
+            {{- if $ad -}}
+                {{- $authorEntry := dict "name" $ad.name -}}
+                {{- with $ad.orcid -}}
+                    {{- $authorEntry = merge $authorEntry (dict "orcid" .) -}}
+                {{- end -}}
+                {{- $authorList = $authorList | append $authorEntry -}}
+            {{- else -}}
+                {{- $authorList = $authorList | append (dict "name" .) -}}
+            {{- end -}}
+        {{- end -}}
+
+        {{- $links := dict -}}
+        {{- with .url_paper }}{{ $links = merge $links (dict "paper" .) }}{{ end -}}
+        {{- with .url_preprint }}{{ $links = merge $links (dict "preprint" .) }}{{ end -}}
+        {{- with .url_code }}{{ $links = merge $links (dict "code" .) }}{{ end -}}
+        {{- with .url_slides }}{{ $links = merge $links (dict "slides" .) }}{{ end -}}
+        {{- with .url_project }}{{ $links = merge $links (dict "project" .) }}{{ end -}}
+        {{- with .doi }}{{ $links = merge $links (dict "doi" .) }}{{ end -}}
+
+        {{- $pub := dict
+            "title" .title
+            "authors" $authorList
+            "year" .year
+            "venue" $venue.short_name
+            "venueFull" $venue.name
+            "venueKey" $group.key
+            "links" $links
+        -}}
+        {{- with .abstract }}{{ $pub = merge $pub (dict "abstract" .) }}{{ end -}}
+        {{- with .keywords }}{{ $pub = merge $pub (dict "keywords" .) }}{{ end -}}
+
+        {{- $allPubs = $allPubs | append $pub -}}
+    {{- end -}}
+{{- end -}}
+<script id="pub-data" type="application/json">{{ $allPubs | jsonify | safeJS }}</script>

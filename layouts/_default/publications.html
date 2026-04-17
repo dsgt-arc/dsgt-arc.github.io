@@ -3,7 +3,11 @@
     {{ partial "publications-collection-jsonld.html" . }}
     {{ .Content }}
 
-    {{/* This is where you call the partial */}}
-    {{ partial "list-publications.html" . }}
+    {{ partial "publications-search-data.html" . }}
+    <pub-search data-src="pub-data"></pub-search>
+
+    <div id="pub-list-static">
+        {{ partial "list-publications.html" . }}
+    </div>
 </main>
 {{ end }}

@@ -6,9 +6,15 @@
 
 {{ $image := resources.Get $src }}
 {{ if $image }}
-    {{ $image := $image.Resize $resize }}
+    {{ $img800 := $image.Resize "800x webp" }}
+    {{ $img600 := $image.Resize "600x webp" }}
+    {{ $img400 := $image.Resize "400x webp" }}
     <figure class="captioned-image">
-        <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async" width="{{ $image.Width }}" height="{{ $image.Height }}">
+        <img src="{{ $img800.RelPermalink }}"
+             srcset="{{ $img400.RelPermalink }} 400w, {{ $img600.RelPermalink }} 600w, {{ $img800.RelPermalink }} 800w"
+             sizes="(max-width: 600px) 100vw, 800px"
+             alt="{{ $alt }}" loading="lazy" decoding="async"
+             width="{{ $img800.Width }}" height="{{ $img800.Height }}">
         {{ with $alt }}<figcaption><b>Figure: </b>{{ . }}</figcaption>{{ end }}
     </figure>
 {{ else }}

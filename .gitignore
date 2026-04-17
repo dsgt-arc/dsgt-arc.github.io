@@ -7,6 +7,14 @@ hugo_stats.json
 
 # Node
 /node_modules/
+/ui/node_modules/
+
+# Vite build output (rebuilt from ui/ source)
+/assets/js/pub-search.js
+
+# Playwright
+/ui/test-results/
+/ui/playwright-report/
 
 # OS
 .DS_Store

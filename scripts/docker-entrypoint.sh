@@ -5,6 +5,13 @@ THEME_DIR="${THEME_DIR:-themes/hugo-bearblog}"
 DEFAULT_BASEURL="${SITE_BASEURL:-http://localhost:1313/}"
 DEFAULT_POLL_INTERVAL="${SITE_POLL_INTERVAL:-700ms}"
 
+build_ui() {
+  if [ -f "ui/package.json" ]; then
+    echo "Building UI components..."
+    (cd ui && npm install --prefer-offline && npm run build)
+  fi
+}
+
 require_theme() {
   if [ ! -d "$THEME_DIR" ] || [ -z "$(find "$THEME_DIR" -mindepth 1 -maxdepth 1 2>/dev/null)" ]; then
     cat >&2 <<'EOF'
@@ -22,6 +29,7 @@ EOF
 
 if [ $# -eq 0 ]; then
   require_theme
+  build_ui
   exec hugo server --buildDrafts --bind 0.0.0.0 --baseURL "$DEFAULT_BASEURL" --appendPort=false --poll "$DEFAULT_POLL_INTERVAL"
 fi
 
@@ -29,15 +37,18 @@ case "$1" in
   hugo)
     shift
     require_theme
+    build_ui
     exec hugo "$@"
     ;;
   -*)
     require_theme
+    build_ui
     exec hugo "$@"
     ;;
   *)
     if hugo help "$1" >/dev/null 2>&1; then
       require_theme
+      build_ui
       exec hugo "$@"
     fi
     ;;

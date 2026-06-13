@@ -59,13 +59,14 @@ Annual conference for Georgia Tech's Online Master of Science in Computer Scienc
 | :------------------------- | :--: | :--: | :--: | :--: |
 | Number of papers submitted |  22  |  11  |  1   |  1   |
 | Total Labs                 |  14  |  7   |  1   |  1   |
+| Total Tasks                |  30  |  14  |  1   |  1   |
 | Authors                    |  44  |  22  |  4   |  5   |
 | Returning Participants     |  13  |  1   |  1   | N/A  |
-| Total Participants         |  78  |  33  |  6   |  5   |
+| Total Participants         |  77  |  31  |  6   |  5   |
 
 ### Spring 2025
 
-- **78 total members** (44 active, 41 graduate, 3 undergraduate)
+- **77 total members** (44 active, 41 graduate, 3 undergraduate)
 - **44 published authors** across 15 research teams and 22 working note papers
 - **14 labs** with active participation
 - **10 members** receiving course credit via CS 7643 Deep Learning

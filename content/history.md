@@ -18,7 +18,7 @@ Fall 2023 introduced the "Kaggle-CLEF Interest Group", a semester-long program c
 
 {{< img src="/images/20240909_clef_conference_grenoble.jpeg" alt="Group photo at CLEF 2024, Grenoble, France, Sept 9th 2024" >}}
 
-Fall 2024 refined the Interest Group format, added PACE cluster training, and secured access to Georgia Tech's PACE HPC cluster via PACESHIP, complementing continued GCP use. That foundation enabled a much larger Spring 2025: 78 participants, 44 published authors, 22 working notes, and 14 CLEF labs. The group also received EVPR-PACESHIP support, continued to convert competition work into course credit, conference presentations, and external recognition, and sent 10 Georgia Tech representatives to CLEF 2025 in Madrid, Spain to present in person.
+Fall 2024 refined the Interest Group format, added PACE cluster training, and secured access to Georgia Tech's PACE HPC cluster via PACESHIP, complementing continued GCP use. That foundation enabled a much larger Spring 2025: 77 participants, 44 published authors, 22 working notes, and 14 CLEF labs. The group also received EVPR-PACESHIP support, continued to convert competition work into course credit, conference presentations, and external recognition, and sent 10 Georgia Tech representatives to CLEF 2025 in Madrid, Spain to present in person.
 
 {{< img src="/images/20250426_hack_session.jpg" alt="In-person hack session ahead of the OMSCS Conference, April 26, 2025" >}}
 

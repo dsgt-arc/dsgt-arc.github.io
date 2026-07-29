@@ -15,13 +15,14 @@ Join the [#applied-research-competitions](https://datasciencegt.slack.com/?redir
 
 ## Points of Contact
 
-For specific questions about ARC, reach out to:
+For Fall 2026 interest-group and ARC questions, reach out to:
 
-- **Murilo Gustineli**: murilogustineli at gatech.edu
-- **Ritesh Mehta**: rmehta307 at gatech.edu
-- **Jason Tam**: jtam30 at gatech.edu
+- **Evan Sinclair Smith, Main Lead**: esmith446 at gatech.edu
+- **Eric Regina, Group Lead**: eric.regina at gatech.edu
+- **Brendon Johnson, Core Team**: bjohnson436 at gatech.edu
+- **Murilo Gustineli, Core Team**: murilogustineli at gatech.edu
+- **Anthony Miyaguchi, Core Team**: acmiyaguchi at gatech.edu
 
 ## Current join status
 
 See the [Join page](/join/) for the current cycle status and the next recruitment entry point.
-

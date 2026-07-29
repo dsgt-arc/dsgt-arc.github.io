@@ -8,14 +8,14 @@ weight = 2
 
 # Join DS@GT ARC
 
-Recruitment is not currently open. The [Spring 2026 CLEF Competition](/join/spring-2026/) cycle is underway with existing teams, and the next entry point for new members will be **Fall 2026 recruitment**.
+Interest is now open for the [Fall 2026 Interest Group](/join/fall-2026/). Submit the [Fall 2026 Interest Form](https://go.dsgt-arc.org/survey-fall-2026) to receive confirmed participation details as they become available.
 
 ## Getting started
 
-1. Review the [FAQ](/faq/) to understand roles, expectations, and time commitment.
-2. Join the [DS@GT Slack channel](https://datasciencegt.slack.com/?redir=%2Farchives%2FC05MW3LPZFZ%3Fname%3DC05MW3LPZFZ) for updates on future recruitment.
-3. Explore [Impact](/impact/) and [Publications](/publications/) to see what ARC teams produce.
-4. Use the [Contact page](/contact-us/) if you still need to reach the right person.
+1. Submit the [Fall 2026 Interest Form](https://go.dsgt-arc.org/survey-fall-2026).
+2. Review the [Fall 2026 Interest Group page](/join/fall-2026/) and [FAQ](/faq/).
+3. Join the [DS@GT Slack channel](https://datasciencegt.slack.com/?redir=%2Farchives%2FC05MW3LPZFZ%3Fname%3DC05MW3LPZFZ) for ARC updates.
+4. Explore [Impact](/impact/) and [Publications](/publications/) to see what ARC teams produce.
 
 ## Membership
 
@@ -30,8 +30,10 @@ ARC operates as a project group within the broader Data Science @ Georgia Tech s
 
 The group operates on a two-semester academic cycle.
 
-- **Fall Interest Group & Preparation:** introductory training in competitive data science that prepares students for spring team placement. ~2–3 hours/week.
-- **Spring Competition Execution & Publication:** team-based CLEF research producing submissions, working notes, and presentations. ~100–150+ hours total, depending on role.
+- **Fall Interest Group & Preparation:** a one-credit introduction to competitive data science and applied research.
+- **Spring Competition Research:** three-credit, team-based competition and research work.
+
+Course registration, coursework, scheduling, and participation details will be posted after they are finalized.
 
 Recordings from our Fall 2024 Interest Group provide an overview of the group's structure and expectations.
 
@@ -39,10 +41,10 @@ Recordings from our Fall 2024 Interest Group provide an overview of the group's 
 <iframe src="https://www.youtube-nocookie.com/embed/videoseries?si=EvIbPEjtD9H5MxKz&amp;list=PLaBtWXB-9VkYjmihEIgiyjfSLWikEVHc7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-## Past cycles
+## Current and past cycles
 
-- **2026:** [Spring](/join/spring-2026/)
-- **2025:** [Fall](/join/fall-2025/)
+- **2026:** [Fall Interest Group](/join/fall-2026/) · [Spring CLEF archive](/join/spring-2026/)
+- **2025:** [Fall Interest Group archive](/join/fall-2025/)
 
 ## Learn more
 

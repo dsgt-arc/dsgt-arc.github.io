@@ -24,4 +24,4 @@ Fall 2024 refined the Interest Group format, added PACE cluster training, and se
 
 {{< img src="/images/20250910_clef_conference_madrid.jpg" alt="Group photo at CLEF 2025, Madrid, Spain, Sept 10th 2025" >}}
 
-Fall 2025 ran the same onboarding-and-preparation cycle for the year ahead. The Spring 2026 CLEF cycle is now underway, with new members entering through Fall 2026 recruitment.
+Fall 2025 ran the same onboarding-and-preparation cycle for the year ahead. The Spring 2026 CLEF cycle concluded, followed by the opening of the [Fall 2026 Interest Group](/join/fall-2026/).

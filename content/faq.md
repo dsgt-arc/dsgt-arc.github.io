@@ -45,7 +45,7 @@ A **Lab member** is responsible for the following:
 Lab Leads and members are expected to commit time, have strong programming skills, and be legitimately curious about the lab and task.
 
 ## 5. How do I become a Lab Lead for a task?
-Lab Lead selection typically happens before the spring competition cycle begins. If you are interested in leading a future task, monitor the [Join page](/join/) and reach out to Anthony Miyaguchi (acmiyaguchi at gatech.edu) or Murilo Gustineli (murilogustineli at gatech.edu) with an overview of your proposed solution for the particular task.
+Lab Lead selection typically happens before the spring competition cycle begins. If you are interested in leading a future task, monitor the [Join page](/join/) and use the [Contact page](/contact-us/) to reach the current ARC leadership team.
 
 ## 6. What is the time commitment required to participate?
 The time commitment varies depending on your role and the effort you want to put in. 
@@ -71,23 +71,8 @@ To join:
 - Pay the membership dues: $25 for one year or $15 for one semester
 - Payment links can be found at the bottom of the Linktree page
 
-## 10. How can I earn academic credit for participating in CLEF?
-If you are an OMSCS student, there are two primary ways to earn academic credit through CLEF participation: 
-1. CS 8903 - Special Problems
-2. CS 8803 O24 - Intro to Research
-
-### CS 8903 – Special Problems
-This is a supervised research course that requires special permission to enroll. To take this course, you need to:
-- Develop a research proposal statement. Here’s an example of a research statement from a previous semester
-[Spring 2024 - Statement of Research, Murilo Gustineli](https://docs.google.com/document/d/1mh05O9RE9AF3MI9gyZz5aZzS08YlG2hc7mxopPquDfg/edit?usp=sharing)
-- Secure a faculty member from the College of Computing (CoC) who agrees to supervise your research.
-Finding a professor can be challenging due to limited availability, and enrollment is contingent upon obtaining their permission. 
-You can find more information on the [Graduate Forms & Procedures | College of Computing](https://www.cc.gatech.edu/graduate-forms-procedures)
-
-
-### CS 8803 O24 – Intro to Research
-This course offers a general introduction to research methods and computer science research. 
-Unlike CS 8903, you can register for this course as part of your regular course selection in the OMSCS program.
+## 10. How can I earn academic credit through ARC?
+The ARC academic pathway is **one credit in Fall** and **three credits in Spring**. Course registration, eligibility, and coursework details are still being finalized and will be shared when confirmed. Submit the [Fall 2026 Interest Form](https://go.dsgt-arc.org/survey-fall-2026) for updates.
 
 ## 11. What kinds of labs are available through CLEF?
 The table below summarizes the labs in the current **[CLEF 2026 program](https://clef2026.clef-initiative.eu/labs)**. Lab lineups shift year to year, so visit the CLEF 2026 labs page for each lab's current tasks, call for participation, and official lab pages.

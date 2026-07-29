@@ -57,6 +57,13 @@ properties:
     type: string
     format: uri
 
+  # Explicit state for a preprint that is expected but not public yet.
+  # Omit this field once url_preprint is available.
+  preprint_status:
+    type: string
+    enum:
+      - pending
+
   # Public code repository for the paper or competition entry.
   url_code:
     type: string
@@ -94,5 +101,11 @@ properties:
   bibtex:
     type: string
     minLength: 1
+
+allOf:
+  - not:
+      required:
+        - url_preprint
+        - preprint_status
 
 additionalProperties: false

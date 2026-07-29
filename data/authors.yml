@@ -8,6 +8,8 @@ aaryan-potdar:
   name: Aaryan Potdar
 abhinav-bindal:
   name: Abhinav Bindal
+adam-brikman:
+  name: Adam Brikman
 adrian-cheung:
   name: Adrian Cheung
   orcid: 0009-0006-8650-4550
@@ -17,6 +19,8 @@ akshay-daftardar:
 aleksandar-pramov:
   name: Aleksandar Pramov
   orcid: 0009-0005-9049-1337
+alper-erten:
+  name: Alper Erten
 aniketh-swain:
   name: Aniketh Swain
   orcid: 0000-0001-8329-9682
@@ -30,6 +34,8 @@ austin-fischer:
 ayush-parikh:
   name: Ayush Parikh
   orcid: 0009-0002-8364-3011
+balaji-anandganesh:
+  name: Balaji Anandganesh
 benjamin-herbert:
   name: Benjamin Herbert
   orcid: 0009-0009-0179-3835
@@ -41,6 +47,14 @@ bina-patel:
 bishoy-tawfik:
   name: Bishoy Tawfik
   orcid: 0009-0001-1163-0847
+bowen-wang:
+  name: Bowen Wang
+boyang-gong:
+  name: Boyang Gong
+brandon-michaels:
+  name: Brandon Michaels
+brendon-johnson:
+  name: Brendon Johnson
 bryan-cheungvivatpant:
   name: Bryan Cheungvivatpant
   orcid: 0000-0002-2030-7494
@@ -50,35 +64,50 @@ chandrasekaran-maruthaiyannan:
 charles-r-clark:
   name: Charles R. Clark
   orcid: 0009-0008-0415-111X
+chengxi-zhang:
+  name: Chengxi Zhang
+chloe-pomeroy:
+  name: Chloe Pomeroy
+  orcid: 0009-0004-2283-7909
 chris-hayduk:
   name: Chris Hayduk
 christopher-chiu:
   name: Christopher Chiu
   orcid: 0000-0002-4219-1795
-chloe-pomeroy:
-  name: Chloe Pomeroy
-  orcid: 0009-0004-2283-7909
 conor-johnston:
   name: Conor Johnston
   orcid: 0009-0001-1777-9255
 dakota-dudley:
   name: Dakota Dudley
   orcid: 0000-0001-8352-0391
+dante-evangelista:
+  name: Danté Evangelista
 david-guecha:
   name: David Guecha
   orcid: 0009-0009-9855-5330
+dianze-liu:
+  name: Dianze Liu
 dionne-bang:
   name: Dionne Bang
 divyansh-khattak:
   name: Divyansh Khattak
+eric-regina:
+  name: Eric Regina
+evan-sinclair-smith:
+  name: Evan Sinclair Smith
+  orcid: 0009-0007-9097-275X
 fengyi-jiang:
   name: Fengyi Jiang
   orcid: 0009-0007-9420-5259
+harshul-basava:
+  name: Harshul Basava
 heba-h-elwazzan:
   name: Heba H. Elwazzan
 hoang-thanh-thanh-truong:
   name: Hoang Thanh Thanh Truong
   orcid: 0009-0007-4130-3349
+hwaai-kang-kee:
+  name: Hwaai Kang Kee
 ian-stalter:
   name: Ian Stalter
 imran-afrulbasha:
@@ -97,6 +126,12 @@ jiangqin-ma:
 jiangyue-yu:
   name: Jiangyue Yu
   orcid: 0000-0003-4466-9913
+jorge-ignacio-perez:
+  name: Jorge Ignacio Perez
+justice-ayela:
+  name: Justice Ayela
+kabir-sahni:
+  name: Kabir Sahni
 karishma-thakrar:
   name: Karishma Thakrar
   orcid: 0009-0008-2563-7370
@@ -105,6 +140,10 @@ krishna-chaitanya-marturi:
 lakshmi-yendapalli:
   name: Lakshmi Yendapalli
   orcid: 0009-0001-8486-4804
+lee-mai:
+  name: Lee Mai
+lucas-rassbach:
+  name: Lucas Rassbach
 mark-mcduffie:
   name: Mark McDuffie
 mathitha-thekkinkattuvalappil-unnikrishnan:
@@ -118,6 +157,8 @@ maximilian-heil:
 michael-sana:
   name: Michael Sana
   orcid: 0009-0007-6608-7347
+mlen-too-wesley:
+  name: Mlen-Too Wesley
 moiz-ali:
   name: Moiz Ali
   orcid: 0009-0005-9509-586X
@@ -130,33 +171,61 @@ patcharapong-aphiwetsa:
   name: Patcharapong Aphiwetsa
 poonam-doongare:
   name: Poonam Doongare
+prateek-awate:
+  name: Prateek Awate
+richard-arnaud:
+  name: Richard Arnaud
 ritesh-mehta:
   name: Ritesh Mehta
+robert-james-brock:
+  name: Robert James Brock
 russell-taylor:
   name: Russell Taylor
   orcid: 0009-0007-0702-2375
 ryan-lundqvist:
   name: Ryan Lundqvist
+sagnik-sinha:
+  name: Sagnik Sinha
+samir-hadi-cisneros:
+  name: Samir Hadi Cisneros
+sebastian-maximilian-krupa:
+  name: Sebastian Maximilian Krupa
 shashank-verma:
   name: Shashank Verma
   orcid: 0009-0003-1478-4328
 shreyas-basavatia:
   name: Shreyas Basavatia
   orcid: 0009-0000-6467-802X
-sidharth-gaur:
-  name: Sidharth Gaur
+shreyas-shrestha:
+  name: Shreyas Shrestha
 shuyu-tian:
   name: Shuyu Tian
   orcid: 0000-0001-6444-651X
+sidharth-gaur:
+  name: Sidharth Gaur
+sirui-li:
+  name: Sirui Li
+snigdha-palamari:
+  name: Snigdha Palamari
 teresa-kim:
   name: Teresa Kim
   orcid: 0009-0002-4514-3710
 thuy-hang-ngo:
   name: Thuy Hang Ngo
+victor-gong:
+  name: Victor Gong
 wenxin-zhou:
   name: Wenxin Zhou
 xiangning-xue:
   name: Xiangning Xue
   orcid: 0000-0002-5775-1193
+xueying-zhao:
+  name: Xueying Zhao
+youwen-zhang:
+  name: Youwen Zhang
+yue-li:
+  name: Yue Li
 yuwen-chiu:
   name: Yuwen Chiu
+zhanxu-liu:
+  name: Zhanxu Liu

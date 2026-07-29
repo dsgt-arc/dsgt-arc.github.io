@@ -1,0 +1,209 @@
+# CLEF 2026 publications
+
+- title: Retrieval-Augmented Biomedical Question Answering with Weak-Question Recovery and Neural Reranking for BioASQ Task 14b
+  authors:
+  - xueying-zhao
+  - lee-mai
+  - balaji-anandganesh
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending
+
+- title: 'DS@GT ARC at CheckThat! 2026: LLM-Based Trace Ranking and Grouped Reward Modeling for Multilingual Numerical Claim Verification'
+  authors:
+  - sagnik-sinha
+  - shreyas-shrestha
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending
+
+- title: 'DS@GT ARC at CheckThat! 2026: A Verdict-Anchored Pipeline for Generating Fact-Checking Articles'
+  authors:
+  - hoang-thanh-thanh-truong
+  - shuyu-tian
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending
+
+- title: 'DS@GT ARC at eRisk 2026: Hybrid Multi-Agent LLM System with Structured Algorithmic Guidance for Conversational Depression Screening'
+  authors:
+  - victor-gong
+  - david-guecha
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2607.16712
+
+- title: 'DS@GT-ARC at eRisk 2026 Task 3: Sparse, Semantic, and LLM Reranking for ADHD Symptom Sentences'
+  authors:
+  - david-guecha
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending
+
+- title: 'Language-Routed RAG and Direct Option Scoring for Multilingual Financial QA: DS@GT at FinMMEval'
+  authors:
+  - justice-ayela
+  - kabir-sahni
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2607.22841
+
+- title: 'FinNexus: Agentic Retrieval-Augmented Reranking Orchestration for Multilingual Financial Question Answering'
+  authors:
+  - dianze-liu
+  - sirui-li
+  - shuyu-tian
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending
+
+- title: 'DS@GT ARC at FinMMeval 2026: On the Role of Tools in Agentic LLM-Based Trading Systems'
+  authors:
+  - maximilian-heil
+  - aleksandar-pramov
+  - boyang-gong
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending
+
+- title: Lightweight Person-Place Relation Extraction from Historical Newspapers with Dependency Graphs and Proximity Features
+  authors:
+  - mlen-too-wesley
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2607.19718
+
+- title: Predicting Viticulture Potential through an Ensemble of U-Net and a Geospatial Foundation Model
+  authors:
+  - jorge-ignacio-perez
+  - hwaai-kang-kee
+  - lucas-rassbach
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2607.08449
+
+- title: 'DS@GT ARC at ImageCLEFmedical 2026: Architectural Diversity for Concept Detection and Foundation-Model Scaling for Caption Prediction in Medical Image Analysis'
+  authors:
+  - bowen-wang
+  - youwen-zhang
+  - ritesh-mehta
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending
+
+- title: 'DS@GT ARC at ImageCLEFmed GANs 2026: Geometric Filtering for Privacy-Preserving CT Slice Generation'
+  authors:
+  - eric-regina
+  - richard-arnaud
+  - samir-hadi-cisneros
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2607.20692
+
+- title: 'DS@GT ARC at MEDIQA-CORE-Task-1 2026: Trimodal Model Fusion with Task-Specific Gates for Brain Tumor Subtype Classification'
+  authors:
+  - hoang-thanh-thanh-truong
+  - charles-r-clark
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending
+
+- title: 'DS@GT at ImageCLEF 2026 MultimodalReasoning: Visual Multiple Choice Question Reasoning with Vision-Language Models'
+  authors:
+  - yue-li
+  - zhanxu-liu
+  - chengxi-zhang
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending
+
+- title: 'Searching for Sound-Meaning Collisions: Graph-Based Affordance Retrieval and Multi-Evaluator Ranking for Cross-Lingual Pun Translation at CLEF 2026 JOKER Task 2'
+  authors:
+  - russell-taylor
+  - adam-brikman
+  - prateek-awate
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending
+
+- title: 'DS@GT ARC at AnimalCLEF 2026: Species-Aware Graph Construction for Multi-Species Animal Re-Identification'
+  authors:
+  - evan-sinclair-smith
+  - anthony-miyaguchi
+  - snigdha-palamari
+  - dante-evangelista
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2607.16453
+
+- title: Can Tokens Compete? Token Representations against Supervised CNN Backbones for BirdCLEF+ 2026
+  authors:
+  - anthony-miyaguchi
+  - murilo-gustineli
+  - adrian-cheung
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2607.14474
+
+- title: Decoupled Pipeline with Proposal Reranking and Score Fusion for Positive-Unlabeled Marine Species Detection
+  authors:
+  - robert-james-brock
+  - sebastian-maximilian-krupa
+  - jason-kahei-tam
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2607.18700
+
+- title: Multi-Scale ViT Inference with Habitat-Fit Priors and kNN Retrieval for Multi-Species Plant Identification
+  authors:
+  - alper-erten
+  - murilo-gustineli
+  - adrian-cheung
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2607.14509
+
+- title: 'DS@GT ARC at LongEval: Citation Integrity and Factual Grounding in Scientific QA'
+  authors:
+  - brandon-michaels
+  - brendon-johnson
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  url_preprint: https://arxiv.org/abs/2607.14400
+
+- title: 'Fine-Tuning Fundamentals and Data Augmentation: DS@GT ARC at Voight-Kampff 2026'
+  authors:
+  - harshul-basava
+  - murilo-gustineli
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending
+
+- title: Cluster-Aware QUBO Instance Selection with Representativeness Scoring and Noise Pre-Filtering for the QuantumCLEF 2026 Sentiment Classification Task
+  authors:
+  - prateek-awate
+  year: 2026
+  venue: Conference and Labs of the Evaluation Forum
+  short_venue: CLEF
+  preprint_status: pending

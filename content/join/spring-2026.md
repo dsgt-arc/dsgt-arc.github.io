@@ -1,16 +1,16 @@
 +++
-title = 'Spring 2026 CLEF Competition'
-description = 'Join the DS@GT ARC spring CLEF competition cycle and learn about eligibility, expectations, schedule, and team formation.'
+title = 'Spring 2026 CLEF Competition Archive'
+description = 'Archived information about the completed DS@GT ARC Spring 2026 CLEF competition cycle.'
 aliases = ['/spring_recruitment/']
 weight = 20
 +++
 
-# Spring 2026 CLEF Competition
+# Spring 2026 CLEF Competition Archive
 
-The Spring 2026 competition cycle is currently underway. Team formation for this cycle is already in progress, so most new students should plan for the next Fall recruitment cycle instead of joining mid-semester.
+This page is preserved as an archive of the completed Spring 2026 competition cycle. For the current entry point, visit the [Fall 2026 Interest Group](/join/fall-2026/).
 
-- **Cycle status:** active and underway
-- **Best path for most new students:** follow updates through the [Join page](/join/), the [DS@GT Slack channel](https://datasciencegt.slack.com/?redir=%2Farchives%2FC05MW3LPZFZ%3Fname%3DC05MW3LPZFZ), or [Contact](/contact-us/)
+- **Cycle status:** completed
+- **Current entry point:** [Fall 2026 Interest Group](/join/fall-2026/)
 
 Are you interested in doing research but need help knowing where to start? 
 Are you interested in sinking your teeth into applicable, real-world datasets to solve challenging problems? 
@@ -20,9 +20,9 @@ For CLEF 2025 alone, we had 44 published authors!
 By joining us, you'll gain valuable experience, build a network of like-minded individuals, and have the opportunity to participate in competitive research. 
 You can read more about our achievements on our [Impact](/impact) page and browse prior [publications](/publications/) to see examples of ARC research outputs. 
 
-If you are new to ARC, reviewing the [Join page](/join/), the archived [Fall 2025 Interest Group](/join/fall-2025/), [FAQ](/faq/), and [Contact page](/contact-us/) may also help.
+If you are new to ARC, review the [Join page](/join/), [FAQ](/faq/), and [Contact page](/contact-us/).
 
-The CLEF 2026 competition is now in progress, with team research and experiments underway during the spring semester and working note papers submitted near the end of the cycle. 
+The CLEF 2026 cycle included team research and experiments during the spring semester, followed by working note submissions near the end of the cycle.
 **To participate with the DS@GT-ARC CLEF 2026 team, you should meet at least one of the following criteria**: 
 - Returning members of DS@GT ARC who have published working note(s) with us
 - Participated in the [2025 Fall Interest Group](/join/fall-2025/)
@@ -34,7 +34,7 @@ Seats in the course will be limited, and completing the sign-up form does not gu
 If you’re an Alumnus and would like to join our research group in the spring, you will be required to register for CS 8903 (or any other course) for [PACE](https://pace.gatech.edu/) access. 
 CS8903 may be taken as a 3 credits course or a 1 credit course.
 
-Team formation for Spring 2026 is no longer the primary entry point for most new students. If you want to get involved with ARC, the best next step is to monitor the [Join page](/join/) and join the [DS@GT Slack channel](https://datasciencegt.slack.com/?redir=%2Farchives%2FC05MW3LPZFZ%3Fname%3DC05MW3LPZFZ) for future recruitment updates.
+The remaining information on this page reflects the structure and guidance shared during the Spring 2026 cycle.
 
 Feel free to share this page and join us in [#applied-research-competitions](https://datasciencegt.slack.com/archives/C05MW3LPZFZ) by joining us on the DS@GT Slack: https://linktr.ee/datasciencegt 
 

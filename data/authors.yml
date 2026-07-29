@@ -10,6 +10,7 @@ abhinav-bindal:
   name: Abhinav Bindal
 adam-brikman:
   name: Adam Brikman
+  orcid: 0009-0006-6428-2264
 adrian-cheung:
   name: Adrian Cheung
   orcid: 0009-0006-8650-4550
@@ -21,6 +22,7 @@ aleksandar-pramov:
   orcid: 0009-0005-9049-1337
 alper-erten:
   name: Alper Erten
+  orcid: 0009-0007-3417-0584
 aniketh-swain:
   name: Aniketh Swain
   orcid: 0000-0001-8329-9682
@@ -49,12 +51,16 @@ bishoy-tawfik:
   orcid: 0009-0001-1163-0847
 bowen-wang:
   name: Bowen Wang
+  orcid: 0009-0004-8132-1769
 boyang-gong:
   name: Boyang Gong
+  orcid: 0009-0004-9915-9050
 brandon-michaels:
   name: Brandon Michaels
+  orcid: 0009-0008-2056-6884
 brendon-johnson:
   name: Brendon Johnson
+  orcid: 0009-0002-1777-2456
 bryan-cheungvivatpant:
   name: Bryan Cheungvivatpant
   orcid: 0000-0002-2030-7494
@@ -82,17 +88,20 @@ dakota-dudley:
   orcid: 0000-0001-8352-0391
 dante-evangelista:
   name: Danté Evangelista
+  orcid: 0009-0005-7587-6271
 david-guecha:
   name: David Guecha
   orcid: 0009-0009-9855-5330
 dianze-liu:
   name: Dianze Liu
+  orcid: 0009-0008-2651-3556
 dionne-bang:
   name: Dionne Bang
 divyansh-khattak:
   name: Divyansh Khattak
 eric-regina:
   name: Eric Regina
+  orcid: 0009-0003-4991-3601
 evan-sinclair-smith:
   name: Evan Sinclair Smith
   orcid: 0009-0007-9097-275X
@@ -108,6 +117,7 @@ hoang-thanh-thanh-truong:
   orcid: 0009-0007-4130-3349
 hwaai-kang-kee:
   name: Hwaai Kang Kee
+  orcid: 0009-0003-7613-5905
 ian-stalter:
   name: Ian Stalter
 imran-afrulbasha:
@@ -117,6 +127,7 @@ jacob-wessell:
   name: Jacob Wessell
 jason-kahei-tam:
   name: Jason Kahei Tam
+  orcid: 0009-0005-0853-0414
 jeanette-schofield:
   name: Jeanette Schofield
   orcid: 0009-0000-0669-8962
@@ -128,10 +139,13 @@ jiangyue-yu:
   orcid: 0000-0003-4466-9913
 jorge-ignacio-perez:
   name: Jorge Ignacio Perez
+  orcid: 0009-0001-3367-7646
 justice-ayela:
   name: Justice Ayela
+  orcid: 0009-0001-3131-362X
 kabir-sahni:
   name: Kabir Sahni
+  orcid: 0009-0000-5795-5690
 karishma-thakrar:
   name: Karishma Thakrar
   orcid: 0009-0008-2563-7370
@@ -144,6 +158,7 @@ lee-mai:
   name: Lee Mai
 lucas-rassbach:
   name: Lucas Rassbach
+  orcid: 0009-0008-8096-7700
 mark-mcduffie:
   name: Mark McDuffie
 mathitha-thekkinkattuvalappil-unnikrishnan:
@@ -159,6 +174,7 @@ michael-sana:
   orcid: 0009-0007-6608-7347
 mlen-too-wesley:
   name: Mlen-Too Wesley
+  orcid: 0009-0002-7979-1599
 moiz-ali:
   name: Moiz Ali
   orcid: 0009-0005-9509-586X
@@ -173,12 +189,16 @@ poonam-doongare:
   name: Poonam Doongare
 prateek-awate:
   name: Prateek Awate
+  orcid: 0009-0002-1878-9700
 richard-arnaud:
   name: Richard Arnaud
+  orcid: 0009-0004-2788-2135
 ritesh-mehta:
   name: Ritesh Mehta
+  orcid: 0009-0000-2786-1626
 robert-james-brock:
   name: Robert James Brock
+  orcid: 0009-0003-8059-3335
 russell-taylor:
   name: Russell Taylor
   orcid: 0009-0007-0702-2375
@@ -186,10 +206,13 @@ ryan-lundqvist:
   name: Ryan Lundqvist
 sagnik-sinha:
   name: Sagnik Sinha
+  orcid: 0009-0002-7290-7317
 samir-hadi-cisneros:
   name: Samir Hadi Cisneros
+  orcid: 0009-0006-1280-987X
 sebastian-maximilian-krupa:
   name: Sebastian Maximilian Krupa
+  orcid: 0009-0008-7763-4470
 shashank-verma:
   name: Shashank Verma
   orcid: 0009-0003-1478-4328
@@ -198,6 +221,7 @@ shreyas-basavatia:
   orcid: 0009-0000-6467-802X
 shreyas-shrestha:
   name: Shreyas Shrestha
+  orcid: 0009-0005-2061-3546
 shuyu-tian:
   name: Shuyu Tian
   orcid: 0000-0001-6444-651X
@@ -207,6 +231,7 @@ sirui-li:
   name: Sirui Li
 snigdha-palamari:
   name: Snigdha Palamari
+  orcid: 0009-0001-1729-0396
 teresa-kim:
   name: Teresa Kim
   orcid: 0009-0002-4514-3710
@@ -214,6 +239,7 @@ thuy-hang-ngo:
   name: Thuy Hang Ngo
 victor-gong:
   name: Victor Gong
+  orcid: 0009-0002-1080-5980
 wenxin-zhou:
   name: Wenxin Zhou
 xiangning-xue:
@@ -221,6 +247,7 @@ xiangning-xue:
   orcid: 0000-0002-5775-1193
 xueying-zhao:
   name: Xueying Zhao
+  orcid: 0000-0003-4184-7040
 youwen-zhang:
   name: Youwen Zhang
 yue-li:

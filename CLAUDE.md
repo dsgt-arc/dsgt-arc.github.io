@@ -154,9 +154,10 @@ Important notes:
 The repository is deployed via **Cloudflare Workers Builds** (git integration on the `dsgt-arc` Worker).
 
 - `wrangler.toml` only configures **what is served**: static assets from `./public` and the custom domains `dsgt-arc.org` / `www.dsgt-arc.org`.
-- **How the site is built lives in the Cloudflare dashboard**, not in the repo: Compute > Workers & Pages > `dsgt-arc` > Settings > Build. As of August 2026 the build configuration is:
-  - Build command: `cd ui && npm ci && npm run build && cd .. && hugo`
+- **The build is triggered from the Cloudflare dashboard but defined in the repo**: the dashboard (Compute > Workers & Pages > `dsgt-arc` > Settings > Build) runs `npm run build`, which executes the pipeline in the root `package.json`:
+  - `cd ui && npm ci && npm run build && cd .. && hugo`
     (the `ui/` npm step compiles the `<pub-search>` web component to the gitignored `assets/js/pub-search.js` — without it, the publications page silently falls back to the static list)
+  - Change the pipeline by editing the root `package.json`, not the dashboard.
   - Deploy command: `npx wrangler deploy`
   - Production branch: `main`, with preview builds enabled for non-production branches (the Cloudflare bot posts preview URLs on PRs)
 - Changing build settings does **not** trigger a rebuild; use "New deployment" in the dashboard or push a commit.

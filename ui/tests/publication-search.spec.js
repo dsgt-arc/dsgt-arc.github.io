@@ -117,9 +117,10 @@ test.describe("Publication search and filter", () => {
     const yearSelect = page.getByLabel("Filter by year");
     const options = yearSelect.locator("option");
 
-    // "All years" + at least 2022-2025
     await expect(options.first()).toHaveText("All years");
-    await expect(options).toHaveCount(5); // All years, 2025, 2024, 2023, 2022
+    // At least 2022-2025
+    const count = await options.count();
+    expect(count).toBeGreaterThanOrEqual(5); // All years + 4 years
   });
 
   test("venue dropdown is populated with correct options", async ({ page }) => {

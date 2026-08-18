@@ -1,0 +1,4 @@
+{{ range .Site.Menus.main }}
+{{- $isActive := or (eq $.RelPermalink .URL) (and (ne .URL "/") (hasPrefix $.RelPermalink .URL)) -}}
+<a href="{{ .URL }}"{{ if $isActive }} class="active"{{ end }} data-text="{{ .Name }}">{{ .Name }}</a>
+{{ end }}

@@ -4,6 +4,11 @@
 {{ $themeToggle := resources.Get "js/theme-toggle.js" | minify | fingerprint }}
 <script src="{{ $themeToggle.RelPermalink }}" integrity="{{ $themeToggle.Data.Integrity }}"></script>
 
+{{ with resources.Get "js/pub-search.js" }}
+  {{ $pubSearch := . | minify | fingerprint }}
+  <script src="{{ $pubSearch.RelPermalink }}" integrity="{{ $pubSearch.Data.Integrity }}" defer></script>
+{{ end }}
+
 <link rel="canonical" href="{{ .Permalink }}">
 
 {{ $defaultSocialImagePath := .Site.Params.defaultSocialImage | default "images/20240909_clef_conference_grenoble.jpeg" }}

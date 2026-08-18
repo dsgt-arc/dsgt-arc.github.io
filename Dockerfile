@@ -4,9 +4,21 @@ FROM debian:bookworm-slim
 ARG HUGO_VERSION
 ARG TARGETARCH
 
+ARG NODE_VERSION=22
+
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ca-certificates curl git \
     && rm -rf /var/lib/apt/lists/*
+
+RUN case "${TARGETARCH}" in \
+        amd64) NODE_ARCH="x64" ;; \
+        arm64) NODE_ARCH="arm64" ;; \
+        *) echo "Unsupported TARGETARCH: ${TARGETARCH}" >&2; exit 1 ;; \
+    esac \
+    && curl -fsSL "https://deb.nodesource.com/setup_${NODE_VERSION}.x" | bash - \
+    && apt-get install -y --no-install-recommends nodejs \
+    && rm -rf /var/lib/apt/lists/* \
+    && node --version && npm --version
 
 RUN case "${TARGETARCH}" in \
         amd64) HUGO_ARCH="64bit" ;; \

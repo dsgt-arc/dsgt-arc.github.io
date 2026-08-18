@@ -151,15 +151,17 @@ Important notes:
 
 ## Deployment
 
-The repository is configured for deployment via **Cloudflare**.
+The repository is deployed via **Cloudflare Workers Builds** (git integration on the `dsgt-arc` Worker).
 
-- Hugo builds the site into **`/public`**.
-- `wrangler.toml` points Cloudflare at `./public`.
-- Custom domain routing is configured for:
-  - `dsgt-arc.org`
-  - `www.dsgt-arc.org`
+- `wrangler.toml` only configures **what is served**: static assets from `./public` and the custom domains `dsgt-arc.org` / `www.dsgt-arc.org`.
+- **How the site is built lives in the Cloudflare dashboard**, not in the repo: Compute > Workers & Pages > `dsgt-arc` > Settings > Build. As of August 2026 the build configuration is:
+  - Build command: `cd ui && npm ci && npm run build && cd .. && hugo`
+    (the `ui/` npm step compiles the `<pub-search>` web component to the gitignored `assets/js/pub-search.js` — without it, the publications page silently falls back to the static list)
+  - Deploy command: `npx wrangler deploy`
+  - Production branch: `main`, with preview builds enabled for non-production branches (the Cloudflare bot posts preview URLs on PRs)
+- Changing build settings does **not** trigger a rebuild; use "New deployment" in the dashboard or push a commit.
 
-There is currently **no in-repo GitHub Actions deployment workflow**, so do not assume CI-based deployment from `.github/workflows/`.
+There is **no GitHub Actions deployment workflow**, so do not assume CI-based deployment from `.github/workflows/`. The Dockerfile's Node/Hugo pipeline is for local development only and is not what production runs.
 
 ## Key Workflows
 
@@ -218,7 +220,7 @@ Behavior summary:
   - `static/CNAME` is the file Hugo will publish into the built site.
   - The root-level `CNAME` may be redundant.
 - The repo name is `dsgt-arc.github.io`, but deployment is currently configured around a custom domain on Cloudflare rather than GitHub Pages.
-- The README still references older GitHub Pages-related Hugo docs; current deployment config lives in `wrangler.toml`.
+- The repo name suggests GitHub Pages, but deployment is Cloudflare Workers Builds; see the Deployment section above for where the build command actually lives.
 
 ## Practical Guidance for Agents
 

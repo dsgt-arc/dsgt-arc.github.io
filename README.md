@@ -63,9 +63,9 @@ hugo
 ## deployment
 
 The site deploys via **Cloudflare Workers Builds** on pushes to `main`
-(previews are built for other branches). The build command is configured in
-the Cloudflare dashboard (Compute > Workers & Pages > `dsgt-arc` > Settings >
-Build), not in this repo:
+(previews are built for other branches). The dashboard build command
+(Compute > Workers & Pages > `dsgt-arc` > Settings > Build) is `npm run build`,
+which runs the pipeline defined in the root `package.json`:
 
 ```bash
 cd ui && npm ci && npm run build && cd .. && hugo

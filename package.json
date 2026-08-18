@@ -1,0 +1,7 @@
+{
+  "name": "dsgt-arc-website",
+  "private": true,
+  "scripts": {
+    "build": "cd ui && npm ci && npm run build && cd .. && hugo"
+  }
+}

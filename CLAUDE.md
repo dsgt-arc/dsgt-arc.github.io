@@ -129,13 +129,14 @@ These files override or extend the Bear Blog theme:
 - **`/layouts/_default/publications.html`** - Custom layout for the publications page
 - **`/layouts/partials/list-publications.html`** - Renders publications grouped by year and venue from YAML data
 - **`/layouts/partials/custom_head.html`** - Injects custom CSS, social/meta tags, and JSON-LD through Hugo's asset pipeline
-- **`/layouts/partials/header.html`** - Custom header (site title and nav)
+- **`/layouts/partials/header.html`** - Custom header (site title, nav, and theme toggle button)
 - **`/layouts/shortcodes/img.html`** - Custom image shortcode with resize and WebP conversion
 
 When editing shared UI, check whether behavior comes from the theme or from one of these local overrides.
 
 ### Assets
-- **`/assets/css/custom.css`** - Custom styles for the light-only color palette, responsive videos, captioned images, team grid, and tables
+- **`/assets/css/custom.css`** - Custom styles for theme palettes, nav tabs, responsive videos, captioned images, team grid, and tables
+- **`/assets/js/theme-toggle.js`** - JavaScript for light/dark theme switching (light default)
 - **`/assets/images/`** - Images processed through Hugo's asset pipeline
 - **`/static/`** - Static files copied as-is into the final build
 
@@ -197,11 +198,19 @@ Images should live in:
 
 The shortcode resolves the asset with Hugo resources and applies resizing/conversion.
 
-## Color Scheme
+## Light/Dark Mode Toggle
 
-The site is **light mode only**. The Bear Blog theme ships a dark palette under a `prefers-color-scheme: dark` media query in its inline styles, but `/assets/css/custom.css` (loaded after the theme styles) re-declares the light palette on `:root`, which wins in the cascade even when the visitor's OS is in dark mode.
+The site has a light/dark toggle button (moon/sun icon) in the header. **Light is the default** for all visitors regardless of OS preference; dark mode applies only when explicitly chosen via the toggle.
 
-There is no theme toggle button and no theme-switching JavaScript. If dark mode is ever reintroduced, it needs a toggle in `/layouts/partials/header.html`, a script under `/assets/js/`, and per-theme variable blocks in `custom.css` (see git history before August 2026 for the previous implementation).
+Relevant files:
+- **`/layouts/partials/header.html`** - Toggle button markup
+- **`/assets/js/theme-toggle.js`** - Theme state handling and localStorage persistence (OS preference is deliberately ignored)
+- **`/assets/css/custom.css`** - CSS variables for light/dark palettes
+
+Behavior summary:
+- light mode is the default; the Bear theme's built-in `prefers-color-scheme: dark` palette is overridden by `custom.css` re-declaring light values on `:root` (loaded later, so it wins in the cascade)
+- an explicit choice is stored in `localStorage` under `theme`
+- the active theme is set via `data-theme` on the root `<html>` element; `html[data-theme="dark"]` carries the dark palette
 
 ## Known Repo Quirks
 

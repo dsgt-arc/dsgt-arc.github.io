@@ -4,10 +4,12 @@ html {
     scrollbar-gutter: stable;
 }
 
-/* Light mode only: override the theme's prefers-color-scheme dark palette.
-   This file loads after the theme's inline styles, so these values win
-   even when the visitor's OS is in dark mode. */
-:root {
+/* Light is the default theme regardless of OS preference: this block
+   loads after the theme's inline styles, so it overrides the theme's
+   prefers-color-scheme dark palette. Dark mode applies only when the
+   toggle sets data-theme="dark" (see js/theme-toggle.js). */
+:root,
+html[data-theme="light"] {
     --background-color: #fff;
     --heading-color: #222;
     --text-color: #444;
@@ -15,6 +17,37 @@ html {
     --code-background-color: #f2f2f2;
     --code-color: #222;
     --blockquote-color: #222;
+}
+
+html[data-theme="dark"] {
+    --background-color: #01242e;
+    --heading-color: #eee;
+    --text-color: #ddd;
+    --link-color: #8cc2dd;
+    --code-background-color: #000;
+    --code-color: #ddd;
+    --blockquote-color: #ccc;
+}
+
+/* Header layout */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Theme toggle button */
+#theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.25rem 0.5rem;
+    line-height: 1;
+}
+
+#theme-toggle:hover {
+    opacity: 0.7;
 }
 
 /* Top navigation tabs: slightly bolder than body text; the current page
@@ -82,6 +115,9 @@ sup a.orcid-id:hover {
 }
 sup a.orcid-id {
     color: #4a7c00; /* ORCID green, darkened for contrast on white (~5:1) */
+}
+html[data-theme="dark"] sup a.orcid-id {
+    color: #a6ce39; /* ORCID brand green, readable on dark bg */
 }
 
 /* Team page member grid */

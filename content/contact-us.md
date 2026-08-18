@@ -1,7 +1,7 @@
 +++
 title = 'Contact'
 linkTitle = 'Contact'
-description = 'Contact DS@GT ARC, join the Slack channel, and get the latest information about upcoming recruitment cycles.'
+description = 'Contact DS@GT ARC through the group email and get the latest information about upcoming recruitment cycles.'
 menu = 'main'
 weight = 40
 +++
@@ -9,9 +9,9 @@ weight = 40
 
 If you are new to ARC, start with the [Join page](/join/). This page is mainly for direct contact information.
 
-## Slack channel
+## Group email
 
-Join the [#applied-research-competitions](https://datasciencegt.slack.com/?redir=%2Farchives%2FC05MW3LPZFZ%3Fname%3DC05MW3LPZFZ) channel on the **DS@GT Slack** for announcements and general discussion.
+The best way to reach DS@GT ARC is through the group mailing list: [dsgt-arc@groups.gatech.edu](mailto:dsgt-arc@groups.gatech.edu).
 
 ## Points of Contact
 

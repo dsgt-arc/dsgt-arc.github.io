@@ -60,8 +60,22 @@ For a production build:
 hugo
 ```
 
+## deployment
+
+The site deploys via **Cloudflare Workers Builds** on pushes to `main`
+(previews are built for other branches). The build command is configured in
+the Cloudflare dashboard (Compute > Workers & Pages > `dsgt-arc` > Settings >
+Build), not in this repo:
+
+```bash
+cd ui && npm ci && npm run build && cd .. && hugo
+```
+
+The `ui/` step compiles the publications search web component into
+`assets/js/pub-search.js` (gitignored); Hugo then builds the site into
+`public/`, which `wrangler.toml` serves at dsgt-arc.org.
+
 ## notes
 
 - https://themes.gohugo.io/themes/hugo-bearblog/
 - https://gohugo.io/getting-started/quick-start/
-- https://gohugo.io/host-and-deploy/host-on-github-pages/

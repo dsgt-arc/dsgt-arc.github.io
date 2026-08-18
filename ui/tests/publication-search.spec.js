@@ -147,4 +147,28 @@ test.describe("Publication search and filter", () => {
     const text = await firstPub.textContent();
     expect(text).not.toMatch(/[a-z]+-[a-z]+-[a-z]+/);
   });
+
+  test("author names are separated by comma and space", async ({ page }) => {
+    const firstPub = page.locator("pub-search li").first();
+    const text = await firstPub.textContent();
+    // No comma should be followed directly by a letter
+    expect(text).not.toMatch(/,\S/);
+  });
+
+  test("search results keep reverse-chronological group order", async ({
+    page,
+  }) => {
+    const searchbox = page.getByRole("searchbox", {
+      name: "Search publications",
+    });
+    // Matches CLEF publications across several years
+    await searchbox.fill("birdcall");
+    await expect(page.locator("pub-search")).toContainText(/Showing \d+ of/);
+
+    const headings = await page.locator("pub-search h2").allTextContents();
+    const years = headings.map((h) => parseInt(h.match(/\d{4}/)[0], 10));
+    expect(years.length).toBeGreaterThan(1);
+    const sorted = [...years].sort((a, b) => b - a);
+    expect(years).toEqual(sorted);
+  });
 });

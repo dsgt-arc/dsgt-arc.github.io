@@ -21,9 +21,14 @@
 
     let results = pubs;
 
-    // Apply Fuse.js text search if there's a query
+    // Apply Fuse.js text search if there's a query, restoring the
+    // original (reverse-chronological) order of the matched items
     if (query.trim() && fuse) {
-      results = fuse.search(query.trim()).map((r) => r.item);
+      const rank = new Map(pubs.map((p, i) => [p, i]));
+      results = fuse
+        .search(query.trim())
+        .map((r) => r.item)
+        .sort((a, b) => rank.get(a) - rank.get(b));
     }
 
     // Apply year filter
@@ -145,8 +150,7 @@
             <a href="https://doi.org/{pub.links.doi}"> [DOI]</a>
           {/if}
           <br />
-          {#each pub.authors as author, i}{#if i},
-            {/if}{author.name}{#if author.orcid}<sup
+          {#each pub.authors as author, i}{#if i}{", "}{/if}{author.name}{#if author.orcid}<sup
                 ><a
                   class="orcid-id"
                   href="https://orcid.org/{author.orcid}"

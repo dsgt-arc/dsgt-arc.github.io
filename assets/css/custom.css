@@ -1,5 +1,13 @@
-/* Theme toggle overrides */
-html[data-theme="light"] {
+/* Always reserve space for the scrollbar so short pages (no scrollbar)
+   center identically to long pages (with scrollbar). */
+html {
+    scrollbar-gutter: stable;
+}
+
+/* Light mode only: override the theme's prefers-color-scheme dark palette.
+   This file loads after the theme's inline styles, so these values win
+   even when the visitor's OS is in dark mode. */
+:root {
     --background-color: #fff;
     --heading-color: #222;
     --text-color: #444;
@@ -9,35 +17,26 @@ html[data-theme="light"] {
     --blockquote-color: #222;
 }
 
-html[data-theme="dark"] {
-    --background-color: #01242e;
-    --heading-color: #eee;
-    --text-color: #ddd;
-    --link-color: #8cc2dd;
-    --code-background-color: #000;
-    --code-color: #ddd;
-    --blockquote-color: #ccc;
-}
-
-/* Header layout */
-.header-top {
-    display: flex;
-    justify-content: space-between;
+/* Top navigation tabs: slightly bolder than body text; the current page
+   is bolder and underlined. */
+header nav a {
+    font-weight: 500;
+    display: inline-flex;
+    flex-direction: column;
     align-items: center;
 }
-
-/* Theme toggle button */
-#theme-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem;
-    padding: 0.25rem 0.5rem;
-    line-height: 1;
+/* Reserve space for the bold width to prevent layout shift */
+header nav a::after {
+    content: attr(data-text);
+    font-weight: 700;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    pointer-events: none;
 }
-
-#theme-toggle:hover {
-    opacity: 0.7;
+header nav a.active {
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 /* For responsive YouTube videos */
@@ -81,11 +80,53 @@ sup a.orcid-id {
 sup a.orcid-id:hover {
     text-decoration: underline;
 }
-html[data-theme="light"] sup a.orcid-id {
-    color: #4a7c00; /* darkened for contrast on white (~5:1) */
+sup a.orcid-id {
+    color: #4a7c00; /* ORCID green, darkened for contrast on white (~5:1) */
 }
-html[data-theme="dark"] sup a.orcid-id {
-    color: #a6ce39; /* ORCID brand green, readable on dark bg */
+
+/* Team page member grid */
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2em 0;
+}
+.team-member {
+    width: 240px;
+    text-align: center;
+}
+.team-member img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.team-member-placeholder {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    background-color: var(--code-background-color);
+}
+.team-member-name {
+    margin: 0.75em 0 0;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+.team-member-role {
+    margin: 0.15em 0 0;
+    font-size: 0.9em;
+}
+.team-member-links {
+    margin: 0.3em 0 0;
+    font-size: 0.9em;
 }
 
 table {

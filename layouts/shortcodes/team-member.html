@@ -1,0 +1,36 @@
+<!-- beautify ignore:start -->
+{{/* Renders one person card: square photo (or initials placeholder when no
+     src is given), name, role, and personal links */}}
+{{ $src := .Get "src" | default "" }}
+{{ $name := .Get "name" }}
+{{ $role := .Get "role" | default "" }}
+{{ $website := .Get "website" | default "" }}
+{{ $linkedin := .Get "linkedin" | default "" }}
+
+<div class="team-member">
+    {{ if $src }}
+        {{ $image := resources.Get $src }}
+        {{ if $image }}
+        <img src="{{ $image.RelPermalink }}"
+             alt="Portrait of {{ $name }}" loading="lazy" decoding="async"
+             width="{{ $image.Width }}" height="{{ $image.Height }}">
+        {{ else }}
+            {{ errorf "Image not found for src '%s' in shortcode 'team-member.html'" $src }}
+        {{ end }}
+    {{ else }}
+        {{ $parts := split $name " " }}
+        {{ $first := index $parts 0 }}
+        {{ $last := index $parts (sub (len $parts) 1) }}
+        <div class="team-member-placeholder" aria-hidden="true">{{ substr $first 0 1 }}{{ substr $last 0 1 }}</div>
+    {{ end }}
+    <p class="team-member-name">{{ $name }}</p>
+    {{ with $role }}<p class="team-member-role">{{ . }}</p>{{ end }}
+    {{ if or $website $linkedin }}
+    <p class="team-member-links">
+        {{- with $website }}<a href="{{ . }}">Website</a>{{ end -}}
+        {{- if and $website $linkedin }} &middot; {{ end -}}
+        {{- with $linkedin }}<a href="{{ . }}">LinkedIn</a>{{ end -}}
+    </p>
+    {{ end }}
+</div>
+<!-- beautify ignore:end -->

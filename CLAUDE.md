@@ -128,15 +128,14 @@ These files override or extend the Bear Blog theme:
 
 - **`/layouts/_default/publications.html`** - Custom layout for the publications page
 - **`/layouts/partials/list-publications.html`** - Renders publications grouped by year and venue from YAML data
-- **`/layouts/partials/custom_head.html`** - Injects custom CSS and JS through Hugo's asset pipeline
-- **`/layouts/partials/header.html`** - Custom header including the theme toggle button
+- **`/layouts/partials/custom_head.html`** - Injects custom CSS, social/meta tags, and JSON-LD through Hugo's asset pipeline
+- **`/layouts/partials/header.html`** - Custom header (site title and nav)
 - **`/layouts/shortcodes/img.html`** - Custom image shortcode with resize and WebP conversion
 
 When editing shared UI, check whether behavior comes from the theme or from one of these local overrides.
 
 ### Assets
-- **`/assets/css/custom.css`** - Custom styles for theme colors, responsive videos, captioned images, and tables
-- **`/assets/js/theme-toggle.js`** - JavaScript for light/dark theme switching
+- **`/assets/css/custom.css`** - Custom styles for the light-only color palette, responsive videos, captioned images, team grid, and tables
 - **`/assets/images/`** - Images processed through Hugo's asset pipeline
 - **`/static/`** - Static files copied as-is into the final build
 
@@ -198,19 +197,11 @@ Images should live in:
 
 The shortcode resolves the asset with Hugo resources and applies resizing/conversion.
 
-## Light/Dark Mode Toggle
+## Color Scheme
 
-The site includes a theme toggle button in the header.
+The site is **light mode only**. The Bear Blog theme ships a dark palette under a `prefers-color-scheme: dark` media query in its inline styles, but `/assets/css/custom.css` (loaded after the theme styles) re-declares the light palette on `:root`, which wins in the cascade even when the visitor's OS is in dark mode.
 
-Relevant files:
-- **`/layouts/partials/header.html`** - Toggle button markup
-- **`/assets/js/theme-toggle.js`** - Theme state handling, localStorage persistence, and OS preference support
-- **`/assets/css/custom.css`** - CSS variables for light/dark palettes
-
-Behavior summary:
-- theme preference is stored in `localStorage`
-- OS preference is respected by default
-- the active theme is set via `data-theme` on the root `<html>` element
+There is no theme toggle button and no theme-switching JavaScript. If dark mode is ever reintroduced, it needs a toggle in `/layouts/partials/header.html`, a script under `/assets/js/`, and per-theme variable blocks in `custom.css` (see git history before August 2026 for the previous implementation).
 
 ## Known Repo Quirks
 

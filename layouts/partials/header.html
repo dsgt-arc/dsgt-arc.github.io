@@ -4,7 +4,7 @@
       {{- with resources.Get "images/dsgt-arc-logo.png" -}}
       {{- $logo := .Resize "128x128 png" -}}
       <img class="site-logo" src="{{ $logo.RelPermalink }}" alt=""
-           width="{{ $logo.Width }}" height="{{ $logo.Height }}">
+          width="{{ $logo.Width }}" height="{{ $logo.Height }}">
       {{- end -}}
       {{ .Site.Title }}
     </h2>

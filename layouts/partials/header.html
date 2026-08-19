@@ -1,6 +1,13 @@
 <div class="header-top">
   <a href="{{ "" | relURL }}" class="title">
-    <h2>{{ .Site.Title }}</h2>
+    <h2>
+      {{- with resources.Get "images/dsgt-arc-logo.png" -}}
+      {{- $logo := .Resize "128x128 png" -}}
+      <img class="site-logo" src="{{ $logo.RelPermalink }}" alt=""
+           width="{{ $logo.Width }}" height="{{ $logo.Height }}">
+      {{- end -}}
+      {{ .Site.Title }}
+    </h2>
   </a>
   <button id="theme-toggle" aria-label="Switch to dark mode">&#127769;</button>
 </div>

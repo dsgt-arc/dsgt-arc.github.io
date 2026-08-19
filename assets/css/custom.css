@@ -36,6 +36,18 @@ html[data-theme="dark"] {
     align-items: center;
 }
 
+/* Site logo next to the title, scaled with the title's font size */
+.title h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    font-size: 2em;
+}
+.site-logo {
+    height: 1.5em;
+    width: auto;
+}
+
 /* Theme toggle button */
 #theme-toggle {
     background: none;

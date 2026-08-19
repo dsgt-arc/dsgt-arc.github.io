@@ -1,0 +1,11 @@
+<!-- beautify ignore:start -->
+{{/* Favicons generated from the DS@GT logo via Hugo's asset pipeline */}}
+{{ with resources.Get "images/dsgt-arc-logo.png" }}
+{{ $fav32 := .Resize "32x32 png" }}
+{{ $fav192 := .Resize "192x192 png" }}
+{{ $apple := .Resize "180x180 png" }}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ $fav32.RelPermalink }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ $fav192.RelPermalink }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ $apple.RelPermalink }}">
+{{ end }}
+<!-- beautify ignore:end -->

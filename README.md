@@ -1,5 +1,7 @@
 # website
 
+You can visit the website at [dsgt-arc.org](https://dsgt-arc.org)
+
 This is the source code for the DS@GT ARC website, built with [Hugo](https://gohugo.io/).
 
 Currently we use the [Bear Blog](https://themes.gohugo.io/themes/hugo-bearblog/) theme.

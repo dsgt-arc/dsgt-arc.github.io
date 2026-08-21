@@ -15,7 +15,7 @@ ARC's annual cycle centers on [CLEF](https://www.clef-initiative.eu/), but we al
 ## 1. What is CLEF?
 **CLEF** ([Conference and Labs of the Evaluation Forum](https://www.clef-initiative.eu/)) is an annual independent peer-reviewed conference focused on information access systems in multilingual and multimodal contexts. It provides infrastructure for testing, tuning, and evaluating these systems, and for creating reusable test collections through community-based evaluation labs.
 
-## 2. What lab/task should I pursue?
+## 2. What CLEF lab/task should I pursue?
 Each lab and task addresses a problem in a particular domain. 
 Are you more interested in natural language processing? 
 Computer vision? Biodiversity conservation? 
@@ -23,7 +23,7 @@ Medical applications? Multi-modality?
 You may find a summary of each lab in the last question of this FAQ.
 Review the task overview papers in the most recent CLEF working notes: [Working Notes of CLEF 2025 (CEUR-WS Vol-4038)](https://ceur-ws.org/Vol-4038/).
 
-## 3. How many tasks can I participate in?
+## 3. How many tasks can I participate in CLEF?
 There is no limit to tasks that someone can participate in. 
 We strongly recommend first-time members not doing more than one task.
 

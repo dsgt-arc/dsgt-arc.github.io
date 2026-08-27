@@ -63,8 +63,9 @@ But a team can only do one task.
 Meeting documents and collaboration resources are typically shared with active participants after team formation. If you think you should already have access, ask in the DS@GT Slack or use the [Contact page](/contact-us/).
 
 ## 9. Is this opportunity only available for current students, or can alumni participate as well?
-This opportunity is not limited to current students; GT alumni are also welcome to join our group! 
-However, participants must be members of the Data Science @ Georgia Tech (DS@GT) club and have paid their membership dues. 
+We welcome both current students and GT alumni to join our group. However, alumni **must enroll** in at least a 1-credit course (such as 8903) or a standard 3-credit course to gain access to the PACE cluster.
+
+Also, all participants must be members of the Data Science @ Georgia Tech (DS@GT) club and have paid their membership dues. 
 To join:
 - Join the DS@GT Slack channel through [@datasciencegt | Linktree](https://linktr.ee/datasciencegt) 
 - Join the channel `applied-research-competitions` in the DS@GT Slack

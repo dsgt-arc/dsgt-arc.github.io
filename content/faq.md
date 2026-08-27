@@ -69,8 +69,8 @@ Also, all participants must be members of the Data Science @ Georgia Tech (DS@GT
 To join:
 - Join the DS@GT Slack channel through [@datasciencegt | Linktree](https://linktr.ee/datasciencegt) 
 - Join the channel `applied-research-competitions` in the DS@GT Slack
-- Pay the membership dues: $25 for one year or $15 for one semester
-- Payment links can be found at the bottom of the Linktree page
+- Pay the membership dues in the [DS@GT website](https://datasciencegt.org/) ($25 for one year or $15 for one semester).
+    - To pay, create an account on the [DS@GT Portal](https://datasciencegt.org/login), where you can check your membership status and submit payment.
 
 ## 10. How can I earn academic credit through ARC?
 The ARC academic pathway is **one credit in Fall** and **three credits in Spring**. Course registration, eligibility, and coursework details are still being finalized and will be shared when confirmed. Submit the [Fall 2026 Interest Form](https://go.dsgt-arc.org/survey-fall-2026) for updates.

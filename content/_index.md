@@ -14,7 +14,13 @@ ARC gives students a path into applied research through team-based competition w
 
 {{< img src="/images/20250910_clef_conference_madrid.jpg" alt="Group photo at CLEF 2025, Madrid, Spain, Sept 10th 2025" >}}
 
-The Spring 2026 CLEF cycle has concluded. Students interested in the next ARC cycle can now [submit the Fall 2026 Interest Form](/join/fall-2026/).
+## Fall preparation and Spring research
+
+Fall helps participants learn research methods and explore tasks. Spring has a separate application process for dedicated research teams; a Fall project does not guarantee Spring placement.
+
+**[Read the FAQ: Fall, Spring, and joining ARC](/faq/)**
+
+**Fall 2026 update — September 16:** The interest form is closed. If you submitted it but have not received next steps, or want to ask about participation, see [joining and getting help](/faq/#joining-and-help).
 
 In addition to CLEF, ARC has also participated in venues such as [TREC](https://trec.nist.gov), [MediaEval](https://multimediaeval.github.io), and [NTCIR](https://research.nii.ac.jp/ntcir/ntcir-19).
 

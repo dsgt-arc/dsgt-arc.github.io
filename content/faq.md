@@ -1,100 +1,169 @@
 +++
 title = 'FAQ'
 linkTitle = 'FAQ'
-description = 'Find answers to common questions about DS@GT ARC, CLEF participation, team roles, expectations, and the time commitment for members.'
+description = 'Answers about Fall preparation, Spring research and team formation, optional academic credit, membership, and joining DS@GT ARC.'
 menu = 'main'
 weight = 30
 layout = 'faq'
 +++
-# FAQ
+# Frequently asked questions
 
-This FAQ answers common questions about ARC's competitions, team roles, participation expectations, and how DS@GT ARC operates. If you are new to ARC, start with the [Join](/join/) page.
+Start here for participation questions about DS@GT ARC. For lessons, assignments, and technical guides, visit [ARC Notes](https://notes.dsgt-arc.org/).
 
-ARC's annual cycle centers on [CLEF](https://www.clef-initiative.eu/), but we also participate in venues such as [TREC](https://trec.nist.gov), [MediaEval](https://multimediaeval.github.io), and [NTCIR](https://research.nii.ac.jp/ntcir/). Most questions below use CLEF as the primary example because it drives our publication schedule.
+**Fall 2026 update — September 16:** The Fall interest form is closed. If you submitted it but did not receive next steps, see [Joining and getting help](#joining-and-help). Spring 2027 has a separate application and team-formation process.
 
-## 1. What is CLEF?
-**CLEF** ([Conference and Labs of the Evaluation Forum](https://www.clef-initiative.eu/)) is an annual independent peer-reviewed conference focused on information access systems in multilingual and multimodal contexts. It provides infrastructure for testing, tuning, and evaluating these systems, and for creating reusable test collections through community-based evaluation labs.
+Jump to a section:
 
-## 2. What CLEF lab/task should I pursue?
-Each lab and task addresses a problem in a particular domain. 
-Are you more interested in natural language processing? 
-Computer vision? Biodiversity conservation? 
-Medical applications? Multi-modality? 
-You may find a summary of each lab in the last question of this FAQ.
-Review the task overview papers in the most recent CLEF working notes: [Working Notes of CLEF 2025 (CEUR-WS Vol-4038)](https://ceur-ws.org/Vol-4038/).
+- [Start here](#start-here)
+- [Fall interest group](#fall)
+- [Spring research and team formation](#spring)
+- [Academic credit](#academic-credit)
+- [Membership, costs, and resources](#membership-and-resources)
+- [Competitions, contributions, and publications](#competitions)
+- [Joining and getting help](#joining-and-help)
 
-## 3. How many tasks can I participate in CLEF?
-There is no limit to tasks that someone can participate in. 
-We strongly recommend first-time members not doing more than one task.
+## Start here {#start-here}
 
-## 4. What's the difference between a _Lab Lead_ and a _Lab member_?
-A **Lab Lead** is the main person responsible for delivering the task, including:
-- Entering and participating in the competition/task
-- Interviewing potential participants to join the team
-- Conducting and hosting weekly team meetings
-- Communicating team progress with team members and the DS@GT ARC monthly meetings
-- Delegating work within the team
-- Submitting the working note paper for peer review and publication
+### What is ARC?
 
-A **Lab member** is responsible for the following:
-- Making a real contribution to the competition/task
-- Attending weekly meetings and reporting progress
-- Attending and presenting at DS@GT ARC monthly group meetings
-- Writing portions of the working note paper related to the work done
+Applied Research Competitions (ARC) is a student-run research group within Data Science @ Georgia Tech. We learn and apply machine learning, information retrieval, and data-driven research methods through research competitions. Browse our [publications](/publications/) to see examples of team projects.
 
-Lab Leads and members are expected to commit time, have strong programming skills, and be legitimately curious about the lab and task.
+### How are Fall and Spring different?
 
-## 5. How do I become a Lab Lead for a task?
-Lab Lead selection typically happens before the spring competition cycle begins. If you are interested in leading a future task, monitor the [Join page](/join/) and use the [Contact page](/contact-us/) to reach the current ARC leadership team.
+**Fall is for preparation and exploration.** Participants learn research tools and methods, explore competition tasks, and develop skills for collaborative research.
 
-## 6. What is the time commitment required to participate?
-The time commitment varies depending on your role and the effort you want to put in. 
-However, to make a meaningful contribution, you should expect to dedicate around 100–150 hours throughout the project. 
-Think of it as the equivalent of a 2–3 unit course, requiring consistent effort. 
-Lab Leads require additional time to manage their tasks and coordinate with team members. 
-This is the type of experience where you get out what you put in.
-Ultimately, your level of involvement is up to you, but consistent effort is key to gaining valuable experience and making an impact.
+**Spring is the main competition research cycle.** Dedicated teams work on selected tasks, run experiments, prepare competition submissions, and work toward research papers. Spring has a separate application and team-formation process. Completing Fall activities does not automatically place you on a Spring team.
 
-## 7. Can two teams participate in the same task?
-No. A person can be part of one or more teams. 
-But a team can only do one task.
+### Do I have to register for academic credit?
 
-## 8. Why can’t I edit the meeting documents?
-Meeting documents and collaboration resources are typically shared with active participants after team formation. If you think you should already have access, ask in the DS@GT Slack or use the [Contact page](/contact-us/).
+No. You can participate in the Fall interest group without registering for credit. Not taking Fall for credit does not by itself prevent you from applying for Spring research. Course registration and Spring team placement are separate processes; see [Academic credit](#academic-credit).
 
-## 9. Is this opportunity only available for current students, or can alumni participate as well?
-We welcome both current students and GT alumni to join our group. However, alumni **must enroll** in at least a 1-credit course (such as 8903) or a standard 3-credit course to gain access to the PACE cluster.
+## Fall interest group {#fall}
 
-Also, all participants must be members of the Data Science @ Georgia Tech (DS@GT) club and have paid their membership dues. 
-To join:
-- Join the DS@GT Slack channel through [@datasciencegt | Linktree](https://linktr.ee/datasciencegt) 
-- Join the channel `applied-research-competitions` in the DS@GT Slack
-- Pay the membership dues in the [DS@GT website](https://datasciencegt.org/) ($25 for one year or $15 for one semester).
-    - To pay, create an account on the [DS@GT Portal](https://datasciencegt.org/login), where you can check your membership status and submit payment.
+### What will I learn in Fall?
 
-## 10. How can I earn academic credit through ARC?
-The ARC academic pathway is **one credit in Fall** and **three credits in Spring**. Course registration, eligibility, and coursework details are still being finalized and will be shared when confirmed. Submit the [Fall 2026 Interest Form](https://go.dsgt-arc.org/survey-fall-2026) for updates.
+The interest group introduces research competitions, reading papers, exploring data, and the tools used in ARC projects. It helps you explore research interests and prepare for Spring work. Use [ARC Notes](https://notes.dsgt-arc.org/) for learning materials and the current course instructions for required deliverables.
 
-## 11. What kinds of labs are available through CLEF?
-The table below summarizes the labs in the current **[CLEF 2026 program](https://clef2026.clef-initiative.eu/labs)**. Lab lineups shift year to year, so visit the CLEF 2026 labs page for each lab's current tasks, call for participation, and official lab pages.
+### Do I need previous research experience or a research statement?
 
-| Lab | Focus |
-|-----|-------|
-| BioASQ | Large-scale biomedical semantic indexing and question answering |
-| CheckThat! | Claim verification and combating disinformation |
-| ELOQUENT | Evaluation of generative language model quality |
-| eRisk | Early risk detection on the internet (health and safety) |
-| EXIST | Sexism identification in social networks |
-| FinMMEval | Multilingual and multimodal evaluation for financial AI |
-| HIPE | Person–place relation extraction from multilingual historical texts |
-| ImageCLEF | Multimodal data annotation, indexing, and retrieval |
-| JOKER | Humor detection, search, and translation |
-| LifeCLEF | Biodiversity monitoring with AI-powered tools |
-| LongEval | Longitudinal evaluation of information retrieval model performance |
-| PAN | Stylometry and digital text forensics |
-| qCLEF | Quantum computing for information retrieval and recommender systems |
-| SimpleText | Scientific text simplification |
-| TalentCLEF | Skill and job-title intelligence for human capital management |
-| Touché | Argumentation retrieval and generation systems |
+You do not need a developed research statement to get started in Fall. Programming experience, especially Python and Git, helps. Machine learning coursework or comparable project and work experience is useful, but prior research-competition experience is not required.
 
-Past CLEF working notes on CEUR-WS: [CLEF 2025 (Vol-4038)](https://ceur-ws.org/Vol-4038/) · [CLEF 2024 (Vol-3740)](https://ceur-ws.org/Vol-3740/) · [CLEF 2023 (Vol-3497)](https://ceur-ws.org/Vol-3497/).
+### What is the Fall workload?
+
+Plan for roughly 3–4 hours per week, or about 50 hours across the semester. This is the Fall preparation workload; a Spring research project requires a larger commitment. For-credit students should follow their current syllabus and course instructions.
+
+### Is there homework, a final project, or an exam?
+
+Fall includes homework and a final project rather than exams. For-credit students should use the current syllabus and course instructions for grading, deadlines, submission requirements, and allowed AI assistance. Learning materials are available through [ARC Notes](https://notes.dsgt-arc.org/).
+
+### Do I need a team for the Fall final project?
+
+You may work individually. Follow the current assignment instructions if you want to collaborate. A Fall project group is not automatically a Spring research team.
+
+### Does my Fall task guarantee the same task in Spring?
+
+**No. Working on a task in Fall does not reserve a Spring task, team, or leadership role.** Fall projects are opportunities to learn and explore interests. You can express task preferences during Spring applications, but placement must be confirmed through the Spring team-formation process. Available tasks and teams may change between cycles.
+
+## Spring research and team formation {#spring}
+
+### How are Spring teams formed?
+
+Spring has a separate application and team-formation process. In previous cycles, participants expressed task interests and discussed their experience and availability with ARC leads before teams were confirmed. Preferences, preparation, relevant skills, and team capacity informed matching.
+
+The Spring 2027 application dates, available tasks, and selection steps are not listed here yet. Check the [Join page](/join/) and general ARC Slack announcements for current information. A Fall project choice or interest-form submission is not a confirmed Spring placement.
+
+### Can I join Spring without participating in Fall?
+
+Previous cycles have included applicants who did not participate in Fall. The Spring 2027 application requirements will determine the route for this cycle. Contact ARC leadership through the [Contact page](/contact-us/) if you are interested; do not assume that taking Fall for credit is required.
+
+### Can I choose a different Spring task from my Fall project?
+
+You can express a different research interest when applying for Spring. A preference is not a placement guarantee. Discuss your interests and availability with the leads as part of the application process.
+
+### How do I become a task lead? {#5-how-do-i-become-a-lab-lead-for-a-task}
+
+Tell ARC leadership that you are interested in leading a Spring task. Leads coordinate the project, team meetings, deadlines, and submissions as well as contributing to the research. Leadership roles need explicit confirmation; completing or coordinating a Fall project does not automatically make you a Spring lead. Check the [Join page](/join/) or [contact leadership](/contact-us/) for the current process.
+
+### What is the Spring time commitment? {#6-what-is-the-time-commitment-required-to-participate}
+
+Expect roughly 100–150 hours throughout a substantial research project, with regular weekly collaboration and additional coordination time for leads. The workload varies by task and role. Competition and paper deadlines may extend beyond the Spring academic semester, so discuss availability through the full project timeline before joining.
+
+## Academic credit {#academic-credit}
+
+### How can I earn academic credit through ARC? {#10-how-can-i-earn-academic-credit-through-arc}
+
+ARC offers an optional CS 8903 pathway alongside club participation. Fall 2026 has a one-credit course option. Ask course staff about the current registration process and Spring credit options before planning your schedule. Course enrollment does not itself confirm a Spring team placement.
+
+### Why is there a course-credit option?
+
+The course option lets eligible students earn academic credit for their research-related work. Students taking ARC for credit must meet the course requirements in addition to their team's research commitments. Non-credit participation remains a separate route.
+
+### Is Spring two or three credits, and does it count toward graduation?
+
+Confirm the available Spring credit hours and how CS 8903 applies to your degree with course staff and your academic adviser. Credit availability and degree applicability depend on your program and the current course arrangements. Use official registration records for enrollment and the current syllabus for course requirements.
+
+## Membership, costs, and resources {#membership-and-resources}
+
+### Can online students and alumni participate? {#9-is-this-opportunity-only-available-for-current-students-or-can-alumni-participate-as-well}
+
+ARC welcomes Georgia Tech students across programs, including online students, and alumni interested in participating. Course eligibility and access to university resources are separate from participation in the group. Alumni should confirm their access needs with ARC leadership before committing to a project that requires those resources.
+
+### Do I have to pay club dues?
+
+ARC is part of DS@GT, which has club membership dues. Requirements can differ for following public materials, participating in the club, and taking CS 8903 for credit. Confirm the requirement for your situation with ARC or course staff before paying. Use the [DS@GT website](https://datasciencegt.org/) for current membership and payment information.
+
+### How do I get PACE access?
+
+PACE access requires the appropriate university account and project allocation; submitting an interest form or paying club dues does not automatically provision access. Ask your course or project lead which access route applies to you. Once access is arranged, use the [PACE guide in ARC Notes](https://notes.dsgt-arc.org/setup/pace/) for technical setup.
+
+### Are API usage and conference travel covered?
+
+Do not assume that membership includes API credits, conference fees, or travel reimbursement. Ask leadership about current resources and obtain approval before incurring expenses you expect ARC to cover. Publication or team participation is not a funding commitment.
+
+## Competitions, contributions, and publications {#competitions}
+
+### What is CLEF? {#1-what-is-clef}
+
+[CLEF](https://www.clef-initiative.eu/) is the Conference and Labs of the Evaluation Forum. Its research labs organize shared tasks in areas such as information retrieval, language, vision, and multimodal learning. ARC's main annual research cycle centers on these tasks; the group also participates in other competition venues.
+
+### What lab or task should I pursue? {#2-what-clef-labtask-should-i-pursue}
+
+A lab covers a research area and may offer several distinct tasks. Start with a topic you want to investigate, then read the task rules, data description, evaluation metrics, and previous papers. Discuss your background and available time with the leads. The [CLEF working notes](https://ceur-ws.org/Vol-4038/) provide examples of earlier work; an earlier task is not necessarily available in the next cycle.
+
+### How many tasks can I participate in? {#3-how-many-tasks-can-i-participate-in-clef}
+
+We strongly recommend one task for first-time members. If you want to contribute to more than one, discuss your capacity and commitments with the leads before taking on additional work.
+
+### What do task leads and team members do? {#4-whats-the-difference-between-a-lab-lead-and-a-lab-member}
+
+A task lead coordinates team meetings, work allocation, progress reporting, competition registration, and paper submission. Team members contribute research, code, analysis, experiments, and writing; attend team meetings; and communicate progress and availability. Both roles require consistent effort and curiosity about the research problem.
+
+### Can two ARC teams work on the same task? {#7-can-two-teams-participate-in-the-same-task}
+
+ARC coordinates one team per targeted task. Discuss task choices with leadership before setting up a separate team or registering for a competition. Individual participation in multiple tasks still depends on making realistic commitments.
+
+### Will participating guarantee a paper or authorship?
+
+No. Teams work toward competition submissions and research papers, but participation alone does not guarantee publication or authorship. Discuss contribution expectations with your team early, contribute to the research and writing, and follow the venue's authorship and submission requirements.
+
+### What kinds of labs are available through CLEF? {#11-what-kinds-of-labs-are-available-through-clef}
+
+For examples, the [CLEF 2026 lab programme](https://clef2026.clef-initiative.eu/labs) included research on biodiversity, medical information, fact checking, information retrieval, and multimodal learning. This is a previous-cycle reference, not ARC's confirmed Spring 2027 task list. Consult the current application information for the tasks ARC will support.
+
+## Joining and getting help {#joining-and-help}
+
+### The Fall form is closed. Can I still get involved?
+
+The Fall 2026 interest form is closed. To ask about joining activities or catching up, use the [Contact page](/contact-us/) or the general `#applied-research-competitions` channel in [DS@GT Slack](https://linktr.ee/datasciencegt). Availability must be confirmed by the Fall organizers. You can explore public learning materials in [ARC Notes](https://notes.dsgt-arc.org/) while you wait.
+
+### I submitted the form but received no follow-up. What should I do?
+
+Please contact the Fall organizers through the [Contact page](/contact-us/) or the general ARC Slack channel and ask for onboarding next steps. An interest-form response does not confirm course enrollment, resource access, or a Spring team placement. Do not post private registration records or personal information in a public channel.
+
+### Why can't I edit meeting documents? {#8-why-cant-i-edit-the-meeting-documents}
+
+Some collaboration resources are shared only with the relevant participants or teams. If you believe you should have access, ask your organizer or team lead, or use the [Contact page](/contact-us/). Public learning materials remain available in [ARC Notes](https://notes.dsgt-arc.org/).
+
+### Where should I look for updates and learning materials?
+
+Use the [Join page](/join/) and general ARC Slack channel for participation updates, this FAQ for common questions, and [ARC Notes](https://notes.dsgt-arc.org/) for lessons and technical guides. For-credit students should follow the current course instructions for grading and submissions. Ask leadership when guidance conflicts rather than assuming a past-cycle page still applies.

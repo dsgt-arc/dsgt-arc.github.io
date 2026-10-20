@@ -11,16 +11,16 @@
   url_code: https://github.com/dsgt-arc/bioasq-2025-1b-1
   url_preprint: https://arxiv.org/abs/2507.05577
   url_paper: https://ceur-ws.org/Vol-4038/paper_50.pdf
-- title: 'DS@GT at Touché: Large Language Models for Retrieval-Augmented Debate'
+- title: 'DS@GT ARC at Touché: Large Language Models for Retrieval-Augmented Debate'
   authors:
   - anthony-miyaguchi
   - conor-johnston
-  - aaryan-potdar
   year: 2025
   venue: Conference and Labs of the Evaluation Forum
   short_venue: CLEF
   url_code: https://github.com/dsgt-arc/touche-2025-rad
-  url_paper: https://ceur-ws.org/Vol-4038/paper_387.pdf
+  url_paper: https://link.springer.com/chapter/10.1007/978-3-032-39150-6_18
+  doi: 10.1007/978-3-032-39150-6_18
 - title: Enhancing Biomedical Named Entity Recognition using GLiNER-BioMed with Targeted Dictionary-Based Post-processing for BioASQ 2025 task 6
   authors:
   - ritesh-mehta
@@ -151,7 +151,7 @@
   url_code: https://github.com/dsgt-arc/plantclef-2025
   url_preprint: https://arxiv.org/abs/2507.06093
   url_paper: https://ceur-ws.org/Vol-4038/paper_242.pdf
-- title: 'DS@GT at LongEval: Evaluating Temporal Performance in Web Search Systems and Topics with Two-Stage Retrieval'
+- title: 'DS@GT ARC at LongEval: Evaluating Temporal Performance in Web Search Systems and Topics with Two-Stage Retrieval'
   authors:
   - anthony-miyaguchi
   - imran-afrulbasha
@@ -161,7 +161,8 @@
   short_venue: CLEF
   url_code: https://github.com/dsgt-arc/longeval-2025
   url_preprint: https://arxiv.org/abs/2507.08360
-  url_paper: https://ceur-ws.org/Vol-4038/paper_274.pdf
+  url_paper: https://link.springer.com/chapter/10.1007/978-3-032-39150-6_17
+  doi: 10.1007/978-3-032-39150-6_17
 - title: 'Cultivating Multimodal Intelligence: Interpretive Reasoning and Agentic RAG Approaches to Dermatological Diagnosis'
   authors:
   - karishma-thakrar
